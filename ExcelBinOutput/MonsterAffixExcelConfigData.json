@@ -25999,5 +25999,1305 @@
     "AJJDOEBEFGF": [],
     "preAdd": true,
     "radarHintID": 0
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TheGreyProtection_LevelDifficulty_01"
+    ],
+    "affix": "TPS影域弱保软-词缀-通用",
+    "comment": "TPS影域弱保软-词缀-通用",
+    "id": 1069,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_PartnerEndureAndMassEnhanced"
+    ],
+    "affix": "PartnerEndureAndMassEnhanced",
+    "comment": "用于友方怪，获得极强霸体以及防推挤，防止在复杂战斗地形被击落",
+    "id": 1070,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_PartnerSpecialFaceEyeFix"
+    ],
+    "affix": "PartnerSpecialFaceEyeFix",
+    "comment": "用于友方怪，处理人形怪Female使用特殊面部模型时，瞳孔位置偏高的问题；特殊面部模型有face007/008/010",
+    "id": 1071,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Human_Oprichnik_WeaponInHandFix"
+    ],
+    "affix": "Oprichnik_WeaponInHandFix",
+    "comment": "7.0 处理入战后武器未能拔出的词缀；在复杂情况下可能会有问题，只在Partner等情况受限的情况下使用",
+    "id": 1072,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_StarModeTriggerTutorial"
+    ],
+    "affix": "妖精教学触发标记",
+    "comment": "妖精教学触发标记",
+    "id": 2102,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TPS_MuteThegrey_Corrupt"
+    ],
+    "affix": "TPS-爬塔词缀-取消影域特效",
+    "comment": "TPS-爬塔词缀-取消影域特效",
+    "id": 30100,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAbility_TPS_Common_Thegrey_Corrupt_01"
+    ],
+    "affix": "TPS-通用词缀-影域特效1",
+    "comment": "TPS-通用词缀-影域特效1",
+    "id": 30101,
+    "isCommon": true,
+    "isLegal": "是"
+  },
+  {
+    "abilityName": [
+      "MonsterAbility_TPS_Common_Thegrey_Corrupt_01"
+    ],
+    "affix": "【废弃】TPS-通用词缀-影域特效2",
+    "comment": "【废弃】TPS-通用词缀-影域特效2",
+    "id": 30102,
+    "isCommon": true,
+    "isLegal": "是"
+  },
+  {
+    "abilityName": [
+      "MonsterAbility_TPS_Common_Thegrey_Corrupt_01"
+    ],
+    "affix": "【废弃】TPS-通用词缀-影域特效3",
+    "comment": "【废弃】TPS-通用词缀-影域特效3",
+    "id": 30103,
+    "isCommon": true,
+    "isLegal": "是"
+  },
+  {
+    "abilityName": [
+      "MonsterAbility_Soldier_HitHandler_Protection_Lv1"
+    ],
+    "affix": "TPS-通用词缀-受击保护3.5",
+    "comment": "TPS-通用词缀-受击保护3.5",
+    "id": 30104,
+    "isCommon": true,
+    "isLegal": "是"
+  },
+  {
+    "abilityName": [
+      "MonsterAbility_Soldier_HitHandler_Protection_Lv2"
+    ],
+    "affix": "TPS-通用词缀-受击保护4.5",
+    "comment": "TPS-通用词缀-受击保护4.5",
+    "id": 30105,
+    "isCommon": true,
+    "isLegal": "是"
+  },
+  {
+    "abilityName": [
+      "MonsterAbility_TPSAffix_Normal_Hit_Layer_Additive_0_2"
+    ],
+    "affix": "TPS-通用词缀-受击叠加限制0.2幅度",
+    "comment": "TPS-通用词缀-受击叠加限制0.2幅度",
+    "id": 30106,
+    "isCommon": true,
+    "isLegal": "是"
+  },
+  {
+    "abilityName": [
+      "MonsterAbility_TPSAffix_Normal_Hit_Layer_Additive_0_4"
+    ],
+    "affix": "TPS-通用词缀-受击叠加限制0.4幅度",
+    "comment": "TPS-通用词缀-受击叠加限制0.4幅度",
+    "id": 30107,
+    "isCommon": true,
+    "isLegal": "是"
+  },
+  {
+    "abilityName": [
+      "MonsterAbility_Affix_Soldier_Shoot_Sniper_NoMove"
+    ],
+    "affix": "TPS-狙击枪定点射击",
+    "comment": "TPS-狙击枪定点射击",
+    "id": 30108,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TPS_ShowHiddenCombatBar"
+    ],
+    "affix": "TPS-血条显示保护",
+    "comment": "TPS-血条显示保护",
+    "id": 30109,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TPS_Register_TheGrey"
+    ],
+    "affix": "TPS-怪通用逻辑标记",
+    "comment": "TPS-怪通用逻辑标记GV_Entity_In_TheGrey",
+    "id": 30110,
+    "isCommon": true,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Oprichnik_NoKuuvahki"
+    ],
+    "affix": "愚人众特辖队-无磁",
+    "comment": "愚人众特辖队-无磁",
+    "id": 30701,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Oprichnik_CommonConfig_ForTPS"
+    ],
+    "affix": "TPS-愚人众特辖队-通用标记",
+    "comment": "TPS-愚人众特辖队-通用标记",
+    "id": 30702,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Oprichnik_CannonShield_ForTPS"
+    ],
+    "affix": "TPS-愚人众特辖队-盾炮",
+    "comment": "TPS-愚人众特辖队-盾炮",
+    "id": 30703,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Fatuimecha_CommonConfig_ForTPS"
+    ],
+    "affix": "TPS-铁皮机器-通用标记",
+    "comment": "TPS-铁皮机器-通用标记",
+    "id": 30818,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water_ForTPS"
+    ],
+    "affix": "TPS-铁皮机器-精英2",
+    "comment": "TPS-铁皮机器-精英2",
+    "id": 30819,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Fatuimecha_Config_ForYylc"
+    ],
+    "affix": "TPS-铁皮机器-新手关怪物",
+    "comment": "TPS-铁皮机器-新手关怪物",
+    "id": 30831,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAbility_Svarod_01_BattleState_SleepState"
+    ],
+    "affix": "TPS-光之巨人-阶段1",
+    "comment": "TPS-光之巨人-阶段",
+    "id": 30910,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAbility_Svarod_01_BattleState_FightState"
+    ],
+    "affix": "TPS-光之巨人-阶段2-影域战斗",
+    "comment": "TPS-光之巨人-阶段2-影域战斗",
+    "id": 30911,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Soldier_Rifle_Throw_Levelup"
+    ],
+    "affix": "TPS-爬塔词缀-丢火雷",
+    "comment": "TPS-爬塔词缀-丢火雷",
+    "id": 30970,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TPSMercenaries_LifeBalance"
+    ],
+    "affix": "TPS-爬塔词缀-同步回血",
+    "comment": "TPS-爬塔词缀-同步回血",
+    "id": 30971,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TPSMercenaries_DeathCurse"
+    ],
+    "affix": "TPS-爬塔词缀-死亡诅咒",
+    "comment": "TPS-爬塔词缀-死亡诅咒",
+    "id": 30972,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TPSMercenaries_DeathRattle_LightingStrike"
+    ],
+    "affix": "TPS-爬塔词缀-亡语雷Dot区域",
+    "comment": "TPS-爬塔词缀-亡语雷Dot区域",
+    "id": 30973,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TheGreyShield_Small"
+    ],
+    "affix": "TPS-影域护盾（小）",
+    "comment": "TPS-影域护盾",
+    "id": 30981,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TheGreyShield_Large"
+    ],
+    "affix": "TPS-影域护盾（大）",
+    "comment": "TPS-影域护盾",
+    "id": 30982,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_ExplosiveDrone_Element_02"
+    ],
+    "affix": "愚人众小车词缀-水",
+    "comment": "愚人众小车词缀-水",
+    "id": 30992,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_ExplosiveDrone_Element_04"
+    ],
+    "affix": "愚人众小车词缀-雷",
+    "comment": "愚人众小车词缀-雷",
+    "id": 30994,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Monitor_AbyssTag"
+    ],
+    "affix": "古龙科技深渊词缀",
+    "comment": "古龙科技深渊词缀",
+    "id": 4090601,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_MonitorPointAction_DoAnim"
+    ],
+    "affix": "古龙科技序列指令",
+    "comment": "古龙科技序列指令",
+    "id": 4090602,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Monitor_Heal"
+    ],
+    "affix": "古龙科技治疗",
+    "comment": "古龙科技治疗",
+    "id": 4090603,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Monitor_ShouldSetGravityToPayer"
+    ],
+    "affix": "古龙科技非月球环境制造低重力区域",
+    "comment": "古龙科技非月球环境制造低重力区域",
+    "id": 4090604,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TPS_Shield_01"
+    ],
+    "affix": "7.0TPS词缀盾条（未完成）",
+    "comment": "7.0 CE期间暂用盾-后续会改",
+    "id": 4427,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TPS_Shield_02"
+    ],
+    "affix": "7.0TPS词缀占位",
+    "comment": "7.0 CE期间暂用盾-后续会改",
+    "id": 4428,
+    "isCommon": true,
+    "isLegal": "是"
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Properties_Snowball_Stage1_1"
+    ],
+    "affix": "7.0雪球活动第1关-常规",
+    "comment": "7.0雪球活动第1关-常规",
+    "id": 4444,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Properties_Snowball_Stage1_2"
+    ],
+    "affix": "7.0雪球活动第1关-雪球",
+    "comment": "7.0雪球活动第1关-雪球",
+    "id": 4445,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Properties_Snowball_Stage2_1"
+    ],
+    "affix": "7.0雪球活动第2关-常规",
+    "comment": "7.0雪球活动第2关-常规",
+    "id": 4446,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Properties_Snowball_Stage2_2"
+    ],
+    "affix": "7.0雪球活动第2关-雪球",
+    "comment": "7.0雪球活动第2关-雪球",
+    "id": 4447,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Properties_Snowball_Stage3_1"
+    ],
+    "affix": "7.0雪球活动第3关-常规",
+    "comment": "7.0雪球活动第3关-常规",
+    "id": 4448,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Properties_Snowball_Stage3_2"
+    ],
+    "affix": "7.0雪球活动第3关-雪球",
+    "comment": "7.0雪球活动第3关-雪球",
+    "id": 4449,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Properties_Snowball_Stage4_1"
+    ],
+    "affix": "7.0雪球活动第4关-常规",
+    "comment": "7.0雪球活动第4关-常规",
+    "id": 4450,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Properties_Snowball_Stage4_2"
+    ],
+    "affix": "7.0雪球活动第4关-雪球",
+    "comment": "7.0雪球活动第4关-雪球",
+    "id": 4451,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Properties_ForCharMaster_Tartaglia_HiliShooter"
+    ],
+    "affix": "7.0角色专精-公子-高台射手丘丘人",
+    "comment": "7.0角色专精-公子-高台射手丘丘人",
+    "id": 4452,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Properties_ForCharMaster_Tartaglia_Hili"
+    ],
+    "affix": "7.0角色专精-公子-地面丘丘人杂兵",
+    "comment": "7.0角色专精-公子-地面丘丘人杂兵",
+    "id": 4453,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Properties_ForCharMaster_Tartaglia_Elite"
+    ],
+    "affix": "7.0角色专精-公子-游侠&法师",
+    "comment": "7.0角色专精-公子-游侠&法师",
+    "id": 4454,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Properties_ForCharMaster_Tartaglia_Invoker"
+    ],
+    "affix": "7.0角色专精-公子-咏者",
+    "comment": "7.0角色专精-公子-咏者",
+    "id": 4455,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Properties_ForCharMaster_Tartaglia_Defender"
+    ],
+    "affix": "7.0角色专精-公子-遗迹守卫",
+    "comment": "7.0角色专精-公子-遗迹守卫",
+    "id": 4456,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Properties_ForCharMaster_Xiao_Round1_Hili"
+    ],
+    "affix": "7.0角色专精-魈-挑战1-丘丘人",
+    "comment": "7.0角色专精-魈-挑战1-丘丘人",
+    "id": 4457,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Properties_ForCharMaster_Xiao_Round1_Brute"
+    ],
+    "affix": "7.0角色专精-魈-挑战1-丘丘暴徒",
+    "comment": "7.0角色专精-魈-挑战1-丘丘暴徒",
+    "id": 4458,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Properties_ForCharMaster_Xiao_Round2_Hili&Slime"
+    ],
+    "affix": "7.0角色专精-魈-挑战2-丘丘人&史莱姆",
+    "comment": "7.0角色专精-魈-挑战2-丘丘人&史莱姆",
+    "id": 4459,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Properties_ForCharMaster_Xiao_Round2_Abyss"
+    ],
+    "affix": "7.0角色专精-魈-挑战2-火深渊法师",
+    "comment": "7.0角色专精-魈-挑战2-火深渊法师",
+    "id": 4460,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Properties_ForCharMaster_Xiao_Round2_Defender"
+    ],
+    "affix": "7.0角色专精-魈-挑战2-遗迹守卫",
+    "comment": "7.0角色专精-魈-挑战2-遗迹守卫",
+    "id": 4461,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Properties_ForCharMaster_Xiao_Round2_VolcanoWeasel"
+    ],
+    "affix": "7.0角色专精-魈-挑战2-炉壳山鼬",
+    "comment": "7.0角色专精-魈-挑战2-炉壳山鼬",
+    "id": 4462,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Properties_ForCharMaster_Tartaglia_Hili02"
+    ],
+    "affix": "7.0角色专精-公子-丘丘人杂兵2",
+    "comment": "7.0角色专精-魈-挑战2-炉壳山鼬",
+    "id": 4463,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TPSMercenaries_AttackUp"
+    ],
+    "affix": "7.0TPS爬塔词条-攻击力管理",
+    "comment": "7.0TPS爬塔词条-攻击力管理",
+    "ELBBMEDJGGC": true,
+    "id": 4901,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TPSMercenaries_HpUp"
+    ],
+    "affix": "7.0TPS爬塔词条-整体血量管理",
+    "comment": "7.0TPS爬塔词条-整体血量管理",
+    "ELBBMEDJGGC": true,
+    "id": 4902,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_TPSMercenaries_ArmorUp_Normal"
+    ],
+    "affix": "7.0TPS爬塔词条-整体血量管理",
+    "comment": "7.0TPS爬塔词条-非弱点伤害降低",
+    "ELBBMEDJGGC": true,
+    "id": 4903,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_MuteWindForce"
+    ],
+    "affix": "7.0-兽人必须死-屏蔽风力",
+    "comment": "7.0-兽人必须死-屏蔽风力",
+    "id": 4911,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_MuteRetreatAirForce"
+    ],
+    "affix": "7.0-兽人必须死-屏蔽击飞力",
+    "comment": "7.0-兽人必须死-屏蔽击飞力",
+    "id": 4912,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_MuteWindAndRetreatAirForce"
+    ],
+    "affix": "7.0-兽人必须死-屏蔽风力和击飞力",
+    "comment": "7.0-兽人必须死-屏蔽风力和击飞力",
+    "id": 4913,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_DamageBuff"
+    ],
+    "affix": "7.0-兽人必须死-Buff-伤害",
+    "comment": "7.0-兽人必须死-Buff-伤害",
+    "id": 4914,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_HealBuff"
+    ],
+    "affix": "7.0-兽人必须死-Buff-恢复",
+    "comment": "7.0-兽人必须死-Buff-恢复",
+    "id": 4915,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_LeadershipBuff"
+    ],
+    "affix": "7.0-兽人必须死-Buff-统御",
+    "comment": "7.0-兽人必须死-Buff-统御",
+    "id": 4916,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_FuryBuff"
+    ],
+    "affix": "7.0-兽人必须死-Buff-狂暴",
+    "comment": "7.0-兽人必须死-Buff-狂暴",
+    "id": 4917,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_GlitteringBuff"
+    ],
+    "affix": "7.0-兽人必须死-Buff-闪光",
+    "comment": "7.0-兽人必须死-Buff-闪光",
+    "id": 4918,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Invoker_ForCharMaster_Tartaglia"
+    ],
+    "affix": "7.0角色专精-公子-咏者通知",
+    "comment": "7.0角色专精-公子-咏者通知",
+    "id": 4919,
+    "isCommon": true,
+    "isLegal": "是"
+  },
+  {
+    "abilityName": [
+      "Monsteraffix_Hili_ForCharMaster_Tartaglia"
+    ],
+    "affix": "7.0角色专精-公子-弓手出手间隔",
+    "comment": "7.0角色专精-公子-弓手出手间隔",
+    "id": 4920,
+    "isCommon": true,
+    "isLegal": "是"
+  },
+  {
+    "abilityName": [
+      "Monster_Karzelek_Tsereteli_Abyss"
+    ],
+    "affix": "矮灵-地方传奇-深渊词缀",
+    "comment": "矮灵-地方传奇-深渊词缀",
+    "id": 51391,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Volkodlak_SharpType"
+    ],
+    "affix": "兽灵-单手利器",
+    "comment": "用于对攻击Type和特效配置进行区分",
+    "id": 55300,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Volkodlak_BluntType"
+    ],
+    "affix": "兽灵-单手钝器",
+    "comment": "用于对攻击Type和特效配置进行区分",
+    "id": 55301,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Volkodlak_GunType"
+    ],
+    "affix": "兽灵-射击火铳",
+    "comment": "用于对攻击Type和特效配置进行区分",
+    "id": 55302,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Volkodlak_CrossbowType"
+    ],
+    "affix": "兽灵-射击弩",
+    "comment": "用于对攻击Type和特效配置进行区分",
+    "id": 55303,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Volkodlak_WindType"
+    ],
+    "affix": "兽灵-元素词缀-风",
+    "comment": "用于对元素技能进行区分",
+    "id": 55310,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Volkodlak_GrassType"
+    ],
+    "affix": "兽灵-元素词缀-草",
+    "comment": "用于对元素技能进行区分",
+    "id": 55311,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Volkodlak_IceType"
+    ],
+    "affix": "兽灵-元素词缀-冰",
+    "comment": "用于对元素技能进行区分",
+    "id": 55312,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Volkodlak_FireType"
+    ],
+    "affix": "兽灵-元素词缀-火",
+    "comment": "用于对元素技能进行区分",
+    "id": 55313,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Volkodlak_ElectricType"
+    ],
+    "affix": "兽灵-元素词缀-雷",
+    "comment": "用于对元素技能进行区分",
+    "id": 55314,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Volkodlak_RockType"
+    ],
+    "affix": "兽灵-元素词缀-岩",
+    "comment": "用于对元素技能进行区分",
+    "id": 55315,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Fae_StarModeHandler"
+    ],
+    "affix": "妖精-受三降影响特效",
+    "comment": "通用的特效表现",
+    "id": 55316,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Volkodlak_DisableDrinkFreeIdle"
+    ],
+    "affix": "壮兽灵-7.0中剧场NPC怪物关闭喝酒技能",
+    "comment": "壮兽灵-7.0中剧场NPC怪物关闭喝酒技能",
+    "id": 55317,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_MoonPollution"
+    ],
+    "affix": "6.7 月纱力污染词缀",
+    "comment": "头顶特效 + 可能有的Buff",
+    "id": 5647,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAbility_V6_7_Activity_OneLineShoot_MonsterTag"
+    ],
+    "affix": "6.7一笔画怪物词缀",
+    "comment": "6.7一笔画怪物词缀",
+    "id": 5650,
+    "isCommon": true,
+    "isLegal": "是"
+  },
+  {
+    "abilityName": [
+      "Animal_JellyFish_02_Glow"
+    ],
+    "affix": "月球水母洞穴环境靠近发光",
+    "comment": "洞穴环境的水母专用词缀",
+    "id": 5654,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_AquarUnderWater_InteractHandler"
+    ],
+    "affix": "6.7 水下捕鱼活动怪物主控",
+    "comment": "假死、拾取、销毁  TD/怪物两边维护",
+    "id": 5655
+  },
+  {
+    "abilityName": [
+      "Monster_Slime_Moon_SummonedSlime_Mark"
+    ],
+    "affix": "6.7 月矩力史莱姆创生怪标记",
+    "comment": "小史莱姆的特殊标记",
+    "id": 5656
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_MonsterTag_ForOneShot"
+    ],
+    "affix": "6.7 一笔画活动怪物侧词缀",
+    "comment": "一笔画活动怪物侧相关配置",
+    "id": 5657,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_GhostAndNeverCombat"
+    ],
+    "affix": "6.7 水族馆鱼缸词缀",
+    "comment": "Ghost、HideBillBoard、永不入战",
+    "id": 5658,
+    "isCommon": true,
+    "isLegal": "是"
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_InvisibleFish"
+    ],
+    "affix": "6.7 捕鱼活动 隐身鱼",
+    "comment": "SetGV标记",
+    "id": 5659,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_ShieldedFish"
+    ],
+    "affix": "6.7 捕鱼活动 护盾鱼",
+    "comment": "特效表现，被强化AttackTag打中清除 否则LockHP",
+    "id": 5660,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Monster_Narcissusborn_ConstantEffect"
+    ],
+    "affix": "6.7大水人任务标记",
+    "comment": "6.7大水人任务标记",
+    "id": 5661,
+    "isCommon": true,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_LoseHPWhenBorn_90"
+    ],
+    "affix": "创生时失去90%生命",
+    "comment": "LoseHP逻辑，不要和血量变化同时使用",
+    "id": 5662,
+    "isCommon": true,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_AbilityAnimal"
+    ],
+    "affix": "6.7 水下捕鱼能力鱼词缀",
+    "comment": "吸收能力后会销毁",
+    "id": 5663
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Moonbeast_Electric_Elite_6_7"
+    ],
+    "affix": "6.7 水源浮岛雷圣兽词缀",
+    "comment": "调整隐秘态技能和数值",
+    "id": 5664,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Affix_Leshy_NeverCombat_Logic"
+    ],
+    "affix": "7.0 树灵不可交互词缀",
+    "comment": "使树灵进入不可交互状态",
+    "id": 5665,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Volkodlak_Mammoth_SpecialDeath"
+    ],
+    "affix": "7.0列车大劫案WQ猛犸词缀",
+    "comment": "7.0列车大劫案WQ猛犸定制逻辑-丝血跪地Loop",
+    "id": 5666,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Leshy_Mature_JumpIn_WQ"
+    ],
+    "affix": "7.0 树灵跳跃入战标记",
+    "comment": "使树灵入战后寻找跳跃目标点",
+    "id": 5667,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Leshy_LoseMaxHP_30"
+    ],
+    "affix": "7.0 树灵 出生30%血",
+    "comment": "残血出生词缀",
+    "id": 5668,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Leshy_LoseMaxHP_50"
+    ],
+    "affix": "7.0 树灵 出生50%血",
+    "comment": "残血出生词缀",
+    "id": 5669,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_LeshyMature_CoverShootIndex"
+    ],
+    "affix": "7.0 掩护射击WQ树灵标记",
+    "comment": "开启束缚捆绑技能",
+    "id": 5670,
+    "isCommon": true,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_LeshyMature_OnArrival"
+    ],
+    "affix": "7.0 特殊通知关卡树灵",
+    "comment": "能够通知关卡到达指定地点",
+    "id": 5671,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Animal_Megamoth_Snezh_Accessory"
+    ],
+    "affix": "7.0驮兽挂件",
+    "comment": "7.0驮兽挂件",
+    "id": 5672,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Zharptitsa_Elite"
+    ],
+    "affix": "7.0 火鸟精英词缀",
+    "comment": "7.0 火鸟精英词缀",
+    "id": 5673,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Monster_Necalevia_BillBoardControl"
+    ],
+    "affix": "6.7纯水精英血条不隐藏词缀",
+    "comment": "6.7纯水精英血条不隐藏词缀",
+    "id": 5674,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_Level1_1"
+    ],
+    "affix": "7.0兽人必须死-怪物属性词缀关卡1-1",
+    "comment": "7.0兽人必须死-怪物属性词缀关卡1-1",
+    "id": 5675,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_Level1_2"
+    ],
+    "affix": "7.0兽人必须死-怪物属性词缀关卡1-2",
+    "comment": "7.0兽人必须死-怪物属性词缀关卡1-2",
+    "id": 5676,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_Level2_1"
+    ],
+    "affix": "7.0兽人必须死-怪物属性词缀关卡2-1",
+    "comment": "7.0兽人必须死-怪物属性词缀关卡2-1",
+    "id": 5677,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_Level2_2"
+    ],
+    "affix": "7.0兽人必须死-怪物属性词缀关卡2-2",
+    "comment": "7.0兽人必须死-怪物属性词缀关卡2-2",
+    "id": 5678,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_Level3_1"
+    ],
+    "affix": "7.0兽人必须死-怪物属性词缀关卡3-1",
+    "comment": "7.0兽人必须死-怪物属性词缀关卡3-1",
+    "id": 5679,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_Level3_2"
+    ],
+    "affix": "7.0兽人必须死-怪物属性词缀关卡3-2",
+    "comment": "7.0兽人必须死-怪物属性词缀关卡3-2",
+    "id": 5680,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_Level4_1"
+    ],
+    "affix": "7.0兽人必须死-怪物属性词缀关卡4-1",
+    "comment": "7.0兽人必须死-怪物属性词缀关卡4-1",
+    "id": 5681,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_Level4_2"
+    ],
+    "affix": "7.0兽人必须死-怪物属性词缀关卡4-2",
+    "comment": "7.0兽人必须死-怪物属性词缀关卡4-2",
+    "id": 5682,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_Level5_1"
+    ],
+    "affix": "7.0兽人必须死-怪物属性词缀关卡5-1",
+    "comment": "7.0兽人必须死-怪物属性词缀关卡5-1",
+    "id": 5683,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Activity_V7_0_TpsDefense_Level5_2"
+    ],
+    "affix": "7.0兽人必须死-怪物属性词缀关卡5-2",
+    "comment": "7.0兽人必须死-怪物属性词缀关卡5-2",
+    "id": 5684,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Chimera_OwlPangolin_02_StoryModeAdjust"
+    ],
+    "affix": "主线定制奇美拉词缀",
+    "comment": "主线定制奇美拉词缀",
+    "id": 5703,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Leshy_Mature_JumpIn_AttackTarget_WQ"
+    ],
+    "affix": "7.0 树灵跳跃入战 攻击目标",
+    "comment": "使树灵入战后寻找仇恨目标攻击",
+    "id": 5704,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Chimera_OwlPangolin_02_TowerMark"
+    ],
+    "affix": "7.0穿山鹰爬塔词缀",
+    "comment": "7.0穿山鹰爬塔词缀",
+    "id": 5705,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "MonsterAffix_Hold_Tick_Distance"
+    ],
+    "affix": "7.0 火鸟壑掩护射击反降频词缀",
+    "comment": "7.0 火鸟壑掩护射击反降频词缀",
+    "id": 5710,
+    "isCommon": true,
+    "isLegal": "是",
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Chimera_Manticore_WQ70"
+    ],
+    "affix": "奇美拉-白沙皇守墓兽-7.0WQ",
+    "comment": "奇美拉挑战-7.0WQ词缀",
+    "id": 63101,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Chimera_Manticore_IsAbyss"
+    ],
+    "affix": "奇美拉-挑战-深渊",
+    "comment": "奇美拉挑战-深渊词缀",
+    "id": 63102,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Chimera_Manticore_IsBigWorld"
+    ],
+    "affix": "奇美拉-挑战-大世界",
+    "comment": "奇美拉挑战-大世界词缀",
+    "id": 63103,
+    "preAdd": true
+  },
+  {
+    "abilityName": [
+      "Monster_Chimera_Manticore_TPSMercenaries"
+    ],
+    "affix": "奇美拉-白沙皇守墓兽-TPS爬塔",
+    "comment": "奇美拉挑战-TPS爬塔词缀",
+    "id": 63104,
+    "preAdd": true
   }
 ]
