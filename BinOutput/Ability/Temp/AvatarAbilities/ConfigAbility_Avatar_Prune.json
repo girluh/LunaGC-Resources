@@ -2211,17 +2211,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -2234,10 +2232,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -2270,17 +2267,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -2293,10 +2288,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0.03,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -2330,10 +2324,9 @@
                     "shakeType": "CustomVector",
                     "shakeRange": 0.12,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": -1,
-                      "_y": 1,
-                      "_z": 0
+                      "x": -1.0,
+                      "y": 1.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 30
                   },
@@ -2398,17 +2391,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -2631,17 +2622,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -2654,10 +2643,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -2690,17 +2678,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -2713,10 +2699,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0.03,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -2750,10 +2735,9 @@
                     "shakeType": "CustomVector",
                     "shakeRange": 0.28,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": -1
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": -1.0
                     },
                     "shakeDistance": 30
                   },
@@ -2818,17 +2802,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -3051,17 +3033,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -3074,10 +3054,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -3110,17 +3089,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -3133,10 +3110,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0.03,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -3170,10 +3146,9 @@
                     "shakeType": "CustomVector",
                     "shakeRange": 0.36,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0.2,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.2,
+                      "z": 0.0
                     },
                     "shakeDistance": 25
                   },
@@ -3238,17 +3213,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -3940,17 +3913,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -3963,10 +3934,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -3999,17 +3969,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -4022,10 +3990,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0.03,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -4059,10 +4026,9 @@
                     "shakeType": "CustomVector",
                     "shakeRange": 0.36,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": -1,
-                      "_y": 0,
-                      "_z": 0
+                      "x": -1.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 30
                   },
@@ -4130,17 +4096,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -5683,17 +5647,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -5706,10 +5668,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -5742,17 +5703,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -5765,10 +5724,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -5802,10 +5760,9 @@
                     "shakeType": "Center",
                     "shakeRange": 0,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 20
                   },
@@ -5866,17 +5823,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -8021,17 +7976,15 @@
                 "hitImpulseY": 0.0,
                 "JKLONEBKFKJ": {
                   "angleOffset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "JKAHHIIIAMK": 1,
                   "offset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "AJNOHNGMPDO": false,
                   "NJICIOFCOPD": true
@@ -8044,10 +7997,9 @@
                 "DKLGIOGINNF": "Default",
                 "hitHaltTime": 0,
                 "MLBCDFFLPNG": {
-                  "$type": "OIOPBBKPIII",
-                  "_x": 0,
-                  "_y": 0,
-                  "_z": 0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "hitLevel": "Mute",
                 "EDJIIAJLJFB": 0,
@@ -8080,17 +8032,15 @@
                 "hitImpulseY": 0.0,
                 "JKLONEBKFKJ": {
                   "angleOffset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "JKAHHIIIAMK": 1,
                   "offset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "AJNOHNGMPDO": false,
                   "NJICIOFCOPD": true
@@ -8103,10 +8053,9 @@
                 "DKLGIOGINNF": "Default",
                 "hitHaltTime": 0,
                 "MLBCDFFLPNG": {
-                  "$type": "OIOPBBKPIII",
-                  "_x": 0,
-                  "_y": 0,
-                  "_z": 0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "hitLevel": "Mute",
                 "EDJIIAJLJFB": 0,
@@ -8140,10 +8089,9 @@
                 "shakeType": "CustomVector",
                 "shakeRange": 0.24,
                 "shakeDir": {
-                  "$type": "OIOPBBKPIII",
-                  "_x": 0,
-                  "_y": 1,
-                  "_z": 0
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.0
                 },
                 "shakeDistance": 30
               },
@@ -8208,17 +8156,15 @@
                 "defaultEffect": "",
                 "BPIDFNFCNHP": {
                   "angleOffset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "JKAHHIIIAMK": 1,
                   "offset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "AJNOHNGMPDO": false,
                   "NJICIOFCOPD": true
@@ -8373,17 +8319,15 @@
                 "hitImpulseY": 0.0,
                 "JKLONEBKFKJ": {
                   "angleOffset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "JKAHHIIIAMK": 1,
                   "offset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "AJNOHNGMPDO": false,
                   "NJICIOFCOPD": true
@@ -8396,10 +8340,9 @@
                 "DKLGIOGINNF": "Default",
                 "hitHaltTime": 0,
                 "MLBCDFFLPNG": {
-                  "$type": "OIOPBBKPIII",
-                  "_x": 0,
-                  "_y": 0,
-                  "_z": 0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "hitLevel": "Mute",
                 "EDJIIAJLJFB": 0,
@@ -8432,17 +8375,15 @@
                 "hitImpulseY": 0.0,
                 "JKLONEBKFKJ": {
                   "angleOffset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "JKAHHIIIAMK": 1,
                   "offset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "AJNOHNGMPDO": false,
                   "NJICIOFCOPD": true
@@ -8455,10 +8396,9 @@
                 "DKLGIOGINNF": "Default",
                 "hitHaltTime": 0,
                 "MLBCDFFLPNG": {
-                  "$type": "OIOPBBKPIII",
-                  "_x": 0,
-                  "_y": 0,
-                  "_z": 0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "hitLevel": "Mute",
                 "EDJIIAJLJFB": 0,
@@ -8492,10 +8432,9 @@
                 "shakeType": "CustomVector",
                 "shakeRange": 0.5,
                 "shakeDir": {
-                  "$type": "OIOPBBKPIII",
-                  "_x": 0,
-                  "_y": 1,
-                  "_z": 1
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 1.0
                 },
                 "shakeDistance": 30
               },
@@ -8560,17 +8499,15 @@
                 "defaultEffect": "",
                 "BPIDFNFCNHP": {
                   "angleOffset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "JKAHHIIIAMK": 1,
                   "offset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "AJNOHNGMPDO": false,
                   "NJICIOFCOPD": true
@@ -9636,17 +9573,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -9659,10 +9594,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -9695,17 +9629,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -9718,10 +9650,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0.02,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -9755,10 +9686,9 @@
                     "shakeType": "CustomVector",
                     "shakeRange": 0.36,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": -0.05,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": -0.05,
+                      "z": 0.0
                     },
                     "shakeDistance": 30
                   },
@@ -9826,17 +9756,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -11816,17 +11744,15 @@
                         "hitImpulseY": 0.0,
                         "JKLONEBKFKJ": {
                           "angleOffset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "JKAHHIIIAMK": 1,
                           "offset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "AJNOHNGMPDO": false,
                           "NJICIOFCOPD": true
@@ -11839,10 +11765,9 @@
                         "DKLGIOGINNF": "Default",
                         "hitHaltTime": 0,
                         "MLBCDFFLPNG": {
-                          "$type": "OIOPBBKPIII",
-                          "_x": 0,
-                          "_y": 0,
-                          "_z": 0
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
                         },
                         "hitLevel": "Mute",
                         "EDJIIAJLJFB": 0,
@@ -11875,17 +11800,15 @@
                         "hitImpulseY": 0.0,
                         "JKLONEBKFKJ": {
                           "angleOffset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "JKAHHIIIAMK": 1,
                           "offset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "AJNOHNGMPDO": false,
                           "NJICIOFCOPD": true
@@ -11898,10 +11821,9 @@
                         "DKLGIOGINNF": "Default",
                         "hitHaltTime": 0.05,
                         "MLBCDFFLPNG": {
-                          "$type": "OIOPBBKPIII",
-                          "_x": 0,
-                          "_y": 0,
-                          "_z": 0
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
                         },
                         "hitLevel": "Mute",
                         "EDJIIAJLJFB": 0,
@@ -11935,10 +11857,9 @@
                         "shakeType": "CustomVector",
                         "shakeRange": 0.48,
                         "shakeDir": {
-                          "$type": "OIOPBBKPIII",
-                          "_x": 0,
-                          "_y": 1,
-                          "_z": 0
+                          "x": 0.0,
+                          "y": 1.0,
+                          "z": 0.0
                         },
                         "shakeDistance": 30
                       },
@@ -12005,17 +11926,15 @@
                         "defaultEffect": "",
                         "BPIDFNFCNHP": {
                           "angleOffset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "JKAHHIIIAMK": 1,
                           "offset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "AJNOHNGMPDO": false,
                           "NJICIOFCOPD": true
@@ -12241,17 +12160,15 @@
                         "hitImpulseY": 0.0,
                         "JKLONEBKFKJ": {
                           "angleOffset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "JKAHHIIIAMK": 1,
                           "offset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "AJNOHNGMPDO": false,
                           "NJICIOFCOPD": true
@@ -12264,10 +12181,9 @@
                         "DKLGIOGINNF": "Default",
                         "hitHaltTime": 0,
                         "MLBCDFFLPNG": {
-                          "$type": "OIOPBBKPIII",
-                          "_x": 0,
-                          "_y": 0,
-                          "_z": 0
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
                         },
                         "hitLevel": "Mute",
                         "EDJIIAJLJFB": 0,
@@ -12300,17 +12216,15 @@
                         "hitImpulseY": 0.0,
                         "JKLONEBKFKJ": {
                           "angleOffset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "JKAHHIIIAMK": 1,
                           "offset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "AJNOHNGMPDO": false,
                           "NJICIOFCOPD": true
@@ -12323,10 +12237,9 @@
                         "DKLGIOGINNF": "Default",
                         "hitHaltTime": 0.05,
                         "MLBCDFFLPNG": {
-                          "$type": "OIOPBBKPIII",
-                          "_x": 0,
-                          "_y": 0,
-                          "_z": 0
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
                         },
                         "hitLevel": "Mute",
                         "EDJIIAJLJFB": 0,
@@ -12360,10 +12273,9 @@
                         "shakeType": "CustomVector",
                         "shakeRange": 0.48,
                         "shakeDir": {
-                          "$type": "OIOPBBKPIII",
-                          "_x": 0,
-                          "_y": 1,
-                          "_z": 0
+                          "x": 0.0,
+                          "y": 1.0,
+                          "z": 0.0
                         },
                         "shakeDistance": 30
                       },
@@ -12430,17 +12342,15 @@
                         "defaultEffect": "",
                         "BPIDFNFCNHP": {
                           "angleOffset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "JKAHHIIIAMK": 1,
                           "offset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "AJNOHNGMPDO": false,
                           "NJICIOFCOPD": true
@@ -12666,17 +12576,15 @@
                         "hitImpulseY": 0.0,
                         "JKLONEBKFKJ": {
                           "angleOffset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "JKAHHIIIAMK": 1,
                           "offset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "AJNOHNGMPDO": false,
                           "NJICIOFCOPD": true
@@ -12689,10 +12597,9 @@
                         "DKLGIOGINNF": "Default",
                         "hitHaltTime": 0,
                         "MLBCDFFLPNG": {
-                          "$type": "OIOPBBKPIII",
-                          "_x": 0,
-                          "_y": 0,
-                          "_z": 0
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
                         },
                         "hitLevel": "Mute",
                         "EDJIIAJLJFB": 0,
@@ -12725,17 +12632,15 @@
                         "hitImpulseY": 0.0,
                         "JKLONEBKFKJ": {
                           "angleOffset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "JKAHHIIIAMK": 1,
                           "offset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "AJNOHNGMPDO": false,
                           "NJICIOFCOPD": true
@@ -12748,10 +12653,9 @@
                         "DKLGIOGINNF": "Default",
                         "hitHaltTime": 0.05,
                         "MLBCDFFLPNG": {
-                          "$type": "OIOPBBKPIII",
-                          "_x": 0,
-                          "_y": 0,
-                          "_z": 0
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
                         },
                         "hitLevel": "Mute",
                         "EDJIIAJLJFB": 0,
@@ -12785,10 +12689,9 @@
                         "shakeType": "CustomVector",
                         "shakeRange": 0.48,
                         "shakeDir": {
-                          "$type": "OIOPBBKPIII",
-                          "_x": 0,
-                          "_y": 1,
-                          "_z": 0
+                          "x": 0.0,
+                          "y": 1.0,
+                          "z": 0.0
                         },
                         "shakeDistance": 30
                       },
@@ -12855,17 +12758,15 @@
                         "defaultEffect": "",
                         "BPIDFNFCNHP": {
                           "angleOffset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "JKAHHIIIAMK": 1,
                           "offset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "AJNOHNGMPDO": false,
                           "NJICIOFCOPD": true
@@ -13091,17 +12992,15 @@
                         "hitImpulseY": 0.0,
                         "JKLONEBKFKJ": {
                           "angleOffset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "JKAHHIIIAMK": 1,
                           "offset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "AJNOHNGMPDO": false,
                           "NJICIOFCOPD": true
@@ -13114,10 +13013,9 @@
                         "DKLGIOGINNF": "Default",
                         "hitHaltTime": 0,
                         "MLBCDFFLPNG": {
-                          "$type": "OIOPBBKPIII",
-                          "_x": 0,
-                          "_y": 0,
-                          "_z": 0
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
                         },
                         "hitLevel": "Mute",
                         "EDJIIAJLJFB": 0,
@@ -13150,17 +13048,15 @@
                         "hitImpulseY": 0.0,
                         "JKLONEBKFKJ": {
                           "angleOffset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "JKAHHIIIAMK": 1,
                           "offset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "AJNOHNGMPDO": false,
                           "NJICIOFCOPD": true
@@ -13173,10 +13069,9 @@
                         "DKLGIOGINNF": "Default",
                         "hitHaltTime": 0.05,
                         "MLBCDFFLPNG": {
-                          "$type": "OIOPBBKPIII",
-                          "_x": 0,
-                          "_y": 0,
-                          "_z": 0
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
                         },
                         "hitLevel": "Mute",
                         "EDJIIAJLJFB": 0,
@@ -13210,10 +13105,9 @@
                         "shakeType": "CustomVector",
                         "shakeRange": 0.48,
                         "shakeDir": {
-                          "$type": "OIOPBBKPIII",
-                          "_x": 0,
-                          "_y": 1,
-                          "_z": 0
+                          "x": 0.0,
+                          "y": 1.0,
+                          "z": 0.0
                         },
                         "shakeDistance": 30
                       },
@@ -13280,17 +13174,15 @@
                         "defaultEffect": "",
                         "BPIDFNFCNHP": {
                           "angleOffset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "JKAHHIIIAMK": 1,
                           "offset": {
-                            "$type": "OIOPBBKPIII",
-                            "_x": 0,
-                            "_y": 0,
-                            "_z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                           },
                           "AJNOHNGMPDO": false,
                           "NJICIOFCOPD": true
@@ -16537,17 +16429,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -16560,10 +16450,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -16596,17 +16485,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -16619,10 +16506,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -16656,10 +16542,9 @@
                     "shakeType": "Center",
                     "shakeRange": 0.2,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 12
                   },
@@ -16724,17 +16609,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -20205,17 +20088,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -20228,10 +20109,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -20264,17 +20144,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -20287,10 +20165,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -20324,10 +20201,9 @@
                     "shakeType": "Center",
                     "shakeRange": 0,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 20
                   },
@@ -20391,17 +20267,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -20723,17 +20597,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -20746,10 +20618,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -20782,17 +20653,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -20805,10 +20674,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -20842,10 +20710,9 @@
                     "shakeType": "Center",
                     "shakeRange": 0,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 20
                   },
@@ -20909,17 +20776,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -22237,17 +22102,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -22260,10 +22123,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -22296,17 +22158,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -22319,10 +22179,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -22356,10 +22215,9 @@
                     "shakeType": "Center",
                     "shakeRange": 0,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 20
                   },
@@ -22426,17 +22284,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -23144,17 +23000,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -23167,10 +23021,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -23203,17 +23056,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -23226,10 +23077,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -23263,10 +23113,9 @@
                     "shakeType": "Center",
                     "shakeRange": 0,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 20
                   },
@@ -23333,17 +23182,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -24051,17 +23898,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -24074,10 +23919,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -24110,17 +23954,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -24133,10 +23975,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -24170,10 +24011,9 @@
                     "shakeType": "Center",
                     "shakeRange": 0,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 20
                   },
@@ -24240,17 +24080,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -24958,17 +24796,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -24981,10 +24817,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -25017,17 +24852,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -25040,10 +24873,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -25077,10 +24909,9 @@
                     "shakeType": "Center",
                     "shakeRange": 0,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 20
                   },
@@ -25147,17 +24978,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -31962,17 +31791,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -31985,10 +31812,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -32021,17 +31847,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -32044,10 +31868,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -32081,10 +31904,9 @@
                     "shakeType": "Center",
                     "shakeRange": 0,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 20
                   },
@@ -32147,17 +31969,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -32264,17 +32084,15 @@
                 "defaultEffect": "Eff_Avatar_Loli_Catalyst_Prune_C4_FireHammer_Attack",
                 "BPIDFNFCNHP": {
                   "angleOffset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "JKAHHIIIAMK": 1,
                   "offset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "AJNOHNGMPDO": false,
                   "NJICIOFCOPD": true
@@ -32407,17 +32225,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -32430,10 +32246,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -32466,17 +32281,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -32489,10 +32302,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -32526,10 +32338,9 @@
                     "shakeType": "Center",
                     "shakeRange": 0,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 20
                   },
@@ -32592,17 +32403,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -32709,17 +32518,15 @@
                 "defaultEffect": "Eff_Avatar_Loli_Catalyst_Prune_C4_WaterHammer_Attack",
                 "BPIDFNFCNHP": {
                   "angleOffset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "JKAHHIIIAMK": 1,
                   "offset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "AJNOHNGMPDO": false,
                   "NJICIOFCOPD": true
@@ -32852,17 +32659,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -32875,10 +32680,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -32911,17 +32715,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -32934,10 +32736,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -32971,10 +32772,9 @@
                     "shakeType": "Center",
                     "shakeRange": 0,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 20
                   },
@@ -33037,17 +32837,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -33154,17 +32952,15 @@
                 "defaultEffect": "Eff_Avatar_Loli_Catalyst_Prune_C4_ElecHammer_Attack",
                 "BPIDFNFCNHP": {
                   "angleOffset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "JKAHHIIIAMK": 1,
                   "offset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "AJNOHNGMPDO": false,
                   "NJICIOFCOPD": true
@@ -33297,17 +33093,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -33320,10 +33114,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -33356,17 +33149,15 @@
                     "hitImpulseY": 0.0,
                     "JKLONEBKFKJ": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -33379,10 +33170,9 @@
                     "DKLGIOGINNF": "Default",
                     "hitHaltTime": 0,
                     "MLBCDFFLPNG": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "hitLevel": "Mute",
                     "EDJIIAJLJFB": 0,
@@ -33416,10 +33206,9 @@
                     "shakeType": "Center",
                     "shakeRange": 0,
                     "shakeDir": {
-                      "$type": "OIOPBBKPIII",
-                      "_x": 0,
-                      "_y": 0,
-                      "_z": 0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "shakeDistance": 20
                   },
@@ -33482,17 +33271,15 @@
                     "defaultEffect": "",
                     "BPIDFNFCNHP": {
                       "angleOffset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "JKAHHIIIAMK": 1,
                       "offset": {
-                        "$type": "OIOPBBKPIII",
-                        "_x": 0,
-                        "_y": 0,
-                        "_z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                       },
                       "AJNOHNGMPDO": false,
                       "NJICIOFCOPD": true
@@ -33599,17 +33386,15 @@
                 "defaultEffect": "Eff_Avatar_Loli_Catalyst_Prune_C4_IceHammer_Attack",
                 "BPIDFNFCNHP": {
                   "angleOffset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "JKAHHIIIAMK": 1,
                   "offset": {
-                    "$type": "OIOPBBKPIII",
-                    "_x": 0,
-                    "_y": 0,
-                    "_z": 0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "AJNOHNGMPDO": false,
                   "NJICIOFCOPD": true

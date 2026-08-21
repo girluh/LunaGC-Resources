@@ -511,9 +511,11 @@
     "attackModeSkill": 0,
     "DAEIJGCFNLL": [
       {
-        "DOJJHGDGLFF": "SPECIAL_PROUD_SKILL_OPEN_CONDITION_TYPE_NONE",
-        "HNLGOIDBHAN": [],
-        "proudSkillGroupId": 0
+        "DOJJHGDGLFF": "SPECIAL_PROUD_SKILL_OPEN_CONDITION_TYPE_QUEST_FINISH",
+        "HNLGOIDBHAN": [
+          603101
+        ],
+        "proudSkillGroupId": 851
       },
       {
         "DOJJHGDGLFF": "SPECIAL_PROUD_SKILL_OPEN_CONDITION_TYPE_NONE",
@@ -521,7 +523,7 @@
         "proudSkillGroupId": 0
       }
     ],
-    "energySkill": 0,
+    "energySkill": 10128,
     "extraAbilities": [
       "",
       "",
@@ -530,16 +532,16 @@
     "id": 505,
     "inherentProudSkillOpens": [
       {
-        "needAvatarPromoteLevel": 0,
-        "proudSkillGroupId": 0
+        "needAvatarPromoteLevel": 1,
+        "proudSkillGroupId": 821
+      },
+      {
+        "needAvatarPromoteLevel": 4,
+        "proudSkillGroupId": 822
       },
       {
         "needAvatarPromoteLevel": 0,
-        "proudSkillGroupId": 0
-      },
-      {
-        "needAvatarPromoteLevel": 0,
-        "proudSkillGroupId": 0
+        "proudSkillGroupId": 823
       },
       {
         "needAvatarPromoteLevel": 0,
@@ -554,27 +556,25 @@
     "LGHPDOGMFAG": "None",
     "ODEAJEINMPN": 0,
     "PKACHEKBGPP": 0,
-    "skillDepotAbilityGroup": "",
+    "skillDepotAbilityGroup": "Avatar_Player_AbilityGroup_Boy_Ice",
     "skills": [
       100544,
-      0,
+      10127,
       0,
       0
     ],
     "subSkills": [
-      10101,
       10001,
-      10102,
       10054,
       5005010
     ],
     "talents": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
     ],
     "talentStarName": "Talent_PlayerBoy_Ice"
   },
@@ -1162,9 +1162,11 @@
     "attackModeSkill": 0,
     "DAEIJGCFNLL": [
       {
-        "DOJJHGDGLFF": "SPECIAL_PROUD_SKILL_OPEN_CONDITION_TYPE_NONE",
-        "HNLGOIDBHAN": [],
-        "proudSkillGroupId": 0
+        "DOJJHGDGLFF": "SPECIAL_PROUD_SKILL_OPEN_CONDITION_TYPE_QUEST_FINISH",
+        "HNLGOIDBHAN": [
+          603201
+        ],
+        "proudSkillGroupId": 851
       },
       {
         "DOJJHGDGLFF": "SPECIAL_PROUD_SKILL_OPEN_CONDITION_TYPE_NONE",
@@ -1172,7 +1174,7 @@
         "proudSkillGroupId": 0
       }
     ],
-    "energySkill": 0,
+    "energySkill": 10128,
     "extraAbilities": [
       "",
       "",
@@ -1181,16 +1183,16 @@
     "id": 705,
     "inherentProudSkillOpens": [
       {
-        "needAvatarPromoteLevel": 0,
-        "proudSkillGroupId": 0
+        "needAvatarPromoteLevel": 1,
+        "proudSkillGroupId": 821
+      },
+      {
+        "needAvatarPromoteLevel": 4,
+        "proudSkillGroupId": 822
       },
       {
         "needAvatarPromoteLevel": 0,
-        "proudSkillGroupId": 0
-      },
-      {
-        "needAvatarPromoteLevel": 0,
-        "proudSkillGroupId": 0
+        "proudSkillGroupId": 823
       },
       {
         "needAvatarPromoteLevel": 0,
@@ -1205,27 +1207,25 @@
     "LGHPDOGMFAG": "None",
     "ODEAJEINMPN": 0,
     "PKACHEKBGPP": 0,
-    "skillDepotAbilityGroup": "",
+    "skillDepotAbilityGroup": "Avatar_Player_AbilityGroup_Girl_Ice",
     "skills": [
       100554,
-      0,
+      10127,
       0,
       0
     ],
     "subSkills": [
-      10101,
       10001,
-      10102,
       10055,
       5007010
     ],
     "talents": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
     ],
     "talentStarName": "Talent_PlayerGirl_Ice"
   },

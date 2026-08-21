@@ -37797,7 +37797,7 @@
     "triggerID": 0
   },
   {
-    "abilityName": "",
+    "abilityName": "Avatar_PlayerBoy_ExtraAttack_Ice",
     "ADICEIPFANB": false,
     "AMIDJEIFHDL": false,
     "BFOPGOPPDAO": false,
@@ -37834,7 +37834,7 @@
     "needMonitor": "MONITOR_NEVER",
     "NGMJPKHBMNI": false,
     "OHFALENFJNH": false,
-    "proudSkillGroupId": 0,
+    "proudSkillGroupId": 830,
     "shareCDID": 0,
     "skillIcon": "Skill_A_01",
     "triggerID": 0
@@ -38141,7 +38141,7 @@
     "triggerID": 0
   },
   {
-    "abilityName": "",
+    "abilityName": "Avatar_PlayerGirl_ExtraAttack_Ice",
     "ADICEIPFANB": false,
     "AMIDJEIFHDL": false,
     "BFOPGOPPDAO": false,
@@ -38178,7 +38178,7 @@
     "needMonitor": "MONITOR_NEVER",
     "NGMJPKHBMNI": false,
     "OHFALENFJNH": false,
-    "proudSkillGroupId": 0,
+    "proudSkillGroupId": 831,
     "shareCDID": 0,
     "skillIcon": "Skill_A_01",
     "triggerID": 0
