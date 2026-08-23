@@ -14989,8 +14989,8 @@
               "amountByTargetMaxHPRatio": 0.0,
               "__exp_healTag": "",
               "amountByTargetCurrentHPRatio": 0.0,
-              "LPDCNPAFJJJ": "Heal_BaseAmount",
-              "BDGGFCOILCE": "Heal_AttackRatio",
+              "amount": "Heal_BaseAmount",
+              "amountByCasterAttackRatio": "Heal_AttackRatio",
               "IKJGOAOMNOB": false,
               "DPGMIOLEPCO": false,
               "JCPLHGOJHNP": 1,
@@ -17733,12 +17733,12 @@
                   "amountByTargetMaxHPRatio": 0.0,
                   "__exp_healTag": "",
                   "amountByTargetCurrentHPRatio": 0.0,
-                  "LPDCNPAFJJJ": [
+                  "amount": [
                     "Heal_BaseAmount",
                     "Constellation_6_Heal",
                     "ADD"
                   ],
-                  "BDGGFCOILCE": "Heal_AttackRatio",
+                  "amountByCasterAttackRatio": "Heal_AttackRatio",
                   "IKJGOAOMNOB": false,
                   "DPGMIOLEPCO": false,
                   "JCPLHGOJHNP": 1,
@@ -17873,12 +17873,12 @@
                   "amountByTargetMaxHPRatio": 0.0,
                   "__exp_healTag": "",
                   "amountByTargetCurrentHPRatio": 0.0,
-                  "LPDCNPAFJJJ": [
+                  "amount": [
                     "Heal_BaseAmount",
                     "Constellation_6_Heal",
                     "ADD"
                   ],
-                  "BDGGFCOILCE": "Heal_AttackRatio",
+                  "amountByCasterAttackRatio": "Heal_AttackRatio",
                   "IKJGOAOMNOB": false,
                   "DPGMIOLEPCO": false,
                   "JCPLHGOJHNP": 1,
@@ -17919,7 +17919,7 @@
                   "amountByTargetMaxHPRatio": 0.0,
                   "__exp_healTag": "",
                   "amountByTargetCurrentHPRatio": 0.0,
-                  "LPDCNPAFJJJ": [
+                  "amount": [
                     "Heal_BaseAmount",
                     "PermanentSkill_2_RangeRatio",
                     "MUL",
@@ -17928,7 +17928,7 @@
                     "MUL",
                     "ADD"
                   ],
-                  "BDGGFCOILCE": [
+                  "amountByCasterAttackRatio": [
                     "Heal_AttackRatio",
                     "PermanentSkill_2_RangeRatio",
                     "MUL"
@@ -24783,14 +24783,14 @@
               "amountByTargetMaxHPRatio": 0.0,
               "__exp_healTag": "",
               "amountByTargetCurrentHPRatio": 0.0,
-              "LPDCNPAFJJJ": [
+              "amount": [
                 "Heal_BaseAmount",
                 "FIGHT_PROP_ELEMENT_MASTERY",
                 "Heal_MasteryRatio",
                 "MUL",
                 "ADD"
               ],
-              "BDGGFCOILCE": 0.0,
+              "amountByCasterAttackRatio": 0.0,
               "IKJGOAOMNOB": false,
               "DPGMIOLEPCO": false,
               "JCPLHGOJHNP": 1,
