@@ -1,0 +1,3254 @@
+{
+  "perform": {
+    "standby": {
+      "maxTime": 20.0,
+      "performIDs": [
+        201,
+        202,
+        200,
+        200
+      ],
+      "minTime": 10.0
+    }
+  },
+  "ONIAJBGGJHD": "AvatarGirl",
+  "audio": {
+    "surfaceProberLiftup": 1.5,
+    "listenerLiftup": 1.5,
+    "voiceSwitch": {
+      "text": "Switch_Vodyanitsa"
+    },
+    "bodyTypeSwitch": {
+      "text": "Switch_Girl"
+    },
+    "moveStateAudio": {
+      "onStateEnd": [
+        {
+          "currentStateName": "Fly",
+          "audioEvent": {
+            "text": "Stop_sfx_char_fly"
+          }
+        },
+        {
+          "currentStateName": "Air",
+          "audioEvent": {
+            "text": "Stop_sfx_char_drop"
+          }
+        },
+        {
+          "currentStateName": "Dive",
+          "audioEvent": {
+            "text": "Stop_sfx_char_dive_move_swim_idle"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "CombatDive"
+          ]
+        },
+        {
+          "currentStateName": "CombatDive",
+          "audioEvent": {
+            "text": "Stop_sfx_char_dive_move_swim_idle"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "Dive"
+          ]
+        }
+      ],
+      "onStateBegin": [
+        {
+          "currentStateName": "Fly",
+          "audioEvent": {
+            "text": "Play_sfx_char_fly"
+          }
+        },
+        {
+          "currentStateName": "Air",
+          "audioEvent": {
+            "text": "Play_sfx_char_drop"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "Fly"
+          ]
+        },
+        {
+          "currentStateName": "CombatDive",
+          "audioEvent": {
+            "text": "Play_sfx_char_dive_move_swim_idle"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "Dive"
+          ]
+        },
+        {
+          "currentStateName": "Dive",
+          "audioEvent": {
+            "text": "Play_sfx_char_dive_move_swim_idle"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "CombatDive"
+          ]
+        }
+      ]
+    },
+    "animAudio": {
+      "onTransitionOut": [
+        {
+          "currentStateName": "Vodyanitsa_ElementalArt_Charge",
+          "audioEvent": {
+            "text": "Stop_Sfx_char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Hold_LP"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "Vodyanitsa_ElementalArt_Charge",
+            "Vodyanitsa_ElementalArt_Hold"
+          ]
+        },
+        {
+          "currentStateName": "Vodyanitsa_ElementalArt_Charge",
+          "audioEvent": {
+            "text": "Stop_Sfx_char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Hold_Vocal"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "Vodyanitsa_ElementalArt_Charge",
+            "Vodyanitsa_ElementalArt_Hold"
+          ]
+        },
+        {
+          "currentStateName": "Vodyanitsa_ElementalArt_Hold",
+          "audioEvent": {
+            "text": "Stop_Sfx_char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Hold"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "Vodyanitsa_ElementalArt_Hold"
+          ]
+        },
+        {
+          "currentStateName": "FallingAnthem_Loop",
+          "audioEvent": {
+            "text": "Stop_Sfx_char_Vodyanitsa_Catalyst_FallingAnthem_Loop_LP"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "FallingAnthem_Loop"
+          ]
+        },
+        {
+          "currentStateName": "FallingAnthem_Loop_Low",
+          "audioEvent": {
+            "text": "Stop_Sfx_char_Vodyanitsa_Catalyst_FallingAnthem_Loop_LP"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "FallingAnthem_Loop_Low"
+          ]
+        },
+        {
+          "currentStateName": "DropDown",
+          "audioEvent": {
+            "text": "Stop_sfx_char_drop"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "DropDown"
+          ]
+        },
+        {
+          "currentStateName": "StandbyPutaway",
+          "audioEvent": {
+            "text": "Stop_sfx_weapon_1HSword_lady_putAwayStandby"
+          }
+        },
+        {
+          "currentStateName": "WalkPutaway",
+          "audioEvent": {
+            "text": "Stop_sfx_weapon_1HSword_lady_putAwayStandby"
+          }
+        },
+        {
+          "currentStateName": "RunPutaway",
+          "audioEvent": {
+            "text": "Stop_sfx_weapon_1HSword_lady_putAwayStandby"
+          }
+        },
+        {
+          "currentStateName": "SwimJumpDrop",
+          "audioEvent": {
+            "text": "Stop_sfx_char_swim_drop"
+          }
+        },
+        {
+          "currentStateName": "SwimJump",
+          "audioEvent": {
+            "text": "Stop_sfx_char_swim_drop"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "SwimJumpDrop"
+          ]
+        },
+        {
+          "currentStateName": "Fly",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "FlyStart",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "DropDownLit",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "DropDown",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "WalkDropDownLit",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "Jump",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "JumpForWalk",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "JumpForRun",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "JumpForSprint",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "JumpWeapon",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "JumpForWalkWeapon",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "JumpForRunWeapon",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "DropDownWeapon",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "DropDownLitWeapon",
+          "audioEvent": {
+            "text": "Play_sfx_char_land_climb"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "ClimbIdle",
+            "ClimbMove0",
+            "ClimbMove1",
+            "ClimbJump"
+          ]
+        },
+        {
+          "currentStateName": "SwimMove",
+          "audioEvent": {
+            "text": "Stop_sfx_char_swim"
+          }
+        },
+        {
+          "currentStateName": "SlipBackWall",
+          "audioEvent": {
+            "text": "Stop_sfx_char_slipWall"
+          }
+        },
+        {
+          "currentStateName": "SlipFaceWall",
+          "audioEvent": {
+            "text": "Stop_sfx_char_slipWall"
+          }
+        },
+        {
+          "currentStateName": "DiveDash",
+          "audioEvent": {
+            "text": "Stop_sfx_char_dive_dash_lp"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "DiveDashB",
+            "DiveTurn",
+            "DiveTurn2"
+          ]
+        },
+        {
+          "currentStateName": "DiveStream",
+          "audioEvent": {
+            "text": "Stop_sfx_char_dive_stream_lp"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "DiveStreamRoll_L",
+            "DiveStreamRoll_R"
+          ]
+        },
+        {
+          "currentStateName": "DiveMoveAS",
+          "audioEvent": {
+            "text": "Stop_sfx_char_dive_move_AS"
+          }
+        },
+        {
+          "currentStateName": "Dive_Out_DashFLoop",
+          "audioEvent": {
+            "text": "Stop_sfx_char_dive_out_dashFLoop"
+          }
+        },
+        {
+          "currentStateName": "DiveIdle",
+          "audioEvent": {
+            "text": "Stop_sfx_char_dive_dash_lp"
+          }
+        },
+        {
+          "currentStateName": "Dive_Out_Up",
+          "audioEvent": {
+            "text": "Stop_sfx_char_dive_moveF_A"
+          }
+        },
+        {
+          "currentStateName": "DiveChannel_Loop",
+          "audioEvent": {
+            "text": "Stop_vfx_Avatar_Diving_Channel_LP"
+          }
+        },
+        {
+          "currentStateName": "DiveMoveU_A",
+          "audioEvent": {
+            "text": "Stop_sfx_char_dive_moveU_A"
+          }
+        },
+        {
+          "currentStateName": "DiveMoveF_A",
+          "audioEvent": {
+            "text": "Stop_sfx_char_dive_moveF_A"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "DiveMoveF_B"
+          ]
+        },
+        {
+          "currentStateName": "ActivitySkill_CommonMove",
+          "audioEvent": {
+            "text": "Stop_Sfx_Char_ActivitySkill_CommonMove_LP"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "ActivitySkill_CommonMove"
+          ]
+        },
+        {
+          "currentStateName": "ActivitySkill_MagnetRush_Fly_Move",
+          "audioEvent": {
+            "text": "Stop_Sfx_Char_ActivitySkill_MagnetRush_Fly_Move_LP"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "ActivitySkill_MagnetRush_Fly_Move"
+          ]
+        },
+        {
+          "currentStateName": "ActivitySkill_MagnetRush_Ground_Move",
+          "audioEvent": {
+            "text": "Stop_Sfx_Char_ActivitySkill_MagnetRush_Ground_Move_LP"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "ActivitySkill_MagnetRush_Ground_Move"
+          ]
+        },
+        {
+          "currentStateName": "ActivitySkill_MagnetRush_DropDown",
+          "audioEvent": {
+            "text": "Stop_Sfx_Vehicle_Natsaurus_Shamansaurus_DropDown_LP"
+          }
+        }
+      ],
+      "recurrentSpeeches": {
+        "Standby": {
+          "eventName": {
+            "text": ""
+          },
+          "start": {
+            "upper": 28.0,
+            "lower": 23.0
+          },
+          "interval": {
+            "upper": 40.0,
+            "lower": 34.0
+          }
+        },
+        "Walk": {
+          "eventName": {
+            "text": ""
+          },
+          "start": {
+            "upper": 16.0,
+            "lower": 13.0
+          },
+          "interval": {
+            "upper": 14.0,
+            "lower": 10.0
+          }
+        },
+        "Run": {
+          "eventName": {
+            "text": ""
+          },
+          "start": {
+            "upper": 13.0,
+            "lower": 9.0
+          },
+          "interval": {
+            "upper": 11.0,
+            "lower": 8.0
+          }
+        },
+        "Sprint": {
+          "eventName": {
+            "text": ""
+          },
+          "start": {
+            "upper": 12.0,
+            "lower": 7.0
+          },
+          "interval": {
+            "upper": 9.0,
+            "lower": 6.0
+          }
+        }
+      },
+      "onTransitionIn": [
+        {
+          "currentStateName": "Vodyanitsa_ElementalArt_Hold_AS",
+          "audioEvent": {
+            "text": "Stop_Sfx_char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Hold_LP"
+          }
+        },
+        {
+          "currentStateName": "Vodyanitsa_ElementalArt_Hold_AS",
+          "audioEvent": {
+            "text": "Stop_Sfx_char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Hold"
+          }
+        },
+        {
+          "currentStateName": "Vodyanitsa_ElementalArt_Hold_AS",
+          "audioEvent": {
+            "text": "Stop_Sfx_char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Hold_Vocal"
+          }
+        },
+        {
+          "currentStateName": "FallingAnthem_Loop",
+          "audioEvent": {
+            "text": "Play_Sfx_char_Vodyanitsa_Catalyst_FallingAnthem_Loop_LP"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "FallingAnthem_Loop"
+          ]
+        },
+        {
+          "currentStateName": "FallingAnthem_Loop_Low",
+          "audioEvent": {
+            "text": "Play_Sfx_char_Vodyanitsa_Catalyst_FallingAnthem_Loop_LP"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "FallingAnthem_Loop_Low"
+          ]
+        },
+        {
+          "currentStateName": "DropDown",
+          "audioEvent": {
+            "text": "Play_sfx_char_drop"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "DropDown"
+          ]
+        },
+        {
+          "currentStateName": "SlipBackWall",
+          "audioEvent": {
+            "text": "Play_sfx_char_slipWall"
+          }
+        },
+        {
+          "currentStateName": "SlipFaceWall",
+          "audioEvent": {
+            "text": "Play_sfx_char_slipWall"
+          }
+        },
+        {
+          "currentStateName": "NormalDie",
+          "audioEvent": {
+            "text": "Play_sfx_char_land"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "FallOnGround"
+          ]
+        },
+        {
+          "currentStateName": "SwimJumpToWater",
+          "audioEvent": {
+            "text": "Stop_sfx_char_swim_dive"
+          }
+        },
+        {
+          "currentStateName": "SwimDash",
+          "audioEvent": {
+            "text": "Play_sfx_char_swim_dash"
+          }
+        },
+        {
+          "currentStateName": "Standby",
+          "audioEvent": {
+            "text": "Stop_sfx_char_fly"
+          }
+        },
+        {
+          "currentStateName": "DiveDash",
+          "audioEvent": {
+            "text": "Play_sfx_char_dive_dash_lp"
+          },
+          "usage": "InSet",
+          "otherStateNames": [
+            "DiveDashBS"
+          ]
+        },
+        {
+          "currentStateName": "DiveStream",
+          "audioEvent": {
+            "text": "Play_sfx_char_dive_stream_lp"
+          }
+        },
+        {
+          "currentStateName": "Dive_Out_DashFLoop",
+          "audioEvent": {
+            "text": "Play_sfx_char_dive_out_dashFLoop"
+          }
+        },
+        {
+          "currentStateName": "DiveMoveF_A",
+          "audioEvent": {
+            "text": "Play_sfx_char_dive_moveF_A"
+          }
+        },
+        {
+          "currentStateName": "DiveChannel_Loop",
+          "audioEvent": {
+            "text": "Play_vfx_Avatar_Diving_Channel_LP"
+          }
+        },
+        {
+          "currentStateName": "ActivitySkill_CustomSkill01",
+          "audioEvent": {
+            "text": "Play_Sfx_Char_ActivitySkill_CustomSkill01"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "ActivitySkill_CustomSkill01"
+          ]
+        },
+        {
+          "currentStateName": "ActivitySkill_CommonMove",
+          "audioEvent": {
+            "text": "Play_Sfx_Char_ActivitySkill_CommonMove_LP"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "ActivitySkill_CommonMove"
+          ]
+        },
+        {
+          "currentStateName": "ActivitySkill_MagnetRush_Ground_Move",
+          "audioEvent": {
+            "text": "Play_Sfx_Char_ActivitySkill_MagnetRush_Ground_Move_LP"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "ActivitySkill_MagnetRush_Ground_Move"
+          ]
+        },
+        {
+          "currentStateName": "ActivitySkill_MagnetRush_Fly_Move",
+          "audioEvent": {
+            "text": "Play_Sfx_Char_ActivitySkill_MagnetRush_Fly_Move_LP"
+          },
+          "usage": "Except",
+          "otherStateNames": [
+            "ActivitySkill_MagnetRush_Fly_Move"
+          ]
+        },
+        {
+          "currentStateName": "ActivitySkill_MagnetRush_DropDown",
+          "audioEvent": {
+            "text": "Play_Sfx_Vehicle_Natsaurus_Shamansaurus_DropDown_LP"
+          }
+        }
+      ]
+    },
+    "behaviours": [
+      {
+        "$type": "LJFFBAHJJGJ",
+        "onExit": [
+          {
+            "$type": "PPCCNHNBABD",
+            "eventName": {
+              "text": "Stop_Sfx_char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Hold_Vocal"
+            },
+            "JJPAGFPDECF": "__DefaultSync__"
+          },
+          {
+            "$type": "PPCCNHNBABD",
+            "eventName": {
+              "text": "Stop_Sfx_char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Hold_LP"
+            },
+            "JJPAGFPDECF": "__DefaultSync__"
+          },
+          {
+            "$type": "PPCCNHNBABD",
+            "eventName": {
+              "text": "Stop_Sfx_char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Hold"
+            },
+            "JJPAGFPDECF": "__DefaultSync__"
+          }
+        ],
+        "PEADMFFJEJN": [
+          "Vodyanitsa_ElementalArt_Charge",
+          "Vodyanitsa_ElementalArt_Hold"
+        ]
+      }
+    ],
+    "KKGIKDBILHI": ""
+  },
+  "equipController": {
+    "attachPoints": {
+      "equip01": "WeaponR",
+      "equip02": "WeaponL",
+      "equip03": "WeaponL"
+    },
+    "OIDAHLFCHKE": 0.7,
+    "triggerToStates": [
+      {
+        "floatID": "PlaySpeed",
+        "trigger": "Close",
+        "floatValue": 0.5
+      },
+      {
+        "states": [
+          "NormalStandbyWeapon",
+          "BeHit",
+          "BeHitAir",
+          "Die"
+        ],
+        "floatID": "PlaySpeed",
+        "trigger": "Open",
+        "floatValue": 1.0
+      },
+      {
+        "states": [
+          "NormalMoveWeaponPutaway/StandbyPutaway"
+        ],
+        "floatID": "PlaySpeed",
+        "trigger": "Close",
+        "floatValue": 1.0
+      },
+      {
+        "states": [
+          "NormalMoveWeaponOver/StandbyPutawayOver"
+        ],
+        "floatID": "PlaySpeed",
+        "trigger": "PlayDone",
+        "floatValue": 0.5
+      },
+      {
+        "states": [
+          "Attack01",
+          "Attack02",
+          "Attack03",
+          "Attack04",
+          "ExtraAttack_Charge",
+          "ExtraAttack",
+          "FallingAnthem_AS_2"
+        ],
+        "playTime": 1.2,
+        "floatID": "PlaySpeed",
+        "trigger": "Attack",
+        "floatValue": 2.0
+      }
+    ],
+    "dissolveSheathFadeTime": 2.1,
+    "dissolveSheathFadeDelay": 0.075,
+    "sheathPoint": "WeaponBackPut"
+  },
+  "combat": {
+    "beHit": {
+      "hitBloodEffect": ""
+    },
+    "property": {
+      "weight": 75.0,
+      "endureType": "Avatar_Sword"
+    },
+    "combatLock": {
+      "lockWeightYaxisParam": 0.2,
+      "lockType": "Avatar&Monster_Lv4",
+      "lockWeightYaxisThreshold": 2.0,
+      "lockShape": "CircleLockEnemyClose"
+    },
+    "animEvents": {
+      "ExtraAttack": {
+        "attackInfo": {
+          "attackProperty": {
+            "elementType": "Water",
+            "attackType": "Range",
+            "damagePercentageRatio": 0.0,
+            "strikeType": "Default",
+            "enBreak": 120.0,
+            "damagePercentage": 0.0,
+            "elementDurability": 25.0,
+            "arkheGrade": 0.0
+          },
+          "cameraShake": {
+            "extension": {
+              "rangeAttenuation": 0.1,
+              "baseCycle": 0.24
+            },
+            "shakeDir": {
+              "z": 1.0
+            },
+            "shakeTime": 0.12,
+            "shakeType": "CustomVector",
+            "shakeDistance": 30.0,
+            "MNKFEFOKFKP": "",
+            "shakeRange": 0.12
+          },
+          "hitPattern": {
+            "FLFCIDDNMNA": "",
+            "onHitEffectName": "default",
+            "hitHaltTimeScale": 0.01,
+            "hitImpulseType": "LV5"
+          },
+          "forceCameraShake": true,
+          "attenuationGroup": "default",
+          "attenuationTag": "",
+          "attackTag": "ExtraAttack"
+        },
+        "attackPattern": {
+          "$type": "ConfigAttackBox",
+          "size": {
+            "x": 3.2,
+            "z": 7.5,
+            "y": 3.0
+          },
+          "triggerType": "TriggerNoRepeat",
+          "born": {
+            "$type": "ConfigBornBySelf",
+            "offset": {
+              "x": 0.0,
+              "z": -0.2,
+              "y": 1.5
+            }
+          }
+        }
+      }
+    },
+    "die": {
+      "dieDisappearEffect": "Eff_Death_Avatar_Common",
+      "dieForceDisappearTime": 2.5,
+      "dieShaderData": "AvatarDie",
+      "ragDollDieEndTimeDelay": 0.4,
+      "dieEndTime": 1.5,
+      "LOLKCNIJEGF": true,
+      "ADHPDGMIABN": true
+    }
+  },
+  "AGOABCDPPCF": "",
+  "LFCKANBIBDN": true,
+  "stateLayers": {
+    "defaultLayer": {
+      "$type": "DKOLPAMCGLP",
+      "stateIDs": {
+        "NormalStandby": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Standby": [
+              "Avatar_ResetFreeStyle"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "NormalMove": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ShowUp": [
+              "Audio_Girl_Showup"
+            ],
+            "WalkToRun": [
+              "Audio_Girl_WalkToRun"
+            ],
+            "Walk": [
+              "Ani_WalkSprint01",
+              "Audio_Girl_Walk",
+              "WalkStepOnWater"
+            ],
+            "RunToWalk": [
+              "Audio_Girl_RunToWalk"
+            ],
+            "Run": [
+              "Ani_Run01",
+              "Audio_Girl_Run"
+            ],
+            "RunToIdle": [
+              "Audio_Girl_RunToIdle",
+              "Audio_Char_Vodyanitsa_Catalyst_RunToIdle"
+            ],
+            "WalkToIdle": [
+              "Audio_Girl_WalkToIdle"
+            ],
+            "RunningTurn": [],
+            "SprintToRun": [
+              "Audio_Girl_SprintToRun"
+            ],
+            "SprintToIdle": [
+              "Audio_Girl_SprintToIdle",
+              "Emo_Girl_Sprint_AS",
+              "Audio_Char_Vodyanitsa_Catalyst_SprintToIdle"
+            ],
+            "FallOnGround": [
+              "Audio_Girl_FallOnGround"
+            ],
+            "FallOnGroundLit": [
+              "Audio_Girl_FallOnGroundLit"
+            ],
+            "FallToGroundRun": [
+              "Audio_Girl_FallToGroundRun"
+            ],
+            "FallToGroundRunHard": [
+              "Audio_Girl_FallToGroundRunHard"
+            ],
+            "FallToGroundSprint": [
+              "Audio_Girl_FallToGroundSprint"
+            ]
+          },
+          "massRatio": 1.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "SprintBS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {
+              "normalizeStart": 0.26
+            }
+          ],
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill",
+            "AimEnd"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "SprintBS": [
+              "Audio_Girl_RunToSprint",
+              "SprintBS_Invincible",
+              "Emo_Girl_Sprint_BS",
+              "Audio_Char_Vodyanitsa_Catalyst_SprintBS"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeStart": 0.26
+            }
+          ]
+        },
+        "Sprint": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Sprint": [
+              "Ani_WalkSprint01",
+              "Audio_Girl_Sprint",
+              "Emo_Girl_Sprint_Loop"
+            ]
+          },
+          "massRatio": 1.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "Crouch": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "actionPanelState": "Squat",
+          "animatorTriggerOnLanded": "",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "CrouchIdle": [],
+            "CrouchMove": [
+              "Audio_Girl_CrouchMove"
+            ],
+            "CrouchRoll": [
+              "Audio_Girl_CrouchRoll"
+            ]
+          },
+          "massRatio": 1.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "CrouchToStandby": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "animatorStates": {
+            "CrouchToStandby": [
+              "Audio_Girl_CrouchToStandby"
+            ]
+          }
+        },
+        "SkiffNormal": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "SkiffNormal": []
+          },
+          "massRatio": 100.0
+        },
+        "Climb": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "actionPanelState": "Climb",
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "animatorStates": {
+            "ClimbMove0": [
+              "ClimbStep",
+              "Audio_Girl_Climb",
+              "Audio_Char_Vodyanitsa_Catalyst_ClimbMove"
+            ],
+            "ClimbMove1": [
+              "ClimbStep",
+              "Audio_Girl_Climb",
+              "Audio_Char_Vodyanitsa_Catalyst_ClimbMove"
+            ],
+            "ClimbIdle": [],
+            "ClimbJump": [
+              "Audio_Girl_ClimbDash"
+            ],
+            "JumpUpWallForStandby": [
+              "Audio_Girl_JumpUpWallStandby"
+            ],
+            "Standby2ClimbB": [
+              "Audio_Girl_Standby2ClimbB"
+            ]
+          }
+        },
+        "ClimbTransient": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "animatorStates": {
+            "JumpWallReady": [],
+            "Standby2ClimbA": [
+              "Audio_Girl_Standby2ClimbA"
+            ]
+          }
+        },
+        "Upstairs": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "animatorStates": {
+            "Upstairs": [
+              "Audio_Girl_Upstairs"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "Slip": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "animatorStates": {
+            "SlipFaceWall": [],
+            "SlipBackWall": []
+          }
+        },
+        "Swim": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "actionPanelState": "Swim",
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "animatorStates": {
+            "SwimIdle": [
+              "Audio_Girl_SwimIdle"
+            ],
+            "SwimMove": [
+              "SwimStep",
+              "Audio_Girl_SwimMove"
+            ],
+            "SwimDash": [
+              "Audio_Girl_SwimDash",
+              "Avatar_Girl_SwimDash_Hand_Effect"
+            ],
+            "SwimJumpToWater": [
+              "Audio_Girl_SwimJumpToWater"
+            ]
+          }
+        },
+        "Fly": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "actionPanelState": "Fly",
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Fly": [
+              "Audio_Girl_Fly"
+            ],
+            "FlyStart": [
+              "Audio_Girl_FlyStart",
+              "FlyStart_Weapon"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill"
+            }
+          ]
+        },
+        "Jump": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "actionPanelState": "Jump",
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill",
+            "AimEnd"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Jump": [
+              "Audio_Girl_Jump"
+            ],
+            "JumpForRun": [
+              "Audio_Girl_Jump"
+            ],
+            "JumpForWalk": [
+              "Audio_Girl_Jump"
+            ],
+            "JumpForSprint": [
+              "Audio_Girl_Jump"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill"
+            }
+          ]
+        },
+        "Fall": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "JumpOffWall": [
+              "Audio_Girl_Jump"
+            ],
+            "SwimJump": [
+              "Audio_Girl_SwimJump"
+            ],
+            "SwimJumpDrop": [],
+            "DropDown": [
+              "Audio_Girl_DropDown"
+            ],
+            "DropDownLit": [],
+            "WalkDropDownLit": []
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill"
+            }
+          ]
+        },
+        "NormalStandbyWeapon": {
+          "$type": "KBOPIKLCBOA",
+          "canChangeAvatar": [
+            {}
+          ],
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "StandbyWeapon": []
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "NormalMoveWeapon": {
+          "$type": "KBOPIKLCBOA",
+          "canChangeAvatar": [
+            {}
+          ],
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "WalkToRunWeapon": [
+              "Audio_Girl_WalkToRun"
+            ],
+            "WalkWeapon": [
+              "Audio_Girl_Walk"
+            ],
+            "RunToWalkWeapon": [
+              "Audio_Girl_RunToWalk"
+            ],
+            "RunWeapon": [
+              "Audio_Girl_Run"
+            ],
+            "RunToIdleWeapon": [],
+            "WalkToIdleWeapon": [],
+            "RunningTurnWeapon": [],
+            "FallOnGroundWeapon": [
+              "Audio_Girl_FallOnGround"
+            ],
+            "FallOnGroundLitWeapon": [
+              "Audio_Girl_FallOnGroundLit"
+            ],
+            "FallOnGroundMiddleWeapon": [
+              "Audio_Girl_FallOnGroundMiddle"
+            ],
+            "FallToGroundRunWeapon": [
+              "Audio_Girl_FallToGroundRun"
+            ],
+            "FallToGroundRunHardWeapon": [
+              "Audio_Girl_FallToGroundRunHard"
+            ]
+          },
+          "massRatio": 2.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "NormalMoveWeaponPutaway": {
+          "$type": "KBOPIKLCBOA",
+          "canChangeAvatar": [
+            {}
+          ],
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "StandbyPutaway": [
+              "Girl_Catalyst_Putaway_Standby"
+            ],
+            "WalkPutaway": [
+              "Girl_Catalyst_Putaway_Walk",
+              "Audio_Girl_Sword_WalkPutAway"
+            ],
+            "RunPutaway": [
+              "Girl_Catalyst_Putaway_Run",
+              "Audio_Girl_Sword_RunPutAway"
+            ],
+            "RunToSprintWeapon": [
+              "Girl_Catalyst_Putaway_Sprint",
+              "Audio_Girl_Sword_RunToSprintWeapon"
+            ]
+          },
+          "massRatio": 2.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "NormalMoveWeaponOver": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "StandbyPutawayOver": [],
+            "WalkPutawayOver": [
+              "Audio_Girl_Sword_WalkPutAwayOver"
+            ],
+            "RunPutawayOver": [
+              "Audio_Girl_Sword_RunPutAwayOver"
+            ],
+            "RunToSprintWeaponOver": [
+              "Audio_Girl_Sword_RunToSprintWeaponOver"
+            ]
+          },
+          "massRatio": 2.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "JumpWeapon": {
+          "$type": "KBOPIKLCBOA",
+          "canChangeAvatar": [
+            {}
+          ],
+          "actionPanelState": "Jump",
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "JumpWeapon": [
+              "Audio_Girl_Jump"
+            ],
+            "JumpForRunWeapon": [
+              "Audio_Girl_Jump"
+            ],
+            "JumpForWalkWeapon": [
+              "Audio_Girl_Jump"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill"
+            }
+          ]
+        },
+        "FallWeapon": {
+          "$type": "KBOPIKLCBOA",
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "DropDownWeapon": [
+              "Audio_Girl_DropDown"
+            ],
+            "DropDownLitWeapon": [],
+            "WalkDropDownLitWeapon": []
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill"
+            }
+          ]
+        },
+        "BeHit": {
+          "$type": "KBOPIKLCBOA",
+          "jumpCancelEnd": 0.0,
+          "cameraType": "combatBeHit",
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit",
+            "HitAir2HitDrop"
+          ],
+          "animatorStates": {
+            "Hit_L": [
+              "Audio_Girl_Hit_L"
+            ],
+            "Hit_H": [
+              "Audio_Girl_Hit_H"
+            ]
+          }
+        },
+        "HitThrow": {
+          "$type": "KBOPIKLCBOA",
+          "jumpCancelEnd": 0.0,
+          "sheatheOnStart": true,
+          "cameraType": "combatBeHit",
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit",
+            "HitAir2HitDrop"
+          ],
+          "animatorStates": {
+            "Hit_Throw_Ground": [
+              "BeHitAir_Weapon",
+              "Audio_Girl_Catalyst_Citlali_Hit_Throw_Ground"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseLiquid"
+            }
+          ]
+        },
+        "BeHitAir": {
+          "$type": "KBOPIKLCBOA",
+          "jumpCancelEnd": 0.0,
+          "sheatheOnStart": true,
+          "cameraType": "combatBeHit",
+          "actionPanelState": "CombatAir",
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatAir",
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "animatorStates": {
+            "Hit_Throw": [
+              "Audio_Girl_Hit_Throw",
+              "BeHitAir_Weapon"
+            ],
+            "Hit_ThrowAir": [
+              "Audio_Girl_Hit_ThrowAir",
+              "BeHitAir_Weapon"
+            ],
+            "Struggle": [
+              "BeHitAir_Weapon"
+            ]
+          }
+        },
+        "Die": {
+          "$type": "KBOPIKLCBOA",
+          "animatorTriggerOnLanded": "",
+          "animatorStates": {
+            "DiveDie": [
+              "Die",
+              "Audio_Girl_Dive_Die"
+            ],
+            "FallDie": [
+              "Audio_Girl_Death"
+            ],
+            "NormalDie": [
+              "Die",
+              "Audio_Girl_Death"
+            ],
+            "SwimDie": [
+              "Swim_Die",
+              "Audio_Girl_SwimDie"
+            ],
+            "HitGroundDie": [
+              "Die",
+              "Audio_Girl_Death"
+            ]
+          }
+        },
+        "Die_RagDoll": {
+          "$type": "KBOPIKLCBOA",
+          "animatorTriggerOnLanded": "",
+          "GINMJJCLJEI": true,
+          "animatorStates": {
+            "FallDie_AS": []
+          }
+        },
+        "Attack01": {
+          "$type": "KBOPIKLCBOA",
+          "cameraType": "combatNormal",
+          "canChangeAvatar": [
+            {}
+          ],
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Attack01": [
+              "Vodyanitsa_Attack01",
+              "SetComboCount1",
+              "Interaction_Good",
+              "Audio_Char_Vodyanitsa_Catalyst_Attack01"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseExtra"
+            },
+            {
+              "name": "&CanCancelSkill"
+            }
+          ]
+        },
+        "Attack02": {
+          "$type": "KBOPIKLCBOA",
+          "cameraType": "combatNormal",
+          "canChangeAvatar": [
+            {}
+          ],
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Attack02": [
+              "Vodyanitsa_Attack02",
+              "SetComboCount2",
+              "Interaction_Good",
+              "Audio_Char_Vodyanitsa_Catalyst_Attack02"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseExtra"
+            },
+            {
+              "name": "&CanCancelSkill"
+            }
+          ]
+        },
+        "Attack03": {
+          "$type": "KBOPIKLCBOA",
+          "cameraType": "combatNormal",
+          "canChangeAvatar": [
+            {}
+          ],
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Attack03": [
+              "Vodyanitsa_Attack03",
+              "SetComboCount3",
+              "Interaction_Good",
+              "Audio_Char_Vodyanitsa_Catalyst_Attack03"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseExtra"
+            },
+            {
+              "name": "&CanCancelSkill"
+            }
+          ]
+        },
+        "Attack04": {
+          "$type": "KBOPIKLCBOA",
+          "cameraType": "combatNormal",
+          "canChangeAvatar": [
+            {}
+          ],
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Attack04": [
+              "Vodyanitsa_Attack04",
+              "SetComboCount4",
+              "Interaction_Good",
+              "Audio_Char_Vodyanitsa_Catalyst_Attack04"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseExtra"
+            },
+            {
+              "name": "&CanCancelSkill"
+            }
+          ]
+        },
+        "ExtraAttack_BS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "cameraType": "combatNormal",
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ExtraAttack_BS": [
+              "Vodyanitsa_ExtraAttack_BS"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill"
+            }
+          ]
+        },
+        "ExtraAttack": {
+          "$type": "KBOPIKLCBOA",
+          "cameraType": "combatNormal",
+          "canChangeAvatar": [
+            {
+              "normalizeStart": 0.8
+            }
+          ],
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "ExtraAttack_Charge": [
+              "Vodyanitsa_ExtraAttack_Charge",
+              "Audio_Char_Vodyanitsa_Catalyst_ExtraAttack_Charge"
+            ],
+            "ExtraAttack": [
+              "Vodyanitsa_ExtraAttack",
+              "Vodyanitsa_ExtraAttack",
+              "Interaction_Good"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill"
+            }
+          ]
+        },
+        "ExtraAttack_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnEnd": true,
+          "cameraType": "combatNormal",
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ExtraAttack_AS": [
+              "Audio_Char_Vodyanitsa_Catalyst_ExtraAttack_AS"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill"
+            },
+            {
+              "name": "&CanUseSkill",
+              "normalizeStart": 0.15
+            }
+          ]
+        },
+        "Vodyanitsa_ElementalArt_BS": {
+          "$type": "KBOPIKLCBOA",
+          "jumpCancelEnd": -1.0,
+          "cameraType": "combatNormal",
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatSkillMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Vodyanitsa_ElementalArt_BS": [
+              "Audio_Char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_BS"
+            ]
+          },
+          "GNPGADEECOM": true,
+          "addEndure": 0.6
+        },
+        "Vodyanitsa_ElementalArt_Strike": {
+          "$type": "KBOPIKLCBOA",
+          "jumpCancelEnd": -1.0,
+          "cameraType": "combatNormal",
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Vodyanitsa_ElementalArt_Strike": [
+              "Vodyanitsa_ElementalArt",
+              "Interaction_Good",
+              "Audio_Char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Strike"
+            ]
+          },
+          "addEndure": 0.6
+        },
+        "Vodyanitsa_ElementalArt_Charge": {
+          "$type": "KBOPIKLCBOA",
+          "jumpCancelEnd": -1.0,
+          "cameraType": "combatNormal",
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatSkillMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Vodyanitsa_ElementalArt_Charge": [
+              "Audio_Char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Charge"
+            ]
+          },
+          "combatMoveOnWater": true,
+          "addEndure": 0.2
+        },
+        "Vodyanitsa_ElementalArt_Hold": {
+          "$type": "KBOPIKLCBOA",
+          "jumpCancelEnd": -1.0,
+          "cameraType": "combatNormal",
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatSkillMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Vodyanitsa_ElementalArt_Hold": [
+              "Audio_Char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Hold"
+            ]
+          },
+          "combatMoveOnWater": true,
+          "addEndure": 0.2
+        },
+        "Vodyanitsa_ElementalArt_Hold_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnEnd": true,
+          "cameraType": "combatNormal",
+          "canChangeAvatar": [
+            {}
+          ],
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "FOFMBDKCPIL": 1.0,
+          "moveType": "combatSkillMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Vodyanitsa_ElementalArt_Hold_AS": [
+              "Audio_Char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Hold_AS"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanCancelSkill"
+            },
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "Vodyanitsa_ElementalArt_Strike_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnEnd": true,
+          "cameraType": "combatNormal",
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Vodyanitsa_ElementalArt_Strike_AS": [
+              "Audio_Char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalArt_Strike_AS"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "Vodyanitsa_ElementalBurst": {
+          "$type": "KBOPIKLCBOA",
+          "jumpCancelEnd": -1.0,
+          "cameraType": "combatNormal",
+          "battouOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "animatorStates": {
+            "Vodyanitsa_ElementalBurst": [
+              "Vodyanitsa_ElementalBurst",
+              "Interaction_Good",
+              "Audio_Char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalBurst"
+            ]
+          },
+          "addEndure": 0.0
+        },
+        "Vodyanitsa_ElementalBurst_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnEnd": true,
+          "cameraType": "combatNormal",
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Vodyanitsa_ElementalBurst_AS": [
+              "Audio_Char_Vodyanitsa_Catalyst_Vodyanitsa_ElementalBurst_AS"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "FallingAnthem_BS": {
+          "$type": "KBOPIKLCBOA",
+          "jumpCancelEnd": -1.0,
+          "sheatheOnStart": true,
+          "equipReattach": [
+            {
+              "equip": "equip01",
+              "targetPoint": "WeaponR2"
+            }
+          ],
+          "cameraType": "combatNormal",
+          "actionPanelState": "Fly",
+          "animatorTriggerOnLanded": "HitAir2HitDrop",
+          "moveType": "combatAir",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "FallingAnthem_BS_1": [
+              "Audio_Char_Vodyanitsa_Catalyst_FallingAnthem_BS_1"
+            ],
+            "FallingAnthem_BS_2": []
+          },
+          "addEndure": 0.0
+        },
+        "FallingAnthem_Loop": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "equipReattach": [
+            {
+              "equip": "equip01",
+              "targetPoint": "WeaponR2"
+            }
+          ],
+          "actionPanelState": "Fly",
+          "animatorTriggerOnLanded": "HitAir2HitDrop",
+          "moveType": "combatAir",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "FallingAnthem_Loop": [],
+            "FallingAnthem_Loop_Low": []
+          },
+          "addEndure": 0.0
+        },
+        "FallingAnthem_AS_1": {
+          "$type": "KBOPIKLCBOA",
+          "jumpCancelEnd": -1.0,
+          "sheatheOnStart": true,
+          "equipReattach": [
+            {
+              "equip": "equip01",
+              "targetPoint": "WeaponR2"
+            }
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "FallingAnthem_AS_1": [
+              "Vodyanitsa_FallingAnthem_Strike",
+              "Interaction_Bad",
+              "Audio_Char_Vodyanitsa_Catalyst_FallingAnthem_AS_1"
+            ]
+          }
+        },
+        "FallingAnthem_AS_2": {
+          "$type": "KBOPIKLCBOA",
+          "equipReattach": [
+            {
+              "equip": "equip01",
+              "targetPoint": "WeaponR2"
+            }
+          ],
+          "canChangeAvatar": [
+            {}
+          ],
+          "battouOnStart": true,
+          "sprintCancelStart": 0.1,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "FallingAnthem_AS_2": [
+              "Audio_Char_Vodyanitsa_Catalyst_FallingAnthem_AS_2"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill",
+              "normalizeStart": 0.05
+            }
+          ]
+        },
+        "PlayMusic_Vodyanitsa": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "PlayMusic_Vodyanitsa_BS": [],
+            "PlayMusic_Vodyanitsa_Loop": [
+              "PlayMusic_Vodyanitsa"
+            ]
+          },
+          "massRatio": 100.0
+        },
+        "PlayMusic_Vodyanitsa_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "PlayMusic_Vodyanitsa_AS": []
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "Sit": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "actionPanelState": "Perform",
+          "animatorTriggerOnLanded": "",
+          "moveType": "performMove",
+          "animatorStates": {
+            "SitDown": [
+              "Audio_Girl_SitDown"
+            ],
+            "SitLoop": [],
+            "SitUp": [
+              "Audio_Girl_SitDown"
+            ]
+          },
+          "massRatio": 100.0
+        },
+        "SitB": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "actionPanelState": "Perform",
+          "animatorTriggerOnLanded": "",
+          "moveType": "performMove",
+          "animatorStates": {
+            "SitBDown": [
+              "Audio_Girl_SitDown"
+            ],
+            "SitBLoop": [],
+            "SitBUp": [
+              "Audio_Girl_SitDown"
+            ]
+          },
+          "massRatio": 100.0
+        },
+        "StandbyShow": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "performMove",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "StandbyVoice": [
+              "Audio_Girl_StandbyVoice"
+            ],
+            "StandbyShow_01": [
+              "Manekin_Vodyanitsa_Show01",
+              "Audio_Char_Vodyanitsa_Catalyst_StandbyShow_01"
+            ],
+            "StandbyShow_02": [
+              "Manekin_Vodyanitsa_Show02",
+              "Audio_Char_Vodyanitsa_Catalyst_StandbyShow_02"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "TakePhotos": {
+          "$type": "KBOPIKLCBOA",
+          "animatorTriggerOnLanded": "",
+          "animatorStates": {
+            "Think01BS": [],
+            "Akimbo02BS": [],
+            "Think01Loop": [],
+            "Akimbo02Loop": [],
+            "Think01AS": [],
+            "Akimbo02AS": []
+          }
+        },
+        "Channel_BS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ChannelBS": [
+              "Emo_Avatar_Common_Manekin_Default"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "Channel_Loop": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ChannelLoop": []
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "Channel_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ChannelAS": []
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "PlayMusic_Lyre": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "PlayMusic_Lyre_BS": [
+              "PlayMusic_Lyre_Girl"
+            ],
+            "PlayMusic_Lyre_Loop": [
+              "PlayMusic_Lyre_Girl_Loop"
+            ]
+          },
+          "massRatio": 100.0
+        },
+        "PlayMusic_Lyre_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "PlayMusic_Lyre_AS": [
+              "PlayMusic_Lyre_Girl_AS"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "PlayMusic_Qin": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "PlayMusic_Qin_BS": [
+              "PlayMusic_Qin_Girl"
+            ],
+            "PlayMusic_Qin_Loop": [
+              "PlayMusic_Qin_Girl_Loop"
+            ]
+          },
+          "massRatio": 100.0
+        },
+        "PlayMusic_Qin_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "PlayMusic_Qin_AS": [
+              "PlayMusic_Qin_Girl_AS"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "PlayMusic_Drum": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "PlayMusic_Drum_BS": [
+              "PlayMusic_Drum_Girl"
+            ],
+            "PlayMusic_Drum_Loop": [
+              "PlayMusic_Drum_Girl_Loop"
+            ]
+          },
+          "massRatio": 100.0
+        },
+        "PlayMusic_Drum_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "PlayMusic_Drum_AS": [
+              "PlayMusic_Drum_Girl_AS"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "PlayMusic_FrenchHorn": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "PlayMusic_FrenchHorn_BS": [
+              "PlayMusic_Frenchhorn_Girl"
+            ],
+            "PlayMusic_FrenchHorn_Loop": [
+              "PlayMusic_Frenchhorn_Girl_Loop"
+            ]
+          },
+          "massRatio": 100.0
+        },
+        "PlayMusic_FrenchHorn_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "PlayMusic_FrenchHorn_AS": [
+              "PlayMusic_Frenchhorn_Girl_AS"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "PlayMusic_NatlanKeyBoard": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "PlayMusic_NatlanKeyBoard_BS": [
+              "PlayMusic_NatlanKeyBoard_Girl"
+            ],
+            "PlayMusic_NatlanKeyBoard_Loop": [
+              "PlayMusic_NatlanKeyBoard_Girl_Loop"
+            ]
+          },
+          "massRatio": 100.0
+        },
+        "PlayMusic_NatlanKeyBoard_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "PlayMusic_NatlanKeyBoard_AS": [
+              "PlayMusic_NatlanKeyBoard_Girl_AS"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "ActivitySkill_MagnetRush_DropDown": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "NPCFPOCDFHH": 1.0,
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatAir",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_DropDown": [
+              "Audio_Char_MoonSpirit_ActivitySkill_MagnetRush_DropDown"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill"
+            }
+          ]
+        },
+        "ActivitySkill_MagnetRush_SkillState": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "NPCFPOCDFHH": 1.0,
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatAir",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_SkillState": [
+              "Audio_Char_MoonSpirit_ActivitySkill_MagnetRush_SkillState",
+              "MagnetRush_NoFallOnGround"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill"
+            }
+          ]
+        },
+        "ActivitySkill_MagnetRush_Ground_Idle": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatSkillMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_Ground_Idle": []
+          },
+          "GNPGADEECOM": true,
+          "addEndure": 0.2,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "ActivitySkill_MagnetRush_Ground_Move": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatSkillMove",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_Ground_Move": []
+          },
+          "GNPGADEECOM": true,
+          "addEndure": 0.2,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "ActivitySkill_MagnetRush_Jump": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "cameraType": "combatNormal",
+          "NPCFPOCDFHH": 1.0,
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatAir",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_Jump": [
+              "Audio_Char_MoonSpirit_ActivitySkill_MagnetRush_Jump",
+              "MagnetRush_NoFallOnGround"
+            ]
+          },
+          "addEndure": 0.6,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill"
+            }
+          ]
+        },
+        "ActivitySkill_MagnetRush_Fly_Idle": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "NPCFPOCDFHH": 1.0,
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatAir",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_Fly_Idle": []
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill"
+            }
+          ]
+        },
+        "ActivitySkill_MagnetRush_Fly_Move": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "NPCFPOCDFHH": 1.0,
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatAir",
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ActivitySkill_MagnetRush_Fly_Move": []
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill"
+            }
+          ]
+        },
+        "ActivitySkill_ElectricCoreFly": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatAir",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump",
+            "ElectricCoreFly_End"
+          ],
+          "resetAnimatorTriggerOnEnter": [
+            "ElectricCoreFly_End"
+          ],
+          "animatorStates": {
+            "ActivitySkill_ElectricCoreFly": []
+          },
+          "massRatio": 100.0
+        },
+        "ActivitySkill_GrapplingHook": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatAir",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump",
+            "GrapplingHook_Drop"
+          ],
+          "resetAnimatorTriggerOnEnter": [
+            "GrapplingHook_Drop"
+          ],
+          "animatorStates": {
+            "ActivitySkill_GrapplingHook": []
+          },
+          "massRatio": 100.0
+        },
+        "ActivitySkill_CustomSkill01": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatAir",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump",
+            "CustomSkill_End_Fly",
+            "CustomSkill_End_Drop"
+          ],
+          "resetAnimatorTriggerOnEnter": [
+            "CustomSkill_End_Fly",
+            "CustomSkill_End_Drop"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ActivitySkill_CustomSkill01": []
+          },
+          "massRatio": 100.0
+        },
+        "ActivitySkill_CustomSkill02": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatAir",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump",
+            "CustomSkill_End_Fly",
+            "CustomSkill_End_Drop"
+          ],
+          "resetAnimatorTriggerOnEnter": [
+            "CustomSkill_End_Fly",
+            "CustomSkill_End_Drop"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "ActivitySkill_CustomSkill02": []
+          },
+          "massRatio": 100.0
+        },
+        "ActivitySkill_CommonMove": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "jumpCancelStart": -1.0,
+          "sprintCancelStart": -1.0,
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "JBNEGFHBOJD": true,
+          "animatorStates": {
+            "ActivitySkill_CommonMove": []
+          },
+          "addEndure": 0.0,
+          "massRatio": 100.0
+        },
+        "DiveChannel_BS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "actionPanelState": "Dive",
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatDive",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "DiveChannelBS": [
+              "Emo_Avatar_Common_Manekin_Default",
+              "Audio_Girl_DiveChannel_BS"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "DiveChannel_Loop": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "actionPanelState": "Dive",
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatDive",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "DiveChannelLoop": []
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "DiveChannel_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "jumpCancelStart": 0.12,
+          "canChangeAvatar": [
+            {}
+          ],
+          "actionPanelState": "Dive",
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatDive",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "canDoSkillStart": 0.3,
+          "animatorStates": {
+            "DiveChannelAS": [
+              "Audio_Girl_DiveChannel_AS"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "DiveCast_BS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "actionPanelState": "Dive",
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatDive",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "DiveCast_BS": [
+              "Emo_Avatar_Common_Manekin_Default",
+              "Audio_Girl_DiveCast_BS"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "DiveCast_Loop": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "actionPanelState": "Dive",
+          "animatorTriggerOnLanded": "",
+          "OFBNFGDOMCC": -1.0,
+          "moveType": "combatDive",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "animatorStates": {
+            "DiveCast_Loop": []
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "DiveCast_AS": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "jumpCancelStart": 0.09,
+          "canChangeAvatar": [
+            {}
+          ],
+          "actionPanelState": "Dive",
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatDive",
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "Jump"
+          ],
+          "BFFCHJAEAGD": true,
+          "canDoSkillStart": 0.1,
+          "animatorStates": {
+            "DiveCast_AS": [
+              "Audio_Girl_DiveCast_AS"
+            ]
+          },
+          "massRatio": 100.0,
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "Dive": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "canChangeAvatar": [
+            {}
+          ],
+          "actionPanelState": "Dive",
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "DiveIdle": [],
+            "DiveMoveBS": [
+              "Audio_Girl_Dive_MoveBS"
+            ],
+            "DiveMoveAS": [
+              "Audio_Girl_Dive_MoveAS"
+            ],
+            "DiveMoveU_A": [
+              "Audio_Girl_Dive_MoveU_A"
+            ],
+            "DiveMoveU_B": [
+              "Audio_Girl_Dive_MoveU_B"
+            ],
+            "DiveMoveF_A": [],
+            "DiveMoveF_B": [
+              "Audio_Girl_Dive_MoveF_B"
+            ],
+            "DiveMoveD_A": [
+              "Audio_Girl_Dive_MoveD_A"
+            ],
+            "DiveMoveD_B": [
+              "Audio_Girl_Dive_MoveD_B"
+            ],
+            "DiveTurn": [
+              "Audio_Girl_Dive_Turn"
+            ],
+            "DiveTurnAS": [
+              "Audio_Girl_Dive_Turn_AS"
+            ],
+            "DiveTurn2": [
+              "Audio_Girl_Dive_Turn"
+            ],
+            "DiveTurnAS2": [
+              "Audio_Girl_Dive_Turn_AS"
+            ],
+            "DiveDashBS": [
+              "Audio_Girl_Dive_Dash_BS"
+            ],
+            "DiveDashAS": [
+              "Audio_Girl_Dive_Dash_AS"
+            ],
+            "DiveDash": [],
+            "DiveDashB": [
+              "Audio_Girl_Dive_Out_DashB"
+            ],
+            "DiveSuperDash": [
+              "Audio_Girl_Dive_SuperDash"
+            ],
+            "DiveSuperDash2": [
+              "Audio_Girl_Dive_SuperDash2"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "Dive_In_Out": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "actionPanelState": "Dive",
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "animatorStates": {
+            "Dive_In_Up": [
+              "Audio_Girl_Dive_In_Up"
+            ],
+            "Dive_In_Side": [
+              "Audio_Girl_Dive_In_Side"
+            ],
+            "Dive_In_Bottom": [
+              "Audio_Girl_Dive_In_Bottom"
+            ],
+            "Dive_Out_Side": [
+              "Audio_Girl_Dive_Out_Side"
+            ],
+            "Dive_Out_Bottom": [
+              "Audio_Girl_Dive_Out_Bottom"
+            ],
+            "Dive_Out_Up": [
+              "Audio_Girl_Dive_Out_Up"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "DiveStream": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "actionPanelState": "Dive",
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "DiveStreamIn": [
+              "Audio_Girl_Dive_Stream_In"
+            ],
+            "DiveStreamOut": [
+              "Audio_Girl_Dive_Stream_Out"
+            ],
+            "DiveStream": [],
+            "DiveStreamRoll_L": [
+              "Audio_Girl_Dive_Stream_Roll_L"
+            ],
+            "DiveStreamRoll_R": [
+              "Audio_Girl_Dive_Stream_Roll_R"
+            ]
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseSkill"
+            }
+          ]
+        },
+        "DiveJump": {
+          "$type": "KBOPIKLCBOA",
+          "sheatheOnStart": true,
+          "actionPanelState": "Jump",
+          "animatorTriggerOnLanded": "",
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill",
+            "AimEnd"
+          ],
+          "BFFCHJAEAGD": true,
+          "animatorStates": {
+            "Dive_Out_DashU": [
+              "Audio_Girl_Dive_Out_DashU"
+            ],
+            "Dive_Out_DashD": [
+              "Audio_Girl_Dive_Out_DashD"
+            ],
+            "Dive_Out_DashFBS": [
+              "Audio_Girl_Dive_Out_DashFBS"
+            ],
+            "Dive_Out_DashFAS": [
+              "Audio_Girl_Dive_Out_DashFAS"
+            ],
+            "Dive_Out_DashFLoop": [],
+            "DiveJumpToWater": [],
+            "DiveJumpToWaterB": []
+          },
+          "setAnimatorBoolean": [
+            {
+              "name": "&CanUseAirSkill"
+            }
+          ]
+        },
+        "BeHitDive": {
+          "$type": "KBOPIKLCBOA",
+          "jumpCancelEnd": 0.0,
+          "sheatheOnStart": true,
+          "cameraType": "combatBeHit",
+          "actionPanelState": "Dive",
+          "animatorTriggerOnLanded": "",
+          "moveType": "combatDive",
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "animatorStates": {
+            "BeHitDive": [
+              "Audio_Girl_Dive_beHit"
+            ],
+            "DiveStruggle": []
+          }
+        },
+        "MultiOverride_01": {
+          "$type": "KBOPIKLCBOA",
+          "animatorTriggerOnLanded": "",
+          "animatorStates": {
+            "MultiOverrideBS_01": [],
+            "MultiOverrideLoop_01": [],
+            "MultiOverrideAS_01": []
+          }
+        },
+        "MultiOverride2": {
+          "$type": "KBOPIKLCBOA",
+          "animatorTriggerOnLanded": "",
+          "animatorStates": {
+            "MultiOverrideBS_02": [],
+            "MultiOverrideLoop_02": [],
+            "MultiOverrideAS_02": []
+          }
+        },
+        "MultiOverride3": {
+          "$type": "KBOPIKLCBOA",
+          "animatorTriggerOnLanded": "",
+          "animatorStates": {
+            "MultiOverrideBS_03": [],
+            "MultiOverrideLoop_03": [],
+            "MultiOverrideAS_03": []
+          }
+        },
+        "MultiOverride": {
+          "$type": "KBOPIKLCBOA",
+          "animatorTriggerOnLanded": "",
+          "FAJHGBPCPIL": {
+            "Ani_Avatar_Girl_Catalyst_Vodyanitsa_Photo01BS": [],
+            "Ani_Avatar_Girl_Catalyst_Vodyanitsa_Photo01Loop": [],
+            "Ani_Avatar_Girl_Catalyst_Vodyanitsa_Photo01AS": [],
+            "Ani_Avatar_Girl_Catalyst_Vodyanitsa_Photo02BS": [],
+            "Ani_Avatar_Girl_Catalyst_Vodyanitsa_Photo02Loop": [],
+            "Ani_Avatar_Girl_Catalyst_Vodyanitsa_Photo02AS": []
+          }
+        }
+      },
+      "CDNJBEFECMM": "",
+      "layerIndexName": ""
+    },
+    "diveLayer": {
+      "$type": "DKOLPAMCGLP",
+      "CDNJBEFECMM": "DiveLayer",
+      "layerIndexName": ""
+    }
+  },
+  "abilities": [
+    {
+      "abilityID": "Avatar_Vodyanitsa_ExtraAttack",
+      "abilityName": "Avatar_Vodyanitsa_ExtraAttack",
+      "KDBJKAEHCPG": ""
+    },
+    {
+      "abilityID": "Avatar_Vodyanitsa_Attack01",
+      "abilityName": "Avatar_Vodyanitsa_Attack01",
+      "KDBJKAEHCPG": ""
+    },
+    {
+      "abilityID": "Avatar_Vodyanitsa_Attack02",
+      "abilityName": "Avatar_Vodyanitsa_Attack02",
+      "KDBJKAEHCPG": ""
+    },
+    {
+      "abilityID": "Avatar_Vodyanitsa_Attack03",
+      "abilityName": "Avatar_Vodyanitsa_Attack03",
+      "KDBJKAEHCPG": ""
+    },
+    {
+      "abilityID": "Avatar_Vodyanitsa_Attack04",
+      "abilityName": "Avatar_Vodyanitsa_Attack04",
+      "KDBJKAEHCPG": ""
+    },
+    {
+      "abilityID": "Avatar_Vodyanitsa_ExtraAttack_Charge",
+      "abilityName": "Avatar_Vodyanitsa_ExtraAttack_Charge",
+      "KDBJKAEHCPG": ""
+    },
+    {
+      "abilityID": "Avatar_Vodyanitsa_ElementalArt",
+      "abilityName": "Avatar_Vodyanitsa_ElementalArt",
+      "KDBJKAEHCPG": ""
+    },
+    {
+      "abilityID": "Avatar_Vodyanitsa_ElementalBurst",
+      "abilityName": "Avatar_Vodyanitsa_ElementalBurst",
+      "KDBJKAEHCPG": ""
+    },
+    {
+      "abilityID": "Avatar_Vodyanitsa_MermaidControl",
+      "abilityName": "Avatar_Vodyanitsa_MermaidControl",
+      "KDBJKAEHCPG": ""
+    },
+    {
+      "abilityID": "Avatar_Vodyanitsa_FallingAnthem",
+      "abilityName": "Avatar_Vodyanitsa_FallingAnthem",
+      "KDBJKAEHCPG": ""
+    }
+  ],
+  "JNNBEGPAOPC": {
+    "HHAMMOKHLJM": true
+  },
+  "BDCBPBCONAE": {
+    "BEILJOAOOHD": "",
+    "MAJKCMAIJCN": true,
+    "attachEffect": "",
+    "MIANMCBBBFA": ""
+  },
+  "specialPoint": {
+    "elementPendant": "PRIVATE_Pendant",
+    "elementDrop": "RootNode",
+    "elementAbsorb": "PRIVATE_Pendant",
+    "bulletAim": "RootNode"
+  },
+  "common": {
+    "OIBKIKLIDDL": true,
+    "modelHeight": 1.532,
+    "effectAttachShape": {
+      "$type": "ConfigEffectAttachSkinnedMesh",
+      "mesh": "EffectMesh"
+    },
+    "DHLDEEJDJGM": true,
+    "mass": 10.0,
+    "height": 1.5731
+  },
+  "CHKJOEAJJOK": {
+    "LPGFJFPAMFJ": [
+      {
+        "$type": "EGOHFKLGJEP",
+        "FHLDKOHENKI": "Face_Eye",
+        "NEKDGIBLFAF": {
+          "_FacialExpEnable": 0.0
+        }
+      },
+      {
+        "$type": "MKOGPCHMLEP",
+        "FHLDKOHENKI": "Face",
+        "index": 17
+      }
+    ]
+  },
+  "CBEAABHLNFE": true,
+  "headControl": {
+    "LPLPBBCHJFO": "Body",
+    "useHeadControl": true,
+    "MABIBPCMNHF": "Neck",
+    "CLHMFPBKKLI": "Head",
+    "animStates": [
+      "NormalStandby",
+      "NormalMove/WalkToRun",
+      "NormalMove/Walk",
+      "NormalMove/RunToWalk",
+      "NormalMove/Run",
+      "NormalMove/RunToIdle",
+      "NormalMove/WalkToIdle",
+      "NormalMove/RunningTurn",
+      "NormalMove/SprintToRun",
+      "NormalMove/SprintToIdle",
+      "Sprint",
+      "Climb/ClimbIdle",
+      "Ladder/LadderIdle",
+      "Swim/SwimIdle",
+      "NormalStandbyWeapon",
+      "NormalMoveWeapon/WalkToRunWeapon",
+      "NormalMoveWeapon/WalkWeapon",
+      "NormalMoveWeapon/RunToWalkWeapon",
+      "NormalMoveWeapon/RunWeapon",
+      "NormalMoveWeapon/RunToIdleWeapon",
+      "NormalMoveWeapon/WalkToIdleWeapon",
+      "NormalMoveWeapon/RunningTurnWeapon"
+    ]
+  }
+}

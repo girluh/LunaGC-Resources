@@ -1,0 +1,277 @@
+[
+  {
+    "Default": {
+      "$type": "ConfigAbility",
+      "modifiers": {
+        "UNIQUE_Weapon_Bow_Windtalker_Handler": {
+          "onAttackLanded": [
+            {
+              "$type": "Predicated",
+              "successActions": [
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "UNIQUE_Weapon_Bow_Windtalker_StackICD",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AddGlobalValue",
+                  "useLimitRange": true,
+                  "key": "_ABILITY_Weapon_Bow_Windtalker_Stack",
+                  "maxValue": "MaxStack",
+                  "minValue": 0.0,
+                  "value": 1.0,
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "RemoveUniqueModifier",
+                      "modifierName": "UNIQUE_Weapon_Bow_Windtalker_TeamBuff",
+                      "target": "AllPlayerAvatars",
+                      "doOffStage": true
+                    },
+                    {
+                      "$type": "AttachModifier",
+                      "modifierName": "UNIQUE_Weapon_Bow_Windtalker_TeamBuff",
+                      "target": "AllPlayerAvatars",
+                      "doOffStage": true
+                    },
+                    {
+                      "$type": "AttachModifier",
+                      "modifierName": "UNIQUE_Weapon_Bow_Windtalker_BuffLock",
+                      "doOffStage": true
+                    },
+                    {
+                      "$type": "SetGlobalValue",
+                      "key": "_ABILITY_Weapon_Bow_Windtalker_Stack",
+                      "minValue": 0.0,
+                      "maxValue": 0.0,
+                      "value": 0.0,
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "MaxStack",
+                      "key": "_ABILITY_Weapon_Bow_Windtalker_Stack",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                }
+              ],
+              "targetPredicates": [
+                {
+                  "$type": "ByEntityTypes",
+                  "entityTypes": [
+                    "Monster"
+                  ]
+                },
+                {
+                  "$type": "ByTargetGlobalValue",
+                  "value": 0.0,
+                  "compareType": "NoneOrEqual",
+                  "key": "_ANIMAL_ENTITY_TYPE"
+                },
+                {
+                  "$type": "ByAttackTags",
+                  "attackTags": [
+                    "Elemental_Art",
+                    "Elemental_Art_Hold",
+                    "Elemental_Art_Extra",
+                    "Elemental_Burst"
+                  ]
+                },
+                {
+                  "$type": "ByNot",
+                  "predicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": 1.0,
+                      "key": "_ABILITY_Weapon_Bow_Windtalker_StackICD",
+                      "target": "Self"
+                    },
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": 1.0,
+                      "key": "_ABILITY_Weapon_Bow_Windtalker_Check",
+                      "target": "Self"
+                    },
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "MaxStack",
+                      "key": "_ABILITY_Weapon_Bow_Windtalker_Stack",
+                      "target": "Self"
+                    }
+                  ]
+                }
+              ],
+              "target": "Target",
+              "doOffStage": true
+            }
+          ],
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Weapon_Bow_Windtalker_StackICD": {
+          "duration": "StackICD",
+          "onRemoved": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Bow_Windtalker_StackICD",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 0.0,
+              "doOffStage": true
+            }
+          ],
+          "onAdded": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Bow_Windtalker_StackICD",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 1.0,
+              "doOffStage": true
+            }
+          ],
+          "stacking": "Unique",
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Weapon_Bow_Windtalker_TeamBuff": {
+          "duration": "BuffDuration",
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_ElemReactStarSConductIceDelta": "StarRatio",
+            "Actor_ElemReactStarSConductElectricDelta": "StarRatio",
+            "Actor_ElemReactStarSwirlIceDelta": "StarRatio",
+            "Actor_ElemReactStarSwirlWindDelta": "StarRatio"
+          },
+          "elementDurability": 100.0,
+          "state": "AttackUp",
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Weapon_Bow_Windtalker_BuffLock": {
+          "duration": "BuffICD",
+          "onRemoved": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Bow_Windtalker_Check",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 0.0,
+              "doOffStage": true
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Bow_Windtalker_Stack",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 0.0,
+              "doOffStage": true
+            }
+          ],
+          "onAdded": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Bow_Windtalker_Check",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 1.0,
+              "doOffStage": true
+            }
+          ],
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bow_Windtalker_StackUI_1": {
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "buffID": 10008,
+          "AIHNJLDFEGJ": 1.0
+        },
+        "Weapon_Bow_Windtalker_StackUI_2": {
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "buffID": 10008,
+          "AIHNJLDFEGJ": 2.0
+        },
+        "Weapon_Bow_Windtalker_StackUI_3": {
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "buffID": 10008,
+          "AIHNJLDFEGJ": 3.0
+        }
+      },
+      "abilityMixins": [
+        {
+          "$type": "AttachModifierToSelfGlobalValueMixin",
+          "modifierNameSteps": [
+            "Weapon_Bow_Windtalker_StackUI_1",
+            "Weapon_Bow_Windtalker_StackUI_2",
+            "Weapon_Bow_Windtalker_StackUI_3"
+          ],
+          "DEFOFMOIAAI": true,
+          "valueSteps": [
+            0.5,
+            1.5,
+            2.5,
+            100.0
+          ],
+          "globalValueKey": "_ABILITY_Weapon_Bow_Windtalker_Stack",
+          "defaultGlobalValueOnCreate": 0.0
+        }
+      ],
+      "abilityName": "Weapon_Bow_Windtalker",
+      "isDynamicAbility": true,
+      "onAdded": [
+        {
+          "$type": "SetGlobalValue",
+          "key": "_ABILITY_Weapon_Bow_Windtalker_Stack",
+          "minValue": 0.0,
+          "maxValue": 0.0,
+          "value": 0.0,
+          "doOffStage": true
+        },
+        {
+          "$type": "SetGlobalValue",
+          "key": "_ABILITY_Weapon_Bow_Windtalker_StackICD",
+          "minValue": 0.0,
+          "maxValue": 0.0,
+          "value": 0.0,
+          "doOffStage": true
+        },
+        {
+          "$type": "SetGlobalValue",
+          "key": "_ABILITY_Weapon_Bow_Windtalker_Check",
+          "minValue": 0.0,
+          "maxValue": 0.0,
+          "value": 0.0,
+          "doOffStage": true
+        },
+        {
+          "$type": "AttachModifier",
+          "modifierName": "UNIQUE_Weapon_Bow_Windtalker_Handler"
+        }
+      ],
+      "abilitySpecials": {
+        "StarRatio": 0.0,
+        "MaxStack": 0.0,
+        "StackICD": 0.0,
+        "BuffDuration": 0.0,
+        "BuffICD": 0.0
+      }
+    }
+  }
+]

@@ -816,6 +816,13 @@
       "paramSpecial": "Rate",
       "paramDelta": "%3",
       "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Narukami",
+      "paramSpecial": "StarRate",
+      "paramDelta": "%4",
+      "paramRatio": 0.0
     }
   ],
   "Weapon_Catalyst_Jyanome": [
@@ -1026,6 +1033,13 @@
       "abilityName": "Weapon_Catalyst_Wheatley",
       "paramSpecial": "AttackSpeedUp",
       "paramDelta": "%5",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Wheatley",
+      "paramSpecial": "StarRate",
+      "paramDelta": "%6",
       "paramRatio": 0.0
     }
   ],
@@ -1443,6 +1457,426 @@
       "abilityName": "Weapon_Catalyst_SakuraFan",
       "paramSpecial": "Dura3",
       "paramDelta": "%6"
+    }
+  ],
+  "Weapon_Catalyst_VaresaTransformer": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Catalyst_VaresaTransformer"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_VaresaTransformer",
+      "paramSpecial": "Dura",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_VaresaTransformer",
+      "paramSpecial": "BuffA",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_VaresaTransformer",
+      "paramSpecial": "BuffB",
+      "paramDelta": "%4"
+    }
+  ],
+  "Weapon_Catalyst_Ilmarinen": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Catalyst_Ilmarinen"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Ilmarinen",
+      "paramSpecial": "OverGrowUpRatio",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Ilmarinen",
+      "paramSpecial": "MoonOverGrowUpRatio",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Ilmarinen",
+      "paramSpecial": "MoonOverGrowUpRatioExtra",
+      "paramDelta": "%3"
+    }
+  ],
+  "Weapon_Catalyst_SeeliesLute": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Catalyst_SeeliesLute"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_SeeliesLute",
+      "paramSpecial": "Mastery",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_SeeliesLute",
+      "paramSpecial": "Duration",
+      "paramDelta": "%2"
+    }
+  ],
+  "Weapon_Catalyst_MenulisRing": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Catalyst_MenulisRing"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_MenulisRing",
+      "paramSpecial": "Rate1",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_MenulisRing",
+      "paramSpecial": "Dura1",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_MenulisRing",
+      "paramSpecial": "Rate2",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_MenulisRing",
+      "paramSpecial": "Dura2",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_MenulisRing",
+      "paramSpecial": "Grow",
+      "paramDelta": "%5"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_MenulisRing",
+      "paramSpecial": "Grow2",
+      "paramDelta": "%6"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_MenulisRing",
+      "paramSpecial": "MoonGrow",
+      "paramDelta": "%7"
+    }
+  ],
+  "Weapon_Catalyst_Sistrum": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Catalyst_Sistrum"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Sistrum",
+      "paramSpecial": "MasteryUp",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Sistrum",
+      "paramSpecial": "CritDamageUp",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Sistrum",
+      "paramSpecial": "MasteryUpDuration",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Sistrum",
+      "paramSpecial": "CritDamageUpDuration",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Sistrum",
+      "paramSpecial": "ExtraUpRate",
+      "paramDelta": "%5"
+    }
+  ],
+  "Weapon_Catalyst_Ziedas": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Catalyst_Ziedas"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Ziedas",
+      "paramSpecial": "Mastery1",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Ziedas",
+      "paramSpecial": "Dura1",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Ziedas",
+      "paramSpecial": "Mastery2",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Ziedas",
+      "paramSpecial": "Dura2",
+      "paramDelta": "%4"
+    }
+  ],
+  "Weapon_Catalyst_Brisingamen": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Catalyst_Brisingamen"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Brisingamen",
+      "paramSpecial": "Extra_HpRatio",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Brisingamen",
+      "paramSpecial": "CriticalHurtRatio",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Brisingamen",
+      "paramSpecial": "Buff_Duration",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Brisingamen",
+      "paramSpecial": "Energy_Value",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Brisingamen",
+      "paramSpecial": "CD_Timer",
+      "paramDelta": "%5"
+    }
+  ],
+  "Weapon_Catalyst_Nicole": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Catalyst_Nicole"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Nicole",
+      "paramSpecial": "PerAttack",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Nicole",
+      "paramSpecial": "BuffTransRatio",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Nicole",
+      "paramSpecial": "BuffRatioMax",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Nicole",
+      "paramSpecial": "BuffDura",
+      "paramDelta": "%5"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Nicole",
+      "paramSpecial": "Energy",
+      "paramDelta": "%6"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Nicole",
+      "paramSpecial": "ReviveCD",
+      "paramDelta": "%7"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Nicole",
+      "paramSpecial": "Hexenzirkel_Ratio",
+      "paramDelta": "%8"
+    }
+  ],
+  "Weapon_Catalyst_SandMemoria": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Catalyst_SandMemoria"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_SandMemoria",
+      "paramSpecial": "ATKRatio",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_SandMemoria",
+      "paramSpecial": "Mastery",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_SandMemoria",
+      "paramSpecial": "Duration",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_SandMemoria",
+      "paramSpecial": "TriggerCD",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_SandMemoria",
+      "paramSpecial": "DurationAdder",
+      "paramDelta": "%5"
+    }
+  ],
+  "Weapon_Catalyst_GlintstoneCatalyst": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Catalyst_GlintstoneCatalyst"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_GlintstoneCatalyst",
+      "paramSpecial": "Mastery",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_GlintstoneCatalyst",
+      "paramSpecial": "StarRatio",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_GlintstoneCatalyst",
+      "paramSpecial": "Duration1",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_GlintstoneCatalyst",
+      "paramSpecial": "Duration2",
+      "paramDelta": "%4"
+    }
+  ],
+  "Weapon_Catalyst_Bludnye": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Catalyst_Bludnye"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Bludnye",
+      "paramSpecial": "Weapon_Bludnye_MaxHPRatio",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Bludnye",
+      "paramSpecial": "Weapon_Bludnye_MinHP",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Bludnye",
+      "paramSpecial": "Weapon_Bludnye_AttackRatio_Perkilo",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Bludnye",
+      "paramSpecial": "Weapon_Bludnye_AttackRatio_MaxValue",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Bludnye",
+      "paramSpecial": "Weapon_Bludnye_Duration",
+      "paramDelta": "%5"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Bludnye",
+      "paramSpecial": "Weapon_Bludnye_MaxStackCount",
+      "paramDelta": "%6"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Bludnye",
+      "paramSpecial": "Weapon_Bludnye_StrongDuration",
+      "paramDelta": "%7"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_Bludnye",
+      "paramSpecial": "Weapon_Bludnye_StrongRatio",
+      "paramDelta": "%8"
+    }
+  ],
+  "Weapon_Catalyst_FrostScepter": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Catalyst_FrostScepter"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_FrostScepter",
+      "paramSpecial": "Mastery",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_FrostScepter",
+      "paramSpecial": "ATKRatio",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_FrostScepter",
+      "paramSpecial": "StarATKRatio",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_FrostScepter",
+      "paramSpecial": "StarRatio",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Catalyst_FrostScepter",
+      "paramSpecial": "MaxMemberCount",
+      "paramDelta": "%5"
     }
   ]
 }

@@ -1,0 +1,669 @@
+[
+  {
+    "Default": {
+      "$type": "ConfigAbility",
+      "modifiers": {
+        "UNIQUE_Weapon_Sword_SpikedStake_Handler": {
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "OnAvatarUseSkillMixin",
+              "onTriggerSkill": [
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "AttachModifier",
+                      "modifierName": "UNIQUE_Weapon_Sword_SpikedStake_TriggerCD",
+                      "doOffStage": true
+                    },
+                    {
+                      "$type": "AttachModifier",
+                      "modifierName": "UNIQUE_Weapon_Sword_SpikedStake_StackWindow",
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": 0.0,
+                      "key": "_ABILITY_Weapon_Sword_SpikedStake_TriggerCD"
+                    }
+                  ],
+                  "doOffStage": true
+                }
+              ],
+              "clearSkillIdDelay": 0.2
+            }
+          ],
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Weapon_Sword_SpikedStake_TriggerCD": {
+          "duration": 0.2,
+          "onRemoved": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Sword_SpikedStake_TriggerCD",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 0.0,
+              "doOffStage": true
+            }
+          ],
+          "onAdded": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Sword_SpikedStake_TriggerCD",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 1.0,
+              "doOffStage": true
+            }
+          ],
+          "stacking": "Unique",
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Weapon_Sword_SpikedStake_StackWindow": {
+          "duration": "Duration",
+          "onHittingOther": [
+            {
+              "$type": "Predicated",
+              "successActions": [
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "AttachModifier",
+                      "modifierName": "Weapon_Sword_SpikedStake_HitICD",
+                      "doOffStage": true
+                    },
+                    {
+                      "$type": "SetGlobalValue",
+                      "key": "_ABILITY_Weapon_Sword_SpikedStake_Refreshing",
+                      "minValue": 0.0,
+                      "maxValue": 0.0,
+                      "value": 1.0,
+                      "doOffStage": true
+                    },
+                    {
+                      "$type": "RemoveUniqueModifier",
+                      "modifierName": "UNIQUE_Weapon_Sword_SpikedStake_Buff",
+                      "doOffStage": true
+                    },
+                    {
+                      "$type": "AddGlobalValue",
+                      "useLimitRange": true,
+                      "key": "_ABILITY_Weapon_Sword_SpikedStake_Stack",
+                      "maxValue": "MaxStack",
+                      "minValue": 0.0,
+                      "value": 1.0,
+                      "doOffStage": true
+                    },
+                    {
+                      "$type": "AttachModifierToAbility",
+                      "BFEHEAKKJJP": true,
+                      "modifierName": "UNIQUE_Weapon_Sword_SpikedStake_Buff",
+                      "doOffStage": true
+                    },
+                    {
+                      "$type": "SetGlobalValue",
+                      "key": "_ABILITY_Weapon_Sword_SpikedStake_Refreshing",
+                      "minValue": 0.0,
+                      "maxValue": 0.0,
+                      "value": 0.0,
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": 0.0,
+                      "key": "_ABILITY_Weapon_Sword_SpikedStake_HitICD"
+                    }
+                  ],
+                  "doOffStage": true
+                }
+              ],
+              "targetPredicates": [
+                {
+                  "$type": "ByEntityTypes",
+                  "entityTypes": [
+                    "Monster"
+                  ]
+                },
+                {
+                  "$type": "ByTargetGlobalValue",
+                  "value": 0.0,
+                  "compareType": "NoneOrEqual",
+                  "key": "_ANIMAL_ENTITY_TYPE"
+                }
+              ],
+              "target": "Target",
+              "doOffStage": true
+            }
+          ],
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Sword_SpikedStake_HitICD": {
+          "duration": "HitICD",
+          "onRemoved": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Sword_SpikedStake_HitICD",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 0.0,
+              "doOffStage": true
+            }
+          ],
+          "onAdded": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Sword_SpikedStake_HitICD",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 1.0,
+              "doOffStage": true
+            }
+          ],
+          "stacking": "Unique",
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Weapon_Sword_SpikedStake_Buff": {
+          "duration": "Duration2",
+          "onRemoved": [
+            {
+              "$type": "Predicated",
+              "successActions": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Sword_SpikedStake_Stack",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": 0.0,
+                  "doOffStage": true
+                }
+              ],
+              "targetPredicates": [
+                {
+                  "$type": "ByTargetGlobalValue",
+                  "value": 0.0,
+                  "key": "_ABILITY_Weapon_Sword_SpikedStake_Refreshing"
+                }
+              ],
+              "doOffStage": true
+            }
+          ],
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "AttachModifierToSelfGlobalValueMixin",
+              "modifierNameSteps": [
+                "Weapon_Sword_SpikedStake_Sub_Normal",
+                "Weapon_Sword_SpikedStake_Sub_Star"
+              ],
+              "DEFOFMOIAAI": true,
+              "valueSteps": [
+                -0.5,
+                0.5,
+                2.5
+              ],
+              "globalValueKey": "_IS_IN_STARMODE",
+              "defaultGlobalValueOnCreate": 0.0
+            }
+          ],
+          "state": "AttackUp",
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Sword_SpikedStake_Sub_Normal": {
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_AttackRatio": [
+              "ATKRatio",
+              "_ABILITY_Weapon_Sword_SpikedStake_Stack",
+              "MUL"
+            ],
+            "Actor_ElemMasteryDelta": [
+              "Mastery",
+              "_ABILITY_Weapon_Sword_SpikedStake_Stack",
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Sword_SpikedStake_Sub_Star": {
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_AttackRatio": [
+              "ATKRatio2",
+              "_ABILITY_Weapon_Sword_SpikedStake_Stack",
+              "MUL"
+            ],
+            "Actor_ElemReactStarSConductIceDelta": [
+              "Star_Ratio",
+              "_ABILITY_Weapon_Sword_SpikedStake_Stack",
+              "MUL"
+            ],
+            "Actor_ElemReactStarSConductElectricDelta": [
+              "Star_Ratio",
+              "_ABILITY_Weapon_Sword_SpikedStake_Stack",
+              "MUL"
+            ],
+            "Actor_ElemReactStarSwirlIceDelta": [
+              "Star_Ratio",
+              "_ABILITY_Weapon_Sword_SpikedStake_Stack",
+              "MUL"
+            ],
+            "Actor_ElemReactStarSwirlWindDelta": [
+              "Star_Ratio",
+              "_ABILITY_Weapon_Sword_SpikedStake_Stack",
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        }
+      },
+      "onRemoved": [
+        {
+          "$type": "RemoveUniqueModifier",
+          "modifierName": "UNIQUE_Weapon_Sword_SpikedStake_Buff",
+          "doOffStage": true
+        },
+        {
+          "$type": "SetGlobalValue",
+          "key": "_ABILITY_Weapon_Sword_SpikedStake_Stack",
+          "minValue": 0.0,
+          "maxValue": 0.0,
+          "value": 0.0,
+          "doOffStage": true
+        }
+      ],
+      "ANHJPOLNHIG": [
+        "_ABILITY_Weapon_Sword_SpikedStake_HitICD",
+        "_ABILITY_Weapon_Sword_SpikedStake_Stack",
+        "_ABILITY_Weapon_Sword_SpikedStake_TriggerCD",
+        "_ABILITY_Weapon_Sword_SpikedStake_Refreshing"
+      ],
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "isDynamicAbility": true,
+      "onAdded": [
+        {
+          "$type": "SetGlobalValue",
+          "key": "_ABILITY_Weapon_Sword_SpikedStake_HitICD",
+          "minValue": 0.0,
+          "maxValue": 0.0,
+          "value": 0.0,
+          "doOffStage": true
+        },
+        {
+          "$type": "SetGlobalValue",
+          "key": "_ABILITY_Weapon_Sword_SpikedStake_Stack",
+          "minValue": 0.0,
+          "maxValue": 0.0,
+          "value": 0.0,
+          "doOffStage": true
+        },
+        {
+          "$type": "SetGlobalValue",
+          "key": "_ABILITY_Weapon_Sword_SpikedStake_TriggerCD",
+          "minValue": 0.0,
+          "maxValue": 0.0,
+          "value": 0.0,
+          "doOffStage": true
+        },
+        {
+          "$type": "SetGlobalValue",
+          "key": "_ABILITY_Weapon_Sword_SpikedStake_Refreshing",
+          "minValue": 0.0,
+          "maxValue": 0.0,
+          "value": 0.0,
+          "doOffStage": true
+        },
+        {
+          "$type": "AttachModifier",
+          "modifierName": "UNIQUE_Weapon_Sword_SpikedStake_Handler",
+          "doOffStage": true
+        }
+      ],
+      "abilitySpecials": {
+        "Duration": 0.0,
+        "Duration2": 0.0,
+        "MaxStack": 0.0,
+        "ATKRatio": 0.0,
+        "ATKRatio2": 0.0,
+        "Mastery": 0.0,
+        "Star_Ratio": 0.0,
+        "HitICD": 0.0
+      }
+    }
+  },
+  {
+    "Default": {
+      "$type": "ConfigAbility",
+      "modifiers": {
+        "UNIQUE_Weapon_Sword_FaJian_TriggerCD": {
+          "duration": 0.2,
+          "onRemoved": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Sword_FaJian_TriggerCD",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 0.0,
+              "doOffStage": true
+            }
+          ],
+          "onAdded": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Sword_FaJian_TriggerCD",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 1.0,
+              "doOffStage": true
+            }
+          ],
+          "stacking": "Unique",
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Weapon_Sword_FaJian_AttackBuff": {
+          "duration": "Duration",
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_ElemMasteryDelta": "MasteryUp"
+          },
+          "stacking": "MultipleRefresh",
+          "stackingOption": {
+            "PFEHHABPHDB": "",
+            "maxModifierNumForMultipleType": "MaxStack"
+          },
+          "elementDurability": 100.0,
+          "state": "AttackUp",
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        }
+      },
+      "onRemoved": [
+        {
+          "$type": "RemoveUniqueModifier",
+          "modifierName": "UNIQUE_Weapon_Sword_FaJian_AttackBuff",
+          "doOffStage": true
+        }
+      ],
+      "ANHJPOLNHIG": [
+        "_ABILITY_Weapon_Sword_FaJian_TriggerCD"
+      ],
+      "abilityMixins": [
+        {
+          "$type": "OnAvatarUseSkillMixin",
+          "onTriggerSkill": [
+            {
+              "$type": "Predicated",
+              "successActions": [
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "UNIQUE_Weapon_Sword_FaJian_TriggerCD",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "UNIQUE_Weapon_Sword_FaJian_AttackBuff",
+                  "doOffStage": true
+                }
+              ],
+              "targetPredicates": [
+                {
+                  "$type": "ByTargetGlobalValue",
+                  "value": 0.0,
+                  "key": "_ABILITY_Weapon_Sword_FaJian_TriggerCD"
+                }
+              ],
+              "doOffStage": true
+            }
+          ],
+          "clearSkillIdDelay": 0.2
+        }
+      ],
+      "abilityName": "Weapon_Sword_FaJian",
+      "isDynamicAbility": true,
+      "onAdded": [
+        {
+          "$type": "SetGlobalValue",
+          "key": "_ABILITY_Weapon_Sword_FaJian_TriggerCD",
+          "minValue": 0.0,
+          "maxValue": 0.0,
+          "value": 0.0,
+          "doOffStage": true
+        }
+      ],
+      "abilitySpecials": {
+        "MasteryUp": 0.0,
+        "Duration": 0.0,
+        "MaxStack": 0.0
+      }
+    }
+  },
+  {
+    "Default": {
+      "$type": "ConfigAbility",
+      "modifiers": {
+        "UNIQUE_Samosvist_CritDmg": {
+          "duration": "Duration",
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_CriticalHurtDelta": "CritDmg_Rate"
+          },
+          "elementDurability": 100.0,
+          "state": "AttackUp",
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Samosvist_StarSwirl": {
+          "duration": "Duration",
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_ElemReactStarSwirlIceDelta": "StarSwirl_Rate",
+            "Actor_ElemReactStarSwirlWindDelta": "StarSwirl_Rate"
+          },
+          "elementDurability": 100.0,
+          "state": "AttackUp",
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Samosvist_ResetIndex": {
+          "duration": 0.1,
+          "onAdded": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Sword_Samosvist_Index",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 0.0
+            }
+          ],
+          "stacking": "Unique",
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Samosvist_ReviveElemEnergy": {
+          "duration": "Energy_CD",
+          "onAdded": [
+            {
+              "$type": "ReviveElemEnergy",
+              "value": "Energy"
+            }
+          ],
+          "stacking": "Unique",
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        }
+      },
+      "onAbilityStart": [
+        {
+          "$type": "AddGlobalValue",
+          "useLimitRange": true,
+          "key": "_ABILITY_Weapon_Sword_Samosvist_Index",
+          "maxValue": 3.0,
+          "minValue": 0.0,
+          "value": 1.0
+        },
+        {
+          "$type": "Predicated",
+          "successActions": [
+            {
+              "$type": "AttachModifier",
+              "modifierName": "UNIQUE_Samosvist_CritDmg"
+            }
+          ],
+          "targetPredicates": [
+            {
+              "$type": "ByTargetGlobalValue",
+              "value": 1.0,
+              "key": "_ABILITY_Weapon_Sword_Samosvist_Index",
+              "target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "Predicated",
+          "successActions": [
+            {
+              "$type": "AttachModifier",
+              "modifierName": "UNIQUE_Samosvist_StarSwirl"
+            }
+          ],
+          "targetPredicates": [
+            {
+              "$type": "ByTargetGlobalValue",
+              "value": 2.0,
+              "key": "_ABILITY_Weapon_Sword_Samosvist_Index",
+              "target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "Predicated",
+          "successActions": [
+            {
+              "$type": "AttachModifier",
+              "modifierName": "UNIQUE_Samosvist_ReviveElemEnergy"
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Sword_Samosvist_Index",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 0.0
+            }
+          ],
+          "targetPredicates": [
+            {
+              "$type": "ByTargetGlobalValue",
+              "value": 3.0,
+              "key": "_ABILITY_Weapon_Sword_Samosvist_Index",
+              "target": "Self"
+            }
+          ]
+        }
+      ],
+      "onRemoved": [
+        {
+          "$type": "SetGlobalValue",
+          "key": "_ABILITY_Weapon_Sword_Samosvist_Index",
+          "minValue": 0.0,
+          "maxValue": 0.0,
+          "value": 0.0,
+          "doOffStage": true
+        }
+      ],
+      "abilityMixins": [
+        {
+          "$type": "OnAvatarUseSkillMixin",
+          "onTriggerUltimateSkill": [
+            {
+              "$type": "TriggerAbility",
+              "abilityName": "Weapon_Sword_Samosvist"
+            }
+          ],
+          "onTriggerSkill": [
+            {
+              "$type": "TriggerAbility",
+              "abilityName": "Weapon_Sword_Samosvist"
+            }
+          ],
+          "clearSkillIdDelay": 0.2
+        }
+      ],
+      "abilityName": "Weapon_Sword_Samosvist",
+      "isDynamicAbility": true,
+      "onAdded": [
+        {
+          "$type": "SetGlobalValue",
+          "key": "_ABILITY_Weapon_Sword_Samosvist_Index",
+          "minValue": 0.0,
+          "maxValue": 0.0,
+          "value": 0.0,
+          "doOffStage": true
+        }
+      ],
+      "abilitySpecials": {
+        "CritDmg_Rate": 0.0,
+        "StarSwirl_Rate": 0.0,
+        "Energy": 0.0,
+        "Energy_CD": 0.0,
+        "Duration": 0.0
+      },
+      "onAvatarOut": [
+        {
+          "$type": "RemoveUniqueModifier",
+          "modifierName": "UNIQUE_Samosvist_CritDmg",
+          "doOffStage": true
+        },
+        {
+          "$type": "RemoveUniqueModifier",
+          "modifierName": "UNIQUE_Samosvist_StarSwirl",
+          "doOffStage": true
+        },
+        {
+          "$type": "RemoveUniqueModifier",
+          "modifierName": "UNIQUE_Samosvist_ReviveElemEnergy",
+          "doOffStage": true
+        },
+        {
+          "$type": "SetGlobalValue",
+          "key": "_ABILITY_Weapon_Sword_Samosvist_Index",
+          "minValue": 0.0,
+          "maxValue": 0.0,
+          "value": 0.0,
+          "doOffStage": true
+        }
+      ]
+    }
+  }
+]

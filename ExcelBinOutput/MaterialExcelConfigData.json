@@ -724916,5 +724916,124 @@
     "stackLimit": 1000,
     "typeDescTextMapHash": 3638528246,
     "useOnGain": true
+  },
+  {
+    "descTextMapHash": 805255309,
+    "effectDescTextMapHash": 962407671,
+    "gadgetId": 70600054,
+    "icon": "UI_ItemIcon_113092",
+    "id": 113092,
+    "interactionTitleTextMapHash": 418161047,
+    "itemType": "ITEM_MATERIAL",
+    "itemUse": [
+      {
+        "useParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "useParam": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "useParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "materialType": "MATERIAL_AVATAR_MATERIAL",
+    "nameTextMapHash": 32764212,
+    "rank": 11101,
+    "rankLevel": 4,
+    "specialDescTextMapHash": 2093456841,
+    "stackLimit": 2000,
+    "typeDescTextMapHash": 1269888278,
+    "weight": 1
+  },
+  {
+    "descTextMapHash": 1245660341,
+    "effectDescTextMapHash": 2551866391,
+    "icon": "UI_ItemIcon_1102",
+    "id": 5140,
+    "interactionTitleTextMapHash": 1604354287,
+    "itemType": "ITEM_MATERIAL",
+    "itemUse": [
+      {
+        "useParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "useParam": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "useParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "materialType": "MATERIAL_TALENT",
+    "nameTextMapHash": 500062252,
+    "rank": 30,
+    "rankLevel": 5,
+    "specialDescTextMapHash": 2208976921,
+    "stackLimit": 1000,
+    "typeDescTextMapHash": 1760294070
+  },
+  {
+    "descTextMapHash": 356685141,
+    "effectDescTextMapHash": 4140045479,
+    "icon": "UI_ItemIcon_1102",
+    "id": 5143,
+    "interactionTitleTextMapHash": 2348736623,
+    "itemType": "ITEM_MATERIAL",
+    "itemUse": [
+      {
+        "useParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "useParam": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "useParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "materialType": "MATERIAL_TALENT",
+    "nameTextMapHash": 2441547100,
+    "rank": 30,
+    "rankLevel": 5,
+    "specialDescTextMapHash": 3892330841,
+    "stackLimit": 1000,
+    "typeDescTextMapHash": 2803322158
   }
 ]

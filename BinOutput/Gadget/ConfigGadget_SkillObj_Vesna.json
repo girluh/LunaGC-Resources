@@ -1,0 +1,107 @@
+{
+  "Vesna_MagicSword_Small": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "SkillObj_Vesna_MagicSword_Small",
+        "abilityName": "SkillObj_Vesna_MagicSword_Small",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "Vesna_MagicSword_Small_Star": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "SkillObj_Vesna_MagicSword_Small",
+        "abilityName": "SkillObj_Vesna_MagicSword_Small",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "Vesna_MagicSword_Big_01": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "SkillObj_Vesna_MagicSword_Big_01",
+        "abilityName": "SkillObj_Vesna_MagicSword_Big_01",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "Vesna_MagicSword_Big_02": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "SkillObj_Vesna_MagicSword_Big_02",
+        "abilityName": "SkillObj_Vesna_MagicSword_Big_02",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "Vesna_MagicSword_Big_03": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "SkillObj_Vesna_MagicSword_Big_03",
+        "abilityName": "SkillObj_Vesna_MagicSword_Big_03",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "Vesna_ElementalArt_A_Bullet": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "Avatar_Vesna_ElementalArt_A_Bullet",
+        "abilityName": "Avatar_Vesna_ElementalArt_A_Bullet",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "Vesna_HideEff_Gadget": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "Avatar_Vesna_HideEff_Gadget",
+        "abilityName": "Avatar_Vesna_HideEff_Gadget",
+        "abilityOverride": ""
+      }
+    ]
+  }
+}

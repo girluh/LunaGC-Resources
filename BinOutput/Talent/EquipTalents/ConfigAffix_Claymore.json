@@ -1080,6 +1080,13 @@
       "paramSpecial": "Duration",
       "paramDelta": "%2",
       "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_GoldenVerdict",
+      "paramSpecial": "Trigger_CD",
+      "paramDelta": "%3",
+      "paramRatio": 0.0
     }
   ],
   "Weapon_Claymore_Champion": [
@@ -1249,6 +1256,231 @@
       "abilityName": "Weapon_Claymore_RadianceSword",
       "paramSpecial": "MaxExtraDurationCount",
       "paramDelta": "%8",
+      "paramRatio": 0.0
+    }
+  ],
+  "Weapon_Claymore_Polilith": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Claymore_Polilith"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_Polilith",
+      "paramSpecial": "Energy",
+      "paramDelta": "%1",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_Polilith",
+      "paramSpecial": "Mastery",
+      "paramDelta": "%2",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_Polilith",
+      "paramSpecial": "Dura",
+      "paramDelta": "%3",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_Polilith",
+      "paramSpecial": "CD_Timer",
+      "paramDelta": "%4",
+      "paramRatio": 0.0
+    }
+  ],
+  "Weapon_Claymore_Ilmarinen": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Claymore_Ilmarinen"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_Ilmarinen",
+      "paramSpecial": "Mastery",
+      "paramDelta": "%1",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_Ilmarinen",
+      "paramSpecial": "Duration",
+      "paramDelta": "%2",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_Ilmarinen",
+      "paramSpecial": "MasteryExtra",
+      "paramDelta": "%3",
+      "paramRatio": 0.0
+    }
+  ],
+  "Weapon_Claymore_EnsisAquilonis": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Claymore_EnsisAquilonis"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EnsisAquilonis",
+      "paramSpecial": "Speed",
+      "paramDelta": "%1",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EnsisAquilonis",
+      "paramSpecial": "DamageRatio",
+      "paramDelta": "%2",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EnsisAquilonis",
+      "paramSpecial": "CritHurt",
+      "paramDelta": "%3",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EnsisAquilonis",
+      "paramSpecial": "Dura",
+      "paramDelta": "%4",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EnsisAquilonis",
+      "paramSpecial": "MaxStack",
+      "paramDelta": "%5",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EnsisAquilonis",
+      "paramSpecial": "Trigger_CD",
+      "paramDelta": "%6",
+      "paramRatio": 0.0
+    }
+  ],
+  "Weapon_Claymore_CrystallineSword": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Claymore_CrystallineSword"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_CrystallineSword",
+      "paramSpecial": "AttackRatio",
+      "paramDelta": "%1",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_CrystallineSword",
+      "paramSpecial": "ReactionUpRatio",
+      "paramDelta": "%2",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_CrystallineSword",
+      "paramSpecial": "Duration",
+      "paramDelta": "%3",
+      "paramRatio": 0.0
+    }
+  ],
+  "Weapon_Claymore_EscapeWheel": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Claymore_EscapeWheel"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramSpecial": "ATKRatio",
+      "paramDelta": "%1",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramSpecial": "Mastery",
+      "paramDelta": "%2",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramSpecial": "StarRatio",
+      "paramDelta": "%3",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramSpecial": "BuffDuration",
+      "paramDelta": "%4",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramSpecial": "CycleInterval",
+      "paramDelta": "%4",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramSpecial": "SealDuration",
+      "paramDelta": "%5",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_EscapeWheel",
+      "paramSpecial": "SealCD",
+      "paramDelta": "%6",
+      "paramRatio": 0.0
+    }
+  ],
+  "Weapon_Claymore_GlintstoneClaymore": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Claymore_GlintstoneClaymore"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_GlintstoneClaymore",
+      "paramSpecial": "Mastery",
+      "paramDelta": "%1",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_GlintstoneClaymore",
+      "paramSpecial": "Duration1",
+      "paramDelta": "%2",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_GlintstoneClaymore",
+      "paramSpecial": "ATKRatio",
+      "paramDelta": "%3",
+      "paramRatio": 0.0
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Claymore_GlintstoneClaymore",
+      "paramSpecial": "Duration2",
+      "paramDelta": "%4",
       "paramRatio": 0.0
     }
   ]

@@ -3429,5 +3429,61 @@
     "isHiden": false,
     "NDGGLAGAMEF": 2771711746,
     "openConds": []
+  },
+  {
+    "avatarAssocType": "ASSOC_TYPE_SNEZHNAYA",
+    "avatarConstellationAfterTextMapHash": 650140995,
+    "avatarConstellationBeforTextMapHash": 668362010,
+    "avatarDetailTextMapHash": 1126849786,
+    "avatarId": 10000140,
+    "avatarNativeTextMapHash": 3079517249,
+    "avatarTitleTextMapHash": 3462445538,
+    "avatarVisionAfterTextMapHash": 2839798265,
+    "avatarVisionBeforTextMapHash": 2339918116,
+    "cvChineseTextMapHash": 1315598766,
+    "cvEnglishTextMapHash": 3634028876,
+    "cvJapaneseTextMapHash": 4104666312,
+    "cvKoreanTextMapHash": 1661093303,
+    "fetterId": 140600,
+    "finishConds": [
+      {
+        "condType": "FETTER_COND_NOT_OPEN"
+      },
+      {}
+    ],
+    "GFIPPLJGEAB": 1317643744,
+    "infoBirthDay": 29,
+    "infoBirthMonth": 3,
+    "isHiden": false,
+    "NDGGLAGAMEF": 1918302322,
+    "openConds": []
+  },
+  {
+    "avatarAssocType": "ASSOC_TYPE_SNEZHNAYA_STAR",
+    "avatarConstellationAfterTextMapHash": 3052082595,
+    "avatarConstellationBeforTextMapHash": 3184247810,
+    "avatarDetailTextMapHash": 2380292426,
+    "avatarId": 10000143,
+    "avatarNativeTextMapHash": 3817307401,
+    "avatarTitleTextMapHash": 2453794194,
+    "avatarVisionAfterTextMapHash": 151935121,
+    "avatarVisionBeforTextMapHash": 1091463596,
+    "cvChineseTextMapHash": 3081782318,
+    "cvEnglishTextMapHash": 197948468,
+    "cvJapaneseTextMapHash": 3320838200,
+    "cvKoreanTextMapHash": 4186304583,
+    "fetterId": 143600,
+    "finishConds": [
+      {
+        "condType": "FETTER_COND_NOT_OPEN"
+      },
+      {}
+    ],
+    "GFIPPLJGEAB": 3106301184,
+    "infoBirthDay": 4,
+    "infoBirthMonth": 2,
+    "isHiden": false,
+    "NDGGLAGAMEF": 2135785522,
+    "openConds": []
   }
 ]

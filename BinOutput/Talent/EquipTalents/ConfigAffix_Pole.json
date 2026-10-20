@@ -1056,5 +1056,263 @@
       "paramSpecial": "dura",
       "paramDelta": "%3"
     }
+  ],
+  "Weapon_Pole_Trident": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Pole_Trident"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Trident",
+      "paramSpecial": "AttackUp",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Trident",
+      "paramSpecial": "BuffRatio",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Trident",
+      "paramSpecial": "Dura",
+      "paramDelta": "%4"
+    }
+  ],
+  "Weapon_Pole_Perdix": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Pole_Perdix"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Perdix",
+      "paramSpecial": "AttackUpRatio",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Perdix",
+      "paramSpecial": "AttackUpDuration",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Perdix",
+      "paramSpecial": "MoonShockDamageUpR",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Perdix",
+      "paramSpecial": "MoonShockUpDuration",
+      "paramDelta": "%4"
+    }
+  ],
+  "Weapon_Pole_Ilmarinen": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Pole_Ilmarinen"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Ilmarinen",
+      "paramSpecial": "ShockUpRatio",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Ilmarinen",
+      "paramSpecial": "MoonShockUPRatio",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Ilmarinen",
+      "paramSpecial": "MoonShockUPRatioExtra",
+      "paramDelta": "%3"
+    }
+  ],
+  "Weapon_Pole_TummaLyhty": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Pole_TummaLyhty"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_TummaLyhty",
+      "paramSpecial": "Timer1",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_TummaLyhty",
+      "paramSpecial": "ShockRatio",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_TummaLyhty",
+      "paramSpecial": "Timer2",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_TummaLyhty",
+      "paramSpecial": "CritHurt",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_TummaLyhty",
+      "paramSpecial": "Energy",
+      "paramDelta": "%5"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_TummaLyhty",
+      "paramSpecial": "CDTime",
+      "paramDelta": "%6"
+    }
+  ],
+  "Weapon_Pole_Krivule": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Pole_Krivule"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Krivule",
+      "paramSpecial": "Dura",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Krivule",
+      "paramSpecial": "Attack",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Krivule",
+      "paramSpecial": "Charge",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Krivule",
+      "paramSpecial": "Stack",
+      "paramDelta": "%4"
+    }
+  ],
+  "Weapon_Pole_Carbine": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Pole_Carbine"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramSpecial": "HandlerDuration",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramSpecial": "BuffDuration_Start",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramSpecial": "NormalExtraRatio",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramSpecial": "ArtBurstRatio",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramSpecial": "BuffDuration_Base",
+      "paramDelta": "%5"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramSpecial": "HexenzirkelExtraRatio",
+      "paramDelta": "%6"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_Carbine",
+      "paramSpecial": "HandlerCD",
+      "paramDelta": "%7"
+    }
+  ],
+  "Weapon_Pole_FaesCrystalle": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Pole_FaesCrystalle"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_FaesCrystalle",
+      "paramSpecial": "ATKRatio",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_FaesCrystalle",
+      "paramSpecial": "Duration",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_FaesCrystalle",
+      "paramSpecial": "Energy",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_FaesCrystalle",
+      "paramSpecial": "CDTime",
+      "paramDelta": "%4"
+    }
+  ],
+  "Weapon_Pole_GlintstonePolearm": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Pole_GlintstonePolearm"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_GlintstonePolearm",
+      "paramSpecial": "Energy",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_GlintstonePolearm",
+      "paramSpecial": "ATKRatio",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_GlintstonePolearm",
+      "paramSpecial": "CDTime",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Pole_GlintstonePolearm",
+      "paramSpecial": "Duration",
+      "paramDelta": "%4"
+    }
   ]
 }

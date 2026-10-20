@@ -1,0 +1,2091 @@
+[
+  {
+    "Default": {
+      "$type": "ConfigAbility",
+      "modifiers": {
+        "UNIQUE_Weapon_Catalyst_FrostScepter_Handler": {
+          "thinkInterval": 2.0,
+          "onAdded": [
+            {
+              "$type": "TriggerThinkInterval",
+              "doOffStage": true
+            }
+          ],
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "DoActionByTeamStatusMixin",
+              "DBLNHBMOHNA": true,
+              "OFLOBFOHCEJ": true,
+              "waitTime": 20.0,
+              "actions": [
+                {
+                  "$type": "TriggerThinkInterval",
+                  "doOffStage": true
+                }
+              ]
+            }
+          ],
+          "modifierName": "",
+          "isUnique": true,
+          "onThinkInterval": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_IceCount",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 0.0,
+              "doOffStage": true
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_IceCount",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 1.0,
+              "doOffStage": true,
+              "predicates": [
+                {
+                  "$type": "OHHNPLHKGMA",
+                  "logic": "Equal",
+                  "number": 1,
+                  "elementType": "Ice"
+                }
+              ]
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_IceCount",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 2.0,
+              "doOffStage": true,
+              "predicates": [
+                {
+                  "$type": "OHHNPLHKGMA",
+                  "logic": "Equal",
+                  "number": 2,
+                  "elementType": "Ice"
+                }
+              ]
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_IceCount",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 3.0,
+              "doOffStage": true,
+              "predicates": [
+                {
+                  "$type": "OHHNPLHKGMA",
+                  "logic": "Equal",
+                  "number": 3,
+                  "elementType": "Ice"
+                }
+              ]
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_IceCount",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": "MaxMemberCount",
+              "doOffStage": true,
+              "predicates": [
+                {
+                  "$type": "OHHNPLHKGMA",
+                  "logic": "GreaterOrEqual",
+                  "number": 4,
+                  "elementType": "Ice"
+                }
+              ]
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_ElectricCount",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 0.0,
+              "doOffStage": true
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_ElectricCount",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 1.0,
+              "doOffStage": true,
+              "predicates": [
+                {
+                  "$type": "OHHNPLHKGMA",
+                  "logic": "Equal",
+                  "number": 1,
+                  "elementType": "Electric"
+                }
+              ]
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_ElectricCount",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 2.0,
+              "doOffStage": true,
+              "predicates": [
+                {
+                  "$type": "OHHNPLHKGMA",
+                  "logic": "Equal",
+                  "number": 2,
+                  "elementType": "Electric"
+                }
+              ]
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_ElectricCount",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 3.0,
+              "doOffStage": true,
+              "predicates": [
+                {
+                  "$type": "OHHNPLHKGMA",
+                  "logic": "Equal",
+                  "number": 3,
+                  "elementType": "Electric"
+                }
+              ]
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_ElectricCount",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": "MaxMemberCount",
+              "doOffStage": true,
+              "predicates": [
+                {
+                  "$type": "OHHNPLHKGMA",
+                  "logic": "GreaterOrEqual",
+                  "number": 4,
+                  "elementType": "Electric"
+                }
+              ]
+            },
+            {
+              "$type": "SetGlobalValue",
+              "useLimitRange": true,
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_ElectricCount",
+              "minValue": 0.0,
+              "maxValue": [
+                "MaxMemberCount",
+                "_ABILITY_Weapon_Catalyst_FrostScepter_IceCount",
+                "SUB"
+              ],
+              "value": "_ABILITY_Weapon_Catalyst_FrostScepter_ElectricCount",
+              "doOffStage": true
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_StarATKStack",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": [
+                "_ABILITY_Weapon_Catalyst_FrostScepter_IceCount",
+                "_ABILITY_Weapon_Catalyst_FrostScepter_ElectricCount",
+                "ADD"
+              ],
+              "doOffStage": true
+            },
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Catalyst_FrostScepter_StarRatioStack",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": [
+                "_ABILITY_Weapon_Catalyst_FrostScepter_IceCount",
+                "_ABILITY_Weapon_Catalyst_FrostScepter_ElectricCount",
+                "ADD"
+              ],
+              "doOffStage": true
+            },
+            {
+              "$type": "RemoveUniqueModifier",
+              "modifierName": "UNIQUE_Weapon_Catalyst_FrostScepter_Buff",
+              "doOffStage": true
+            },
+            {
+              "$type": "AttachModifier",
+              "modifierName": "UNIQUE_Weapon_Catalyst_FrostScepter_Buff",
+              "doOffStage": true
+            }
+          ],
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Weapon_Catalyst_FrostScepter_Buff": {
+          "isLimitedProperties": true,
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "AttachModifierToSelfGlobalValueMixin",
+              "modifierNameSteps": [
+                "Weapon_Catalyst_FrostScepter_Sub_Normal",
+                "Weapon_Catalyst_FrostScepter_Sub_Star"
+              ],
+              "DEFOFMOIAAI": true,
+              "valueSteps": [
+                -0.5,
+                0.5,
+                2.5
+              ],
+              "globalValueKey": "_IS_IN_STARMODE",
+              "defaultGlobalValueOnCreate": 0.0
+            }
+          ],
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Catalyst_FrostScepter_Sub_Normal": {
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_ElemMasteryDelta": [
+              "Mastery",
+              "_ABILITY_Weapon_Catalyst_FrostScepter_IceCount",
+              "MUL"
+            ],
+            "Actor_AttackRatio": [
+              "ATKRatio",
+              "_ABILITY_Weapon_Catalyst_FrostScepter_ElectricCount",
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Catalyst_FrostScepter_Sub_Star": {
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_ElemMasteryDelta": [
+              "StarATKRatio",
+              "_ABILITY_Weapon_Catalyst_FrostScepter_StarATKStack",
+              "MUL"
+            ],
+            "Actor_ElemReactStarSConductIceDelta": [
+              "StarRatio",
+              "_ABILITY_Weapon_Catalyst_FrostScepter_StarRatioStack",
+              "MUL"
+            ],
+            "Actor_ElemReactStarSConductElectricDelta": [
+              "StarRatio",
+              "_ABILITY_Weapon_Catalyst_FrostScepter_StarRatioStack",
+              "MUL"
+            ],
+            "Actor_ElemReactStarSwirlIceDelta": [
+              "StarRatio",
+              "_ABILITY_Weapon_Catalyst_FrostScepter_StarRatioStack",
+              "MUL"
+            ],
+            "Actor_ElemReactStarSwirlWindDelta": [
+              "StarRatio",
+              "_ABILITY_Weapon_Catalyst_FrostScepter_StarRatioStack",
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        }
+      },
+      "ANHJPOLNHIG": [
+        "_ABILITY_Weapon_Catalyst_FrostScepter_IceCount",
+        "_ABILITY_Weapon_Catalyst_FrostScepter_ElectricCount",
+        "_ABILITY_Weapon_Catalyst_FrostScepter_StarATKStack",
+        "_ABILITY_Weapon_Catalyst_FrostScepter_StarRatioStack"
+      ],
+      "abilityName": "Weapon_Catalyst_FrostScepter",
+      "isDynamicAbility": true,
+      "onAdded": [
+        {
+          "$type": "AttachModifier",
+          "modifierName": "UNIQUE_Weapon_Catalyst_FrostScepter_Handler",
+          "doOffStage": true
+        }
+      ],
+      "abilitySpecials": {
+        "Mastery": 0.0,
+        "ATKRatio": 0.0,
+        "StarATKRatio": 0.0,
+        "StarRatio": 0.0,
+        "MaxMemberCount": 0.0
+      }
+    }
+  },
+  {
+    "Default": {
+      "$type": "ConfigAbility",
+      "modifiers": {
+        "UNIQUE_Weapon_Catalyst_Bludnye_GrandHandler": {
+          "thinkInterval": 1.0,
+          "onAdded": [
+            {
+              "$type": "TriggerThinkInterval",
+              "doOffStage": true
+            }
+          ],
+          "onHeal": [
+            {
+              "$type": "AttachModifier",
+              "modifierName": "Weapon_Bludnye_BuffCount",
+              "doOffStage": true
+            }
+          ],
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "DoActionByTeamStatusMixin",
+              "DBLNHBMOHNA": true,
+              "OFLOBFOHCEJ": true,
+              "waitTime": 20.0,
+              "actions": [
+                {
+                  "$type": "TriggerThinkInterval",
+                  "doOffStage": true
+                }
+              ]
+            },
+            {
+              "$type": "AttachModifierToSelfGlobalValueMixin",
+              "modifierNameSteps": [
+                "Weapon_Bludnye_WeakBuff_Handler",
+                "Weapon_Bludnye_StrongBuff_Handler"
+              ],
+              "DEFOFMOIAAI": true,
+              "valueSteps": [
+                -0.5,
+                0.5,
+                1.5
+              ],
+              "globalValueKey": "_ABILITY_Weapon_Bludnye_ReactionMark",
+              "defaultGlobalValueOnCreate": 0.0
+            }
+          ],
+          "modifierName": "",
+          "isUnique": true,
+          "onThinkInterval": [
+            {
+              "$type": "ApplyModifier",
+              "modifierName": "UNIQUE_Weapon_Bludnye_AvatarHandler",
+              "target": "AllPlayerAvatars",
+              "doOffStage": true,
+              "predicates": [
+                {
+                  "$type": "ByTargetPositionToSelfPosition",
+                  "NJICAELBCCB": "",
+                  "JBOGOHPICML": "",
+                  "value": 40.0,
+                  "logic": "LesserOrEqual"
+                }
+              ]
+            }
+          ],
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Weapon_Bludnye_AvatarHandler": {
+          "duration": 2.5,
+          "stacking": "RefreshUniqueDurability",
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "DoActionByElementReactionMixin",
+              "actions": [
+                {
+                  "$type": "ApplyModifier",
+                  "modifierName": "UNIQUE_Weapon_Bludnye_ReactionMark",
+                  "target": "AllPlayerAvatars",
+                  "doOffStage": true,
+                  "predicates": [
+                    {
+                      "$type": "ByTargetPositionToSelfPosition",
+                      "NJICAELBCCB": "",
+                      "JBOGOHPICML": "",
+                      "value": 40.0,
+                      "logic": "LesserOrEqual"
+                    }
+                  ]
+                }
+              ],
+              "entityTypes": [
+                "Monster"
+              ],
+              "reactionTypes": [
+                "StarSwirlIce",
+                "StarSwirlWind",
+                "Freeze"
+              ]
+            }
+          ],
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "UNIQUE_Weapon_Bludnye_ReactionMark": {
+          "duration": "Weapon_Bludnye_StrongDuration",
+          "onRemoved": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Bludnye_ReactionMark",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 0.0,
+              "doOffStage": true
+            }
+          ],
+          "onAdded": [
+            {
+              "$type": "SetGlobalValue",
+              "key": "_ABILITY_Weapon_Bludnye_ReactionMark",
+              "minValue": 0.0,
+              "maxValue": 0.0,
+              "value": 1.0,
+              "doOffStage": true
+            }
+          ],
+          "stacking": "RefreshUniqueDurability",
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "isUnique": true,
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_WeakBuff_Handler": {
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "AttachModifierToSelfGlobalValueMixin",
+              "modifierNameSteps": [
+                "Blank",
+                "Weapon_Bludnye_Buff_Weak1",
+                "Weapon_Bludnye_Buff_Weak2",
+                "Weapon_Bludnye_Buff_Weak3"
+              ],
+              "DEFOFMOIAAI": true,
+              "valueSteps": [
+                -99.5,
+                0.5,
+                1.5,
+                2.5,
+                99.5
+              ],
+              "globalValueKey": "_ABILITY_Weapon_Bludnye_BuffCount",
+              "defaultGlobalValueOnCreate": 0.0
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_StrongBuff_Handler": {
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "AttachModifierToSelfGlobalValueMixin",
+              "modifierNameSteps": [
+                "Blank",
+                "Weapon_Bludnye_Buff_Strong1",
+                "Weapon_Bludnye_Buff_Strong2",
+                "Weapon_Bludnye_Buff_Strong3"
+              ],
+              "DEFOFMOIAAI": true,
+              "valueSteps": [
+                -99.5,
+                0.5,
+                1.5,
+                2.5,
+                99.5
+              ],
+              "globalValueKey": "_ABILITY_Weapon_Bludnye_BuffCount",
+              "defaultGlobalValueOnCreate": 0.0
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_BuffCount": {
+          "duration": "Weapon_Bludnye_Duration",
+          "onRemoved": [
+            {
+              "$type": "AddGlobalValue",
+              "key": "_ABILITY_Weapon_Bludnye_BuffCount",
+              "maxValue": 0.0,
+              "minValue": 0.0,
+              "value": -1.0,
+              "doOffStage": true
+            }
+          ],
+          "onAdded": [
+            {
+              "$type": "AddGlobalValue",
+              "key": "_ABILITY_Weapon_Bludnye_BuffCount",
+              "maxValue": 0.0,
+              "minValue": 0.0,
+              "value": 1.0,
+              "doOffStage": true
+            }
+          ],
+          "stacking": "MultipleRefreshNoRemove",
+          "stackingOption": {
+            "PFEHHABPHDB": "",
+            "maxModifierNumForMultipleType": "Weapon_Bludnye_MaxStackCount"
+          },
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_Buff_Weak1": {
+          "onAdded": [
+            {
+              "$type": "AttachModifier",
+              "modifierName": "Weapon_Bludnye_Buff_Weak1_AttackPre",
+              "doOffStage": true
+            }
+          ],
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_MaxHPRatio": "Weapon_Bludnye_MaxHPRatio"
+          },
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "AttachModifierToFightPropMixin",
+              "GJOPBDDHBNE": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": "FIGHT_PROP_MAX_HP",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "SetOverrideMapValue",
+                      "value": 0.0,
+                      "maxValue": 0.0,
+                      "abilityName": "",
+                      "minValue": 0.0,
+                      "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                      "doOffStage": true
+                    }
+                  ],
+                  "failActions": [
+                    {
+                      "$type": "Predicated",
+                      "successActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": "Weapon_Bludnye_AttackRatio_MaxValue",
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "failActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": [
+                            "FIGHT_PROP_MAX_HP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "SUB"
+                          ],
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "targetPredicates": [
+                        {
+                          "$type": "ByTargetGlobalValue",
+                          "value": [
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_MaxValue",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "DIV",
+                            1000.0,
+                            "MUL",
+                            "ADD"
+                          ],
+                          "compareType": "MoreThanAndEqual",
+                          "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                          "target": "Self"
+                        }
+                      ],
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "Weapon_Bludnye_MinHP",
+                      "compareType": "LessAndEqual",
+                      "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Weak1_AttackPre",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Weak1_AttackPre",
+                  "doOffStage": true
+                }
+              ],
+              "fightProp": "FIGHT_PROP_MAX_HP",
+              "DEFOFMOIAAI": true,
+              "BLDMFADOBBI": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": "FIGHT_PROP_MAX_HP",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "SetOverrideMapValue",
+                      "value": 0.0,
+                      "maxValue": 0.0,
+                      "abilityName": "",
+                      "minValue": 0.0,
+                      "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                      "doOffStage": true
+                    }
+                  ],
+                  "failActions": [
+                    {
+                      "$type": "Predicated",
+                      "successActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": "Weapon_Bludnye_AttackRatio_MaxValue",
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "failActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": [
+                            "FIGHT_PROP_MAX_HP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "SUB"
+                          ],
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "targetPredicates": [
+                        {
+                          "$type": "ByTargetGlobalValue",
+                          "value": [
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_MaxValue",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "DIV",
+                            1000.0,
+                            "MUL",
+                            "ADD"
+                          ],
+                          "compareType": "MoreThanAndEqual",
+                          "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                          "target": "Self"
+                        }
+                      ],
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "Weapon_Bludnye_MinHP",
+                      "compareType": "LessAndEqual",
+                      "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Weak1_AttackPre",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Weak1_AttackPre",
+                  "doOffStage": true
+                }
+              ]
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_Buff_Weak2": {
+          "onAdded": [
+            {
+              "$type": "AttachModifier",
+              "modifierName": "Weapon_Bludnye_Buff_Weak2_AttackPre",
+              "doOffStage": true
+            }
+          ],
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_MaxHPRatio": [
+              "Weapon_Bludnye_MaxHPRatio",
+              2.0,
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "AttachModifierToFightPropMixin",
+              "GJOPBDDHBNE": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": "FIGHT_PROP_MAX_HP",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "SetOverrideMapValue",
+                      "value": 0.0,
+                      "maxValue": 0.0,
+                      "abilityName": "",
+                      "minValue": 0.0,
+                      "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                      "doOffStage": true
+                    }
+                  ],
+                  "failActions": [
+                    {
+                      "$type": "Predicated",
+                      "successActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": "Weapon_Bludnye_AttackRatio_MaxValue",
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "failActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": [
+                            "FIGHT_PROP_MAX_HP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "SUB"
+                          ],
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "targetPredicates": [
+                        {
+                          "$type": "ByTargetGlobalValue",
+                          "value": [
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_MaxValue",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "DIV",
+                            1000.0,
+                            "MUL",
+                            "ADD"
+                          ],
+                          "compareType": "MoreThanAndEqual",
+                          "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                          "target": "Self"
+                        }
+                      ],
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "Weapon_Bludnye_MinHP",
+                      "compareType": "LessAndEqual",
+                      "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Weak2_AttackPre",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Weak2_AttackPre",
+                  "doOffStage": true
+                }
+              ],
+              "fightProp": "FIGHT_PROP_MAX_HP",
+              "DEFOFMOIAAI": true,
+              "BLDMFADOBBI": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": "FIGHT_PROP_MAX_HP",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "SetOverrideMapValue",
+                      "value": 0.0,
+                      "maxValue": 0.0,
+                      "abilityName": "",
+                      "minValue": 0.0,
+                      "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                      "doOffStage": true
+                    }
+                  ],
+                  "failActions": [
+                    {
+                      "$type": "Predicated",
+                      "successActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": "Weapon_Bludnye_AttackRatio_MaxValue",
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "failActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": [
+                            "FIGHT_PROP_MAX_HP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "SUB"
+                          ],
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "targetPredicates": [
+                        {
+                          "$type": "ByTargetGlobalValue",
+                          "value": [
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_MaxValue",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "DIV",
+                            1000.0,
+                            "MUL",
+                            "ADD"
+                          ],
+                          "compareType": "MoreThanAndEqual",
+                          "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                          "target": "Self"
+                        }
+                      ],
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "Weapon_Bludnye_MinHP",
+                      "compareType": "LessAndEqual",
+                      "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Weak2_AttackPre",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Weak2_AttackPre",
+                  "doOffStage": true
+                }
+              ]
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_Buff_Weak3": {
+          "onAdded": [
+            {
+              "$type": "AttachModifier",
+              "modifierName": "Weapon_Bludnye_Buff_Weak3_AttackPre",
+              "doOffStage": true
+            }
+          ],
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_MaxHPRatio": [
+              "Weapon_Bludnye_MaxHPRatio",
+              3.0,
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "AttachModifierToFightPropMixin",
+              "GJOPBDDHBNE": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": "FIGHT_PROP_MAX_HP",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "SetOverrideMapValue",
+                      "value": 0.0,
+                      "maxValue": 0.0,
+                      "abilityName": "",
+                      "minValue": 0.0,
+                      "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                      "doOffStage": true
+                    }
+                  ],
+                  "failActions": [
+                    {
+                      "$type": "Predicated",
+                      "successActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": "Weapon_Bludnye_AttackRatio_MaxValue",
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "failActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": [
+                            "FIGHT_PROP_MAX_HP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "SUB"
+                          ],
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "targetPredicates": [
+                        {
+                          "$type": "ByTargetGlobalValue",
+                          "value": [
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_MaxValue",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "DIV",
+                            1000.0,
+                            "MUL",
+                            "ADD"
+                          ],
+                          "compareType": "MoreThanAndEqual",
+                          "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                          "target": "Self"
+                        }
+                      ],
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "Weapon_Bludnye_MinHP",
+                      "compareType": "LessAndEqual",
+                      "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Weak3_AttackPre",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Weak3_AttackPre",
+                  "doOffStage": true
+                }
+              ],
+              "fightProp": "FIGHT_PROP_MAX_HP",
+              "DEFOFMOIAAI": true,
+              "BLDMFADOBBI": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": "FIGHT_PROP_MAX_HP",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "SetOverrideMapValue",
+                      "value": 0.0,
+                      "maxValue": 0.0,
+                      "abilityName": "",
+                      "minValue": 0.0,
+                      "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                      "doOffStage": true
+                    }
+                  ],
+                  "failActions": [
+                    {
+                      "$type": "Predicated",
+                      "successActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": "Weapon_Bludnye_AttackRatio_MaxValue",
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "failActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": [
+                            "FIGHT_PROP_MAX_HP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "SUB"
+                          ],
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "targetPredicates": [
+                        {
+                          "$type": "ByTargetGlobalValue",
+                          "value": [
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_MaxValue",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "DIV",
+                            1000.0,
+                            "MUL",
+                            "ADD"
+                          ],
+                          "compareType": "MoreThanAndEqual",
+                          "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                          "target": "Self"
+                        }
+                      ],
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "Weapon_Bludnye_MinHP",
+                      "compareType": "LessAndEqual",
+                      "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Weak3_AttackPre",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Weak3_AttackPre",
+                  "doOffStage": true
+                }
+              ]
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_Buff_Strong1": {
+          "onAdded": [
+            {
+              "$type": "AttachModifier",
+              "modifierName": "Weapon_Bludnye_Buff_Strong1_AttackPre",
+              "doOffStage": true
+            }
+          ],
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_MaxHPRatio": [
+              "Weapon_Bludnye_MaxHPRatio",
+              "Weapon_Bludnye_StrongRatio",
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "AttachModifierToFightPropMixin",
+              "GJOPBDDHBNE": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": "FIGHT_PROP_MAX_HP",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "SetOverrideMapValue",
+                      "value": 0.0,
+                      "maxValue": 0.0,
+                      "abilityName": "",
+                      "minValue": 0.0,
+                      "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                      "doOffStage": true
+                    }
+                  ],
+                  "failActions": [
+                    {
+                      "$type": "Predicated",
+                      "successActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": "Weapon_Bludnye_AttackRatio_MaxValue",
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "failActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": [
+                            "FIGHT_PROP_MAX_HP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "SUB"
+                          ],
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "targetPredicates": [
+                        {
+                          "$type": "ByTargetGlobalValue",
+                          "value": [
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_MaxValue",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "DIV",
+                            1000.0,
+                            "MUL",
+                            "ADD"
+                          ],
+                          "compareType": "MoreThanAndEqual",
+                          "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                          "target": "Self"
+                        }
+                      ],
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "Weapon_Bludnye_MinHP",
+                      "compareType": "LessAndEqual",
+                      "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Strong1_AttackPre",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Strong1_AttackPre",
+                  "doOffStage": true
+                }
+              ],
+              "fightProp": "FIGHT_PROP_MAX_HP",
+              "DEFOFMOIAAI": true,
+              "BLDMFADOBBI": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": "FIGHT_PROP_MAX_HP",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "SetOverrideMapValue",
+                      "value": 0.0,
+                      "maxValue": 0.0,
+                      "abilityName": "",
+                      "minValue": 0.0,
+                      "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                      "doOffStage": true
+                    }
+                  ],
+                  "failActions": [
+                    {
+                      "$type": "Predicated",
+                      "successActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": "Weapon_Bludnye_AttackRatio_MaxValue",
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "failActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": [
+                            "FIGHT_PROP_MAX_HP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "SUB"
+                          ],
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "targetPredicates": [
+                        {
+                          "$type": "ByTargetGlobalValue",
+                          "value": [
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_MaxValue",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "DIV",
+                            1000.0,
+                            "MUL",
+                            "ADD"
+                          ],
+                          "compareType": "MoreThanAndEqual",
+                          "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                          "target": "Self"
+                        }
+                      ],
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "Weapon_Bludnye_MinHP",
+                      "compareType": "LessAndEqual",
+                      "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Strong1_AttackPre",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Strong1_AttackPre",
+                  "doOffStage": true
+                }
+              ]
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_Buff_Strong2": {
+          "onAdded": [
+            {
+              "$type": "AttachModifier",
+              "modifierName": "Weapon_Bludnye_Buff_Strong2_AttackPre",
+              "doOffStage": true
+            }
+          ],
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_MaxHPRatio": [
+              "Weapon_Bludnye_MaxHPRatio",
+              "Weapon_Bludnye_StrongRatio",
+              "MUL",
+              2.0,
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "AttachModifierToFightPropMixin",
+              "GJOPBDDHBNE": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": "FIGHT_PROP_MAX_HP",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "SetOverrideMapValue",
+                      "value": 0.0,
+                      "maxValue": 0.0,
+                      "abilityName": "",
+                      "minValue": 0.0,
+                      "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                      "doOffStage": true
+                    }
+                  ],
+                  "failActions": [
+                    {
+                      "$type": "Predicated",
+                      "successActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": "Weapon_Bludnye_AttackRatio_MaxValue",
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "failActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": [
+                            "FIGHT_PROP_MAX_HP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "SUB"
+                          ],
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "targetPredicates": [
+                        {
+                          "$type": "ByTargetGlobalValue",
+                          "value": [
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_MaxValue",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "DIV",
+                            1000.0,
+                            "MUL",
+                            "ADD"
+                          ],
+                          "compareType": "MoreThanAndEqual",
+                          "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                          "target": "Self"
+                        }
+                      ],
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "Weapon_Bludnye_MinHP",
+                      "compareType": "LessAndEqual",
+                      "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Strong2_AttackPre",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Strong2_AttackPre",
+                  "doOffStage": true
+                }
+              ],
+              "fightProp": "FIGHT_PROP_MAX_HP",
+              "DEFOFMOIAAI": true,
+              "BLDMFADOBBI": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": "FIGHT_PROP_MAX_HP",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "SetOverrideMapValue",
+                      "value": 0.0,
+                      "maxValue": 0.0,
+                      "abilityName": "",
+                      "minValue": 0.0,
+                      "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                      "doOffStage": true
+                    }
+                  ],
+                  "failActions": [
+                    {
+                      "$type": "Predicated",
+                      "successActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": "Weapon_Bludnye_AttackRatio_MaxValue",
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "failActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": [
+                            "FIGHT_PROP_MAX_HP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "SUB"
+                          ],
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "targetPredicates": [
+                        {
+                          "$type": "ByTargetGlobalValue",
+                          "value": [
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_MaxValue",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "DIV",
+                            1000.0,
+                            "MUL",
+                            "ADD"
+                          ],
+                          "compareType": "MoreThanAndEqual",
+                          "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                          "target": "Self"
+                        }
+                      ],
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "Weapon_Bludnye_MinHP",
+                      "compareType": "LessAndEqual",
+                      "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Strong2_AttackPre",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Strong2_AttackPre",
+                  "doOffStage": true
+                }
+              ]
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_Buff_Strong3": {
+          "onAdded": [
+            {
+              "$type": "AttachModifier",
+              "modifierName": "Weapon_Bludnye_Buff_Strong3_AttackPre",
+              "doOffStage": true
+            }
+          ],
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_MaxHPRatio": [
+              "Weapon_Bludnye_MaxHPRatio",
+              "Weapon_Bludnye_StrongRatio",
+              "MUL",
+              3.0,
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "AttachModifierToFightPropMixin",
+              "GJOPBDDHBNE": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": "FIGHT_PROP_MAX_HP",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "SetOverrideMapValue",
+                      "value": 0.0,
+                      "maxValue": 0.0,
+                      "abilityName": "",
+                      "minValue": 0.0,
+                      "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                      "doOffStage": true
+                    }
+                  ],
+                  "failActions": [
+                    {
+                      "$type": "Predicated",
+                      "successActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": "Weapon_Bludnye_AttackRatio_MaxValue",
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "failActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": [
+                            "FIGHT_PROP_MAX_HP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "SUB"
+                          ],
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "targetPredicates": [
+                        {
+                          "$type": "ByTargetGlobalValue",
+                          "value": [
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_MaxValue",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "DIV",
+                            1000.0,
+                            "MUL",
+                            "ADD"
+                          ],
+                          "compareType": "MoreThanAndEqual",
+                          "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                          "target": "Self"
+                        }
+                      ],
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "Weapon_Bludnye_MinHP",
+                      "compareType": "LessAndEqual",
+                      "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Strong3_AttackPre",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Strong3_AttackPre",
+                  "doOffStage": true
+                }
+              ],
+              "fightProp": "FIGHT_PROP_MAX_HP",
+              "DEFOFMOIAAI": true,
+              "BLDMFADOBBI": [
+                {
+                  "$type": "SetGlobalValue",
+                  "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                  "minValue": 0.0,
+                  "maxValue": 0.0,
+                  "value": "FIGHT_PROP_MAX_HP",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "Predicated",
+                  "successActions": [
+                    {
+                      "$type": "SetOverrideMapValue",
+                      "value": 0.0,
+                      "maxValue": 0.0,
+                      "abilityName": "",
+                      "minValue": 0.0,
+                      "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                      "doOffStage": true
+                    }
+                  ],
+                  "failActions": [
+                    {
+                      "$type": "Predicated",
+                      "successActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": "Weapon_Bludnye_AttackRatio_MaxValue",
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "failActions": [
+                        {
+                          "$type": "SetOverrideMapValue",
+                          "value": [
+                            "FIGHT_PROP_MAX_HP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "MUL",
+                            0.001,
+                            "MUL",
+                            "SUB"
+                          ],
+                          "maxValue": 0.0,
+                          "abilityName": "",
+                          "minValue": 0.0,
+                          "overrideMapKey": "Weapon_Bludnye_AttackRatio",
+                          "doOffStage": true
+                        }
+                      ],
+                      "targetPredicates": [
+                        {
+                          "$type": "ByTargetGlobalValue",
+                          "value": [
+                            "Weapon_Bludnye_MinHP",
+                            "Weapon_Bludnye_AttackRatio_MaxValue",
+                            "Weapon_Bludnye_AttackRatio_Perkilo",
+                            "DIV",
+                            1000.0,
+                            "MUL",
+                            "ADD"
+                          ],
+                          "compareType": "MoreThanAndEqual",
+                          "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                          "target": "Self"
+                        }
+                      ],
+                      "doOffStage": true
+                    }
+                  ],
+                  "targetPredicates": [
+                    {
+                      "$type": "ByTargetGlobalValue",
+                      "value": "Weapon_Bludnye_MinHP",
+                      "compareType": "LessAndEqual",
+                      "key": "_ABILITY_Weapon_Bludnye_MaxHP",
+                      "target": "Self"
+                    }
+                  ],
+                  "doOffStage": true
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Strong3_AttackPre",
+                  "doOffStage": true
+                },
+                {
+                  "$type": "AttachModifier",
+                  "modifierName": "Weapon_Bludnye_Buff_Strong3_AttackPre",
+                  "doOffStage": true
+                }
+              ]
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_Buff_Weak1_AttackPre": {
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "CurLocalAvatarMixinV2",
+              "modifierName": "Weapon_Bludnye_AttackRatio_Weak1"
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_Buff_Weak2_AttackPre": {
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "CurLocalAvatarMixinV2",
+              "modifierName": "Weapon_Bludnye_AttackRatio_Weak2"
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_Buff_Weak3_AttackPre": {
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "CurLocalAvatarMixinV2",
+              "modifierName": "Weapon_Bludnye_AttackRatio_Weak3"
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_Buff_Strong1_AttackPre": {
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "CurLocalAvatarMixinV2",
+              "modifierName": "Weapon_Bludnye_AttackRatio_Strong1"
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_Buff_Strong2_AttackPre": {
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "CurLocalAvatarMixinV2",
+              "modifierName": "Weapon_Bludnye_AttackRatio_Strong2"
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_Buff_Strong3_AttackPre": {
+          "elementDurability": 100.0,
+          "modifierMixins": [
+            {
+              "$type": "CurLocalAvatarMixinV2",
+              "modifierName": "Weapon_Bludnye_AttackRatio_Strong3"
+            }
+          ],
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_AttackRatio_Weak1": {
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_AttackRatio": "Weapon_Bludnye_AttackRatio"
+          },
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_AttackRatio_Weak2": {
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_AttackRatio": [
+              "Weapon_Bludnye_AttackRatio",
+              2.0,
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_AttackRatio_Weak3": {
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_AttackRatio": [
+              "Weapon_Bludnye_AttackRatio",
+              3.0,
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_AttackRatio_Strong1": {
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_AttackRatio": [
+              "Weapon_Bludnye_AttackRatio",
+              "Weapon_Bludnye_StrongRatio",
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_AttackRatio_Strong2": {
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_AttackRatio": [
+              "Weapon_Bludnye_AttackRatio",
+              "Weapon_Bludnye_StrongRatio",
+              "MUL",
+              2.0,
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Weapon_Bludnye_AttackRatio_Strong3": {
+          "isLimitedProperties": true,
+          "properties": {
+            "Actor_AttackRatio": [
+              "Weapon_Bludnye_AttackRatio",
+              "Weapon_Bludnye_StrongRatio",
+              "MUL",
+              3.0,
+              "MUL"
+            ]
+          },
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        },
+        "Blank": {
+          "elementDurability": 100.0,
+          "modifierName": "",
+          "AIHNJLDFEGJ": 0.0
+        }
+      },
+      "abilityName": "Weapon_Catalyst_Bludnye",
+      "isDynamicAbility": true,
+      "onAdded": [
+        {
+          "$type": "AttachModifier",
+          "modifierName": "UNIQUE_Weapon_Catalyst_Bludnye_GrandHandler",
+          "doOffStage": true
+        }
+      ],
+      "abilitySpecials": {
+        "Weapon_Bludnye_MinHP": 0.0,
+        "Weapon_Bludnye_AttackRatio": 0.0,
+        "Weapon_Bludnye_AttackRatio_Perkilo": 0.0,
+        "Weapon_Bludnye_AttackRatio_MaxValue": 0.0,
+        "Weapon_Bludnye_MaxHPRatio": 0.0,
+        "Weapon_Bludnye_Duration": 0.0,
+        "Weapon_Bludnye_MaxStackCount": 0.0,
+        "Weapon_Bludnye_StrongDuration": 0.0,
+        "Weapon_Bludnye_StrongRatio": 1.0
+      }
+    }
+  }
+]

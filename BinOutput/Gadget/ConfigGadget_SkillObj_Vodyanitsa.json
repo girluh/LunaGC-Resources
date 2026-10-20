@@ -1,0 +1,97 @@
+{
+  "Vodyanitsa_NormalAttack_Bullet_01": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "Bullet_Vodyanitsa_Attack01",
+        "abilityName": "Bullet_Vodyanitsa_Attack01",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "Vodyanitsa_NormalAttack_Bullet_02": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "Bullet_Vodyanitsa_Attack02",
+        "abilityName": "Bullet_Vodyanitsa_Attack02",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "Vodyanitsa_NormalAttack_Bullet_03": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "Bullet_Vodyanitsa_Attack03",
+        "abilityName": "Bullet_Vodyanitsa_Attack03",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "Vodyanitsa_NormalAttack_Bullet_04": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "Bullet_Vodyanitsa_Attack04",
+        "abilityName": "Bullet_Vodyanitsa_Attack04",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "Vodyanitsa_ExtraAttack_Bullet": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "Bullet_Vodyanitsa_ExtraAttack",
+        "abilityName": "Bullet_Vodyanitsa_ExtraAttack",
+        "abilityOverride": ""
+      },
+      {
+        "abilityID": "Bullet_Vodyanitsa_ExtraAttack_DieEffect",
+        "abilityName": "Bullet_Vodyanitsa_ExtraAttack_DieEffect",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "Vodyanitsa_ElementalArt_Bullet": {
+    "$type": "ConfigGadget",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true
+      }
+    },
+    "abilities": [
+      {
+        "abilityID": "Bullet_Vodyanitsa_ElementalArt",
+        "abilityName": "Bullet_Vodyanitsa_ElementalArt",
+        "abilityOverride": ""
+      }
+    ]
+  }
+}

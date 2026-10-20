@@ -23878,5 +23878,317 @@
     "PMIFBDFEKBH": 0,
     "prevTalent": 85,
     "talentId": 86
+  },
+  {
+    "addProps": [
+      {},
+      {}
+    ],
+    "descTextMapHash": 210611519,
+    "icon": "UI_Talent_S_Vodyanitsa_01",
+    "KAGDHDEIJMC": 0,
+    "mainCostItemCount": 1,
+    "mainCostItemId": 5140,
+    "nameTextMapHash": 3404622153,
+    "openConfig": "Vodyanitsa_Constellation_1",
+    "paramList": [
+      0.008,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "PMIFBDFEKBH": 0,
+    "prevTalent": 0,
+    "talentId": 1401
+  },
+  {
+    "addProps": [
+      {},
+      {}
+    ],
+    "descTextMapHash": 1039864999,
+    "icon": "UI_Talent_S_Vodyanitsa_02",
+    "KAGDHDEIJMC": 0,
+    "mainCostItemCount": 1,
+    "mainCostItemId": 5140,
+    "nameTextMapHash": 3333717161,
+    "openConfig": "Vodyanitsa_Constellation_2",
+    "paramList": [
+      0.5,
+      0.6,
+      5.0,
+      9.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "PMIFBDFEKBH": 0,
+    "prevTalent": 1401,
+    "talentId": 1402
+  },
+  {
+    "addProps": [
+      {},
+      {}
+    ],
+    "descTextMapHash": 2112091415,
+    "icon": "UI_Talent_U_Vodyanitsa_01",
+    "KAGDHDEIJMC": 0,
+    "mainCostItemCount": 1,
+    "mainCostItemId": 5140,
+    "nameTextMapHash": 2721352921,
+    "openConfig": "Vodyanitsa_Constellation_3",
+    "paramList": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "PMIFBDFEKBH": 0,
+    "prevTalent": 1402,
+    "talentId": 1403
+  },
+  {
+    "addProps": [
+      {},
+      {}
+    ],
+    "descTextMapHash": 66813311,
+    "icon": "UI_Talent_S_Vodyanitsa_03",
+    "KAGDHDEIJMC": 0,
+    "mainCostItemCount": 1,
+    "mainCostItemId": 5140,
+    "nameTextMapHash": 3390338073,
+    "openConfig": "Vodyanitsa_Constellation_4",
+    "paramList": [
+      0.4,
+      0.5,
+      0.2,
+      6.0,
+      3.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "PMIFBDFEKBH": 0,
+    "prevTalent": 1403,
+    "talentId": 1404
+  },
+  {
+    "addProps": [
+      {},
+      {}
+    ],
+    "descTextMapHash": 69872719,
+    "icon": "UI_Talent_U_Vodyanitsa_02",
+    "KAGDHDEIJMC": 0,
+    "mainCostItemCount": 1,
+    "mainCostItemId": 5140,
+    "nameTextMapHash": 3829794225,
+    "openConfig": "Vodyanitsa_Constellation_5",
+    "paramList": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "PMIFBDFEKBH": 0,
+    "prevTalent": 1404,
+    "talentId": 1405
+  },
+  {
+    "addProps": [
+      {},
+      {}
+    ],
+    "descTextMapHash": 237473879,
+    "icon": "UI_Talent_S_Vodyanitsa_04",
+    "KAGDHDEIJMC": 0,
+    "mainCostItemCount": 1,
+    "mainCostItemId": 5140,
+    "nameTextMapHash": 3032737993,
+    "openConfig": "Vodyanitsa_Constellation_6",
+    "paramList": [
+      0.25,
+      0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "PMIFBDFEKBH": 0,
+    "prevTalent": 1405,
+    "talentId": 1406
+  },
+  {
+    "addProps": [
+      {},
+      {}
+    ],
+    "descTextMapHash": 523684991,
+    "icon": "UI_Talent_S_Vesna_01",
+    "KAGDHDEIJMC": 0,
+    "mainCostItemCount": 1,
+    "mainCostItemId": 5143,
+    "nameTextMapHash": 2587388017,
+    "openConfig": "Vesna_Constellation_1",
+    "paramList": [
+      5.0,
+      0.2,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "PMIFBDFEKBH": 0,
+    "prevTalent": 0,
+    "talentId": 1431
+  },
+  {
+    "addProps": [
+      {},
+      {}
+    ],
+    "descTextMapHash": 3276483007,
+    "icon": "UI_Talent_S_Vesna_02",
+    "KAGDHDEIJMC": 0,
+    "mainCostItemCount": 1,
+    "mainCostItemId": 5143,
+    "nameTextMapHash": 3603567657,
+    "openConfig": "Vesna_Constellation_2",
+    "paramList": [
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "PMIFBDFEKBH": 0,
+    "prevTalent": 1431,
+    "talentId": 1432
+  },
+  {
+    "addProps": [
+      {},
+      {}
+    ],
+    "descTextMapHash": 3576399983,
+    "icon": "UI_Talent_U_Vesna_01",
+    "KAGDHDEIJMC": 0,
+    "mainCostItemCount": 1,
+    "mainCostItemId": 5143,
+    "nameTextMapHash": 3436710305,
+    "openConfig": "Vesna_Constellation_3",
+    "paramList": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "PMIFBDFEKBH": 0,
+    "prevTalent": 1432,
+    "talentId": 1433
+  },
+  {
+    "addProps": [
+      {},
+      {}
+    ],
+    "descTextMapHash": 3367860559,
+    "icon": "UI_Talent_S_Vesna_03",
+    "KAGDHDEIJMC": 0,
+    "mainCostItemCount": 1,
+    "mainCostItemId": 5143,
+    "nameTextMapHash": 3785084377,
+    "openConfig": "Vesna_Constellation_4",
+    "paramList": [
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "PMIFBDFEKBH": 0,
+    "prevTalent": 1433,
+    "talentId": 1434
+  },
+  {
+    "addProps": [
+      {},
+      {}
+    ],
+    "descTextMapHash": 3541438911,
+    "icon": "UI_Talent_U_Vesna_02",
+    "KAGDHDEIJMC": 0,
+    "mainCostItemCount": 1,
+    "mainCostItemId": 5143,
+    "nameTextMapHash": 1709698273,
+    "openConfig": "Vesna_Constellation_5",
+    "paramList": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "PMIFBDFEKBH": 0,
+    "prevTalent": 1434,
+    "talentId": 1435
+  },
+  {
+    "addProps": [
+      {},
+      {}
+    ],
+    "descTextMapHash": 937326063,
+    "icon": "UI_Talent_S_Vesna_04",
+    "KAGDHDEIJMC": 0,
+    "mainCostItemCount": 1,
+    "mainCostItemId": 5143,
+    "nameTextMapHash": 3402668417,
+    "openConfig": "Vesna_Constellation_6",
+    "paramList": [
+      5.0,
+      1.5,
+      2.0,
+      0.2,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "PMIFBDFEKBH": 0,
+    "prevTalent": 1435,
+    "talentId": 1436
   }
 ]

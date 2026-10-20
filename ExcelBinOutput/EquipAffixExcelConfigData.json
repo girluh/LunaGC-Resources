@@ -43457,5 +43457,725 @@
       0,
       0
     ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1114370,
+    "descTextMapHash": 2535768193,
+    "id": 111437,
+    "level": 0,
+    "nameTextMapHash": 3994128435,
+    "openConfig": "Weapon_Sword_SpikedStake",
+    "paramList": [
+      12.0,
+      6.0,
+      3.0,
+      0.04,
+      0.06,
+      20.0,
+      0.08,
+      1.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1114371,
+    "descTextMapHash": 2227662089,
+    "id": 111437,
+    "level": 1,
+    "nameTextMapHash": 3032740331,
+    "openConfig": "Weapon_Sword_SpikedStake",
+    "paramList": [
+      12.0,
+      6.0,
+      3.0,
+      0.05,
+      0.075,
+      25.0,
+      0.1,
+      1.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1114372,
+    "descTextMapHash": 2889309345,
+    "id": 111437,
+    "level": 2,
+    "nameTextMapHash": 3968548203,
+    "openConfig": "Weapon_Sword_SpikedStake",
+    "paramList": [
+      12.0,
+      6.0,
+      3.0,
+      0.06,
+      0.09,
+      30.0,
+      0.12,
+      1.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1114373,
+    "descTextMapHash": 2693689425,
+    "id": 111437,
+    "level": 3,
+    "nameTextMapHash": 1476491747,
+    "openConfig": "Weapon_Sword_SpikedStake",
+    "paramList": [
+      12.0,
+      6.0,
+      3.0,
+      0.07,
+      0.105,
+      35.0,
+      0.14,
+      1.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1114374,
+    "descTextMapHash": 1264508129,
+    "id": 111437,
+    "level": 4,
+    "nameTextMapHash": 1223024699,
+    "openConfig": "Weapon_Sword_SpikedStake",
+    "paramList": [
+      12.0,
+      6.0,
+      3.0,
+      0.08,
+      0.12,
+      40.0,
+      0.16,
+      1.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1114380,
+    "descTextMapHash": 909193625,
+    "id": 111438,
+    "level": 0,
+    "nameTextMapHash": 3814375507,
+    "openConfig": "Weapon_Sword_FaJian",
+    "paramList": [
+      52.0,
+      12.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1114381,
+    "descTextMapHash": 1892827209,
+    "id": 111438,
+    "level": 1,
+    "nameTextMapHash": 1692155131,
+    "openConfig": "Weapon_Sword_FaJian",
+    "paramList": [
+      65.0,
+      12.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1114382,
+    "descTextMapHash": 1755311577,
+    "id": 111438,
+    "level": 2,
+    "nameTextMapHash": 3460257219,
+    "openConfig": "Weapon_Sword_FaJian",
+    "paramList": [
+      78.0,
+      12.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1114383,
+    "descTextMapHash": 3315403961,
+    "id": 111438,
+    "level": 3,
+    "nameTextMapHash": 362064235,
+    "openConfig": "Weapon_Sword_FaJian",
+    "paramList": [
+      91.0,
+      12.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1114384,
+    "descTextMapHash": 2649749873,
+    "id": 111438,
+    "level": 4,
+    "nameTextMapHash": 540754123,
+    "openConfig": "Weapon_Sword_FaJian",
+    "paramList": [
+      104.0,
+      12.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1115220,
+    "descTextMapHash": 1731771889,
+    "id": 111522,
+    "level": 0,
+    "nameTextMapHash": 2884010435,
+    "openConfig": "Weapon_Sword_Samosvist",
+    "paramList": [
+      0.56,
+      0.36,
+      5.0,
+      10.0,
+      4.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1115221,
+    "descTextMapHash": 4249242905,
+    "id": 111522,
+    "level": 1,
+    "nameTextMapHash": 3247469723,
+    "openConfig": "Weapon_Sword_Samosvist",
+    "paramList": [
+      0.72,
+      0.45,
+      5.5,
+      10.0,
+      4.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1115222,
+    "descTextMapHash": 1088670785,
+    "id": 111522,
+    "level": 2,
+    "nameTextMapHash": 3387113939,
+    "openConfig": "Weapon_Sword_Samosvist",
+    "paramList": [
+      0.88,
+      0.54,
+      6.0,
+      10.0,
+      4.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1115223,
+    "descTextMapHash": 2105796817,
+    "id": 111522,
+    "level": 3,
+    "nameTextMapHash": 2811916787,
+    "openConfig": "Weapon_Sword_Samosvist",
+    "paramList": [
+      1.04,
+      0.63,
+      6.5,
+      10.0,
+      4.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1115224,
+    "descTextMapHash": 3073833321,
+    "id": 111522,
+    "level": 4,
+    "nameTextMapHash": 3802888339,
+    "openConfig": "Weapon_Sword_Samosvist",
+    "paramList": [
+      1.2,
+      0.72,
+      7.0,
+      10.0,
+      4.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1144370,
+    "descTextMapHash": 3243541577,
+    "id": 114437,
+    "level": 0,
+    "nameTextMapHash": 2561949083,
+    "openConfig": "Weapon_Catalyst_FrostScepter",
+    "paramList": [
+      24.0,
+      0.048,
+      20.0,
+      0.06,
+      4.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1144371,
+    "descTextMapHash": 1872354713,
+    "id": 114437,
+    "level": 1,
+    "nameTextMapHash": 1182624947,
+    "openConfig": "Weapon_Catalyst_FrostScepter",
+    "paramList": [
+      30.0,
+      0.06,
+      25.0,
+      0.075,
+      4.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1144372,
+    "descTextMapHash": 500479057,
+    "id": 114437,
+    "level": 2,
+    "nameTextMapHash": 1137927235,
+    "openConfig": "Weapon_Catalyst_FrostScepter",
+    "paramList": [
+      36.0,
+      0.072,
+      30.0,
+      0.09,
+      4.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1144373,
+    "descTextMapHash": 23244105,
+    "id": 114437,
+    "level": 3,
+    "nameTextMapHash": 1893857507,
+    "openConfig": "Weapon_Catalyst_FrostScepter",
+    "paramList": [
+      42.0,
+      0.084,
+      35.0,
+      0.105,
+      4.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {},
+      {},
+      {}
+    ],
+    "affixId": 1144374,
+    "descTextMapHash": 1707375905,
+    "id": 114437,
+    "level": 4,
+    "nameTextMapHash": 834996267,
+    "openConfig": "Weapon_Catalyst_FrostScepter",
+    "paramList": [
+      48.0,
+      0.096,
+      40.0,
+      0.12,
+      4.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {
+        "propType": "FIGHT_PROP_HEAL_ADD",
+        "value": 0.04
+      },
+      {},
+      {}
+    ],
+    "affixId": 1145240,
+    "descTextMapHash": 1100487985,
+    "id": 114524,
+    "level": 0,
+    "nameTextMapHash": 2720563507,
+    "openConfig": "Weapon_Catalyst_Bludnye",
+    "paramList": [
+      0.04,
+      40000.0,
+      0.004,
+      0.08,
+      10.0,
+      3.0,
+      5.0,
+      0.75
+    ]
+  },
+  {
+    "addProps": [
+      {
+        "propType": "FIGHT_PROP_HEAL_ADD",
+        "value": 0.05
+      },
+      {},
+      {}
+    ],
+    "affixId": 1145241,
+    "descTextMapHash": 2736426169,
+    "id": 114524,
+    "level": 1,
+    "nameTextMapHash": 3594083403,
+    "openConfig": "Weapon_Catalyst_Bludnye",
+    "paramList": [
+      0.05,
+      40000.0,
+      0.005,
+      0.1,
+      10.0,
+      3.0,
+      5.0,
+      0.75
+    ]
+  },
+  {
+    "addProps": [
+      {
+        "propType": "FIGHT_PROP_HEAL_ADD",
+        "value": 0.06
+      },
+      {},
+      {}
+    ],
+    "affixId": 1145242,
+    "descTextMapHash": 2972964953,
+    "id": 114524,
+    "level": 2,
+    "nameTextMapHash": 275629235,
+    "openConfig": "Weapon_Catalyst_Bludnye",
+    "paramList": [
+      0.06,
+      40000.0,
+      0.006,
+      0.12,
+      10.0,
+      3.0,
+      5.0,
+      0.75
+    ]
+  },
+  {
+    "addProps": [
+      {
+        "propType": "FIGHT_PROP_HEAL_ADD",
+        "value": 0.07
+      },
+      {},
+      {}
+    ],
+    "affixId": 1145243,
+    "descTextMapHash": 453239897,
+    "id": 114524,
+    "level": 3,
+    "nameTextMapHash": 2436693355,
+    "openConfig": "Weapon_Catalyst_Bludnye",
+    "paramList": [
+      0.07,
+      40000.0,
+      0.007,
+      0.14,
+      10.0,
+      3.0,
+      5.0,
+      0.75
+    ]
+  },
+  {
+    "addProps": [
+      {
+        "propType": "FIGHT_PROP_HEAL_ADD",
+        "value": 0.08
+      },
+      {},
+      {}
+    ],
+    "affixId": 1145244,
+    "descTextMapHash": 3465026689,
+    "id": 114524,
+    "level": 4,
+    "nameTextMapHash": 1344716043,
+    "openConfig": "Weapon_Catalyst_Bludnye",
+    "paramList": [
+      0.08,
+      40000.0,
+      0.008,
+      0.16,
+      10.0,
+      3.0,
+      5.0,
+      0.75
+    ]
+  },
+  {
+    "addProps": [
+      {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "value": 0.2
+      },
+      {},
+      {}
+    ],
+    "affixId": 1154370,
+    "descTextMapHash": 2444733633,
+    "id": 115437,
+    "level": 0,
+    "nameTextMapHash": 840479067,
+    "openConfig": "Weapon_Bow_Windtalker",
+    "paramList": [
+      0.24,
+      3.0,
+      0.03,
+      12.0,
+      12.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "value": 0.25
+      },
+      {},
+      {}
+    ],
+    "affixId": 1154371,
+    "descTextMapHash": 3496641577,
+    "id": 115437,
+    "level": 1,
+    "nameTextMapHash": 3285647787,
+    "openConfig": "Weapon_Bow_Windtalker",
+    "paramList": [
+      0.3,
+      3.0,
+      0.03,
+      12.0,
+      12.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "value": 0.3
+      },
+      {},
+      {}
+    ],
+    "affixId": 1154372,
+    "descTextMapHash": 24711537,
+    "id": 115437,
+    "level": 2,
+    "nameTextMapHash": 909333779,
+    "openConfig": "Weapon_Bow_Windtalker",
+    "paramList": [
+      0.36,
+      3.0,
+      0.03,
+      12.0,
+      12.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "value": 0.35
+      },
+      {},
+      {}
+    ],
+    "affixId": 1154373,
+    "descTextMapHash": 894240089,
+    "id": 115437,
+    "level": 3,
+    "nameTextMapHash": 3819052035,
+    "openConfig": "Weapon_Bow_Windtalker",
+    "paramList": [
+      0.42,
+      3.0,
+      0.03,
+      12.0,
+      12.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "addProps": [
+      {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "value": 0.4
+      },
+      {},
+      {}
+    ],
+    "affixId": 1154374,
+    "descTextMapHash": 997948737,
+    "id": 115437,
+    "level": 4,
+    "nameTextMapHash": 3761205723,
+    "openConfig": "Weapon_Bow_Windtalker",
+    "paramList": [
+      0.48,
+      3.0,
+      0.03,
+      12.0,
+      12.0,
+      0.0,
+      0.0,
+      0.0
+    ]
   }
 ]

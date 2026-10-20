@@ -1529,5 +1529,400 @@
       "paramSpecial": "Crit",
       "paramDelta": "%2"
     }
+  ],
+  "Weapon_Sword_OuterSword": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Sword_OuterSword"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_OuterSword",
+      "paramSpecial": "AttackUp",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_OuterSword",
+      "paramSpecial": "Dura",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_OuterSword",
+      "paramSpecial": "AttackUp2",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_OuterSword",
+      "paramSpecial": "CrithurtUp",
+      "paramDelta": "%4"
+    }
+  ],
+  "Weapon_Sword_Ilmarinen": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Sword_Ilmarinen"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Ilmarinen",
+      "paramSpecial": "HPUp",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Ilmarinen",
+      "paramSpecial": "Duration",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Ilmarinen",
+      "paramSpecial": "HPUpExtra",
+      "paramDelta": "%3"
+    }
+  ],
+  "Weapon_Sword_Miekka": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Sword_Miekka"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Miekka",
+      "paramSpecial": "Rate",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Miekka",
+      "paramSpecial": "Rate1",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Miekka",
+      "paramSpecial": "Rate2",
+      "paramDelta": "%3"
+    }
+  ],
+  "Weapon_Sword_Motsognir": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Sword_Motsognir"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Motsognir",
+      "paramSpecial": "BurstUp_Ratio",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Motsognir",
+      "paramSpecial": "AttackUp_Duration",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Motsognir",
+      "paramSpecial": "AttackUp_Caster_Ratio",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Motsognir",
+      "paramSpecial": "AttackUp_LocalAvatar_Ratio",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Motsognir",
+      "paramSpecial": "AttackUp_Extra",
+      "paramDelta": "%5"
+    }
+  ],
+  "Weapon_Sword_SilverwareSaw": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Sword_SilverwareSaw"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SilverwareSaw",
+      "paramSpecial": "MoonCrystallizeUpRatio",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SilverwareSaw",
+      "paramSpecial": "Duration",
+      "paramDelta": "%2"
+    }
+  ],
+  "Weapon_Sword_SerpentTooth": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Sword_SerpentTooth"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SerpentTooth",
+      "paramSpecial": "Duration",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SerpentTooth",
+      "paramSpecial": "TriggerCD",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SerpentTooth",
+      "paramSpecial": "MinAttackRatio",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SerpentTooth",
+      "paramSpecial": "MaxAttackRatio",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SerpentTooth",
+      "paramSpecial": "SpeedForMax",
+      "paramDelta": "%5"
+    }
+  ],
+  "Weapon_Sword_GlintstoneSword": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Sword_GlintstoneSword"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_GlintstoneSword",
+      "paramSpecial": "ATKRatio",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_GlintstoneSword",
+      "paramSpecial": "Duration1",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_GlintstoneSword",
+      "paramSpecial": "StarRatio",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_GlintstoneSword",
+      "paramSpecial": "Duration2",
+      "paramDelta": "%4"
+    }
+  ],
+  "Weapon_Sword_Swanlake": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Sword_Odette"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Odette",
+      "paramSpecial": "Energy",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Odette",
+      "paramSpecial": "EnergyCD",
+      "paramDelta": "%6"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Odette",
+      "paramSpecial": "ATKRatio",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Odette",
+      "paramSpecial": "Duration",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Odette",
+      "paramSpecial": "MaxStack",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Odette",
+      "paramSpecial": "StarCriticalHurt",
+      "paramDelta": "%5"
+    }
+  ],
+  "Weapon_Sword_WeaponQuestSnezhnaya": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Sword_WeaponQuestSnezhnaya"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_WeaponQuestSnezhnaya",
+      "paramSpecial": "CritHurtDeltaPerElement",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_WeaponQuestSnezhnaya",
+      "paramSpecial": "AttackUpRatio",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_WeaponQuestSnezhnaya",
+      "paramSpecial": "Duration",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_WeaponQuestSnezhnaya",
+      "paramSpecial": "Energy",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_WeaponQuestSnezhnaya",
+      "paramSpecial": "TriggerCD",
+      "paramDelta": "%5"
+    }
+  ],
+  "Weapon_Sword_FaJian": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Sword_FaJian"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_FaJian",
+      "paramSpecial": "MasteryUp",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_FaJian",
+      "paramSpecial": "Duration",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_FaJian",
+      "paramSpecial": "MaxStack",
+      "paramDelta": "%3"
+    }
+  ],
+  "Weapon_Sword_Samosvist": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Sword_Samosvist"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Samosvist",
+      "paramRatio": 0.0,
+      "paramSpecial": "CritDmg_Rate",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Samosvist",
+      "paramRatio": 0.0,
+      "paramSpecial": "StarSwirl_Rate",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Samosvist",
+      "paramRatio": 0.0,
+      "paramSpecial": "Energy",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Samosvist",
+      "paramRatio": 0.0,
+      "paramSpecial": "Duration",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_Samosvist",
+      "paramRatio": 0.0,
+      "paramSpecial": "Energy_CD",
+      "paramDelta": "%5"
+    }
+  ],
+  "Weapon_Sword_SpikedStake": [
+    {
+      "$type": "AddAbility",
+      "abilityName": "Weapon_Sword_SpikedStake"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramSpecial": "Duration",
+      "paramDelta": "%1"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramSpecial": "Duration2",
+      "paramDelta": "%2"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramSpecial": "MaxStack",
+      "paramDelta": "%3"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramSpecial": "ATKRatio",
+      "paramDelta": "%4"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramSpecial": "ATKRatio2",
+      "paramDelta": "%5"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramSpecial": "Mastery",
+      "paramDelta": "%6"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramSpecial": "Star_Ratio",
+      "paramDelta": "%7"
+    },
+    {
+      "$type": "ModifyAbility",
+      "abilityName": "Weapon_Sword_SpikedStake",
+      "paramSpecial": "HitICD",
+      "paramDelta": "%8"
+    }
   ]
 }
